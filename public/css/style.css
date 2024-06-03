@@ -1,0 +1,113 @@
+:root {
+    --cor-primaria: #e30613;
+    --cor-secundaria: rgb(76,176,288);
+    --cor-texto: #333333;
+}
+
+body {
+    color: #6c757d!important;
+}
+
+main {
+    margin-top: 80px;
+}
+
+/** {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    box-sizing: border-box;*/
+/*    font-family: "Roboto";*/
+/*}*/
+
+/*.center {*/
+/*    max-width: 1280px;*/
+/*    padding: 0.2%;*/
+/*    margin: 0 auto;*/
+/*}*/
+
+/*.w40 {*/
+/*    padding: 0 10px;*/
+/*    width: 40%;*/
+/*}*/
+
+/*.w50 {*/
+/*    padding: 0 10px;*/
+/*    width: 50%;*/
+/*}*/
+
+/*.w60 {*/
+/*    padding: 0 10px;*/
+/*    width: 60%;*/
+/*}*/
+
+/*.left {*/
+/*    float: left;*/
+/*}*/
+
+/*.right {*/
+/*    float: right;*/
+/*}*/
+
+/*.clear {*/
+/*    clear: both;*/
+/*}*/
+
+/*.logo-principal {*/
+/*    width: 250px;*/
+/*}*/
+
+/*section .line {*/
+/*    border-bottom: 1px solid rgb(160, 160, 160);*/
+/*}*/
+
+/*section h2.titulos {*/
+/*    font-size: 22px;*/
+/*    font-weight: 400;*/
+/*    color:rgb(112, 112, 112);*/
+/*    font-weight: 300;*/
+/*    padding-top: 30px;*/
+/*}*/
+
+/*@media screen and (max-width: 1320px) {*/
+/*    section .titulos {*/
+/*        padding-left: 30px;*/
+/*    }*/
+
+/*    section .line {*/
+/*        margin-left: 30px;*/
+/*        margin-right: 30px;*/
+/*    }*/
+
+/*    #sub-menu {*/
+/*        margin-left: 30px;*/
+/*        margin-right: 30px;*/
+/*    }*/
+/*}*/
+
+/*@media screen and (max-width: 950px) {*/
+/*    .w40 {*/
+/*        margin-left: 30px;*/
+/*        margin-right: 30px;*/
+/*        width: 100%;*/
+/*    }*/
+
+/*    .w50 {*/
+/*        margin-left: 30px;*/
+/*        margin-right: 30px;*/
+/*        width: 100%;*/
+/*    }*/
+/*}*/
+
+/*@media screen and (max-width: 768px) {*/
+/*    .w40 {*/
+/*        padding: 20px;*/
+/*    }*/
+
+/*    .w50 {*/
+/*        padding: 20px;*/
+/*    }*/
+
+/*    .w60 {*/
+/*        padding: 20px;*/
+/*    }*/
+/*}*/

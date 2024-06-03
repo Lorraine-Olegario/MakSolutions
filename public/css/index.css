@@ -1,0 +1,391 @@
+a {
+    text-decoration: none;
+}
+
+
+
+
+/*##########*/
+/*SERVIÇOS*/
+/*##########*/
+
+
+.service-box {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    min-height: 400px;
+    overflow: hidden;
+    padding: 20px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.service-box:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.service-box .icon {
+    text-align: center;
+}
+
+.service-box .icon img {
+    height: auto;
+    max-width: 100%;
+    transition: filter 0.3s ease-in-out;
+}
+
+.service-box:hover .icon img {
+    filter: grayscale(100%);
+}
+
+.service-box_body {
+    padding: 20px 0;
+}
+
+.service-box_body .title {
+    color: #333;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.service-box_body .service-box_txt {
+    color: #666;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 992px) {
+    .service {
+        margin: 60px;
+    }
+
+    .service-box {
+        height: 300px;
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .service {
+        margin: 0;
+    }
+
+    .service-box {
+        width: 240px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    .service {
+        margin: 0;
+    }
+
+    .service-box {
+        margin: auto;
+        min-height: 350px;
+        width: 80%;
+    }
+}
+
+
+
+
+
+/*##########*/
+/**/
+/*##########*/
+.information {
+    width: 100%;
+}
+
+.parallax {
+    position: relative;
+    background-image: url('https://bslgroup.com/wp-content/uploads/2021/02/iStock-1139791319-scaled.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: white;
+    text-align: right;
+    padding: 50px;
+    clip-path: ellipse(75% 100% at 50% 0%);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 123, 255, 0.5); /* Fundo azul com transparência */
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+}
+
+.custom-paragraph {
+    width: 500px;
+    margin-left: auto;
+    text-align: right;
+}
+
+.btn-quote {
+    background: var(--cor-primaria);
+    color: #FFF;
+    font-weight: 500;
+}
+
+.btn-quote:hover {
+    background: #FFF;
+    color: var(--cor-primaria);
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 575px) {
+
+    .custom-paragraph {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*##########*/
+/*NEWS*/
+/*##########*/
+
+
+.title-blog {
+    color: var(--cor-primaria);
+}
+
+.news {
+    padding: 50px 0;
+    margin: 30px;
+    cursor: pointer;
+}
+
+.news h1 {
+    color: #333;
+    font-size: 36px;
+}
+
+.card-content p {
+    padding: 0 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+
+.img-card img {
+    width: 100%;
+    height: 170px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card-news-title {
+    padding: 20px;
+    color: #5c6873;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    max-height: 4.5em; /* Defina a altura máxima em em ou px */
+    overflow: hidden;
+}
+
+
+.card-news-text {
+    color: #777;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+.card-link-news {
+    padding: 20px;
+    text-decoration: none;
+}
+
+.card-link-news a {
+    color: var(--cor-primaria);
+}
+
+.card-link-news a:hover {
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width: 992px) {
+
+    .new {
+        margin: 60px;
+    }
+
+    .card-news {
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .new {
+        margin: 0;
+    }
+
+    .card-news {
+        width: 240px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    .img-card img {
+        height: 200px;
+    }
+
+    .card-news{
+        margin: auto;
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.print_control {
+    margin-top: 100px;
+    padding: 0;
+    background:
+        linear-gradient(to bottom, white, rgba(255, 255, 255, 0)),
+        url('https://personnaliza.com.br/wp-content/uploads/2019/04/background-cinza.png') no-repeat center center fixed,
+        linear-gradient(to top, white, rgba(255, 255, 255, 0));
+    background-size: cover;
+}
+
+.full-row {
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.vc_column-inner {
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.max-title4 h2 {
+    font-size: 34px;
+    color: #777;
+    text-align: center;
+}
+
+.vertical-space5 {
+    margin-top: 50px;
+}
+
+.vertical-space1 {
+    margin-top: 20px;
+}
+
+.vertical-space2 {
+    margin-top: 40px;
+}
+
+.vc_row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.vc_column {
+    flex: 1;
+    margin: 10px;
+}
+
+.max-title h2 {
+    margin-bottom: 60px;
+}
+
+.icon-box20 {
+    text-align: center;
+    height: 100px;
+}
+
+.icon-box20 i {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.icon-box20 h4 {
+    font-size: 20px;
+    color: #e30613;
+    margin-bottom: 10px;
+}
+
+.icon-box20 p {
+    font-size: 16px;
+    color: #777;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

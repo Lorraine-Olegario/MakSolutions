@@ -1,0 +1,228 @@
+.banner-printing {
+    background-image: url('https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1200,h=630,fit=crop,f=jpeg/Yle5MenDzktDaM6q/a-laptop-for-every-need-a-quick-guide-to-the-right-hp-laptop-for-you-A1arwE6WEOin7rKM.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    height: 500px;
+    width: 100%;
+}
+
+
+.justify-text {
+    text-align: justify;
+}
+
+
+h4 {
+    color: #5c6873;
+    font-weight: 400;
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.animate-custom {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.delay-1s { animation-delay: 1s; }
+.delay-2s { animation-delay: 2s; }
+.delay-3s { animation-delay: 3s; }
+.delay-4s { animation-delay: 4s; }
+
+
+.desktop {
+    margin-top: 100px;
+}
+
+.desktop-img-primary {
+    width: 100%;
+}
+
+.desktop-container-description {
+    width: 600px;
+}
+
+.desktop-container-description-text-highlight {
+    color: var(--cor-primaria);
+}
+
+.desktop-container-description p {
+    text-align: justify;
+}
+
+.desktop-container-description ul li {
+    display: flex;
+    align-items: center;
+}
+
+.desktop-container-description ul li img {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.desktop-container-description ul li p {
+    margin: 0;
+}
+
+.desktop-container-btn-quote {
+    background: var(--cor-primaria);
+    color: #FFF;
+    font-weight: 500;
+}
+
+.desktop-container-btn-quote:hover {
+    border: solid 2px var(--cor-primaria);
+    background: #FFF;
+    color: var(--cor-primaria);
+    text-decoration: underline;
+}
+
+.component-elements-img-carousel {
+    width: 50%;
+}
+
+.component-elements {
+    margin-top: 100px;
+}
+
+.centralizado {
+    text-align: center;
+}
+
+
+
+
+
+
+
+.slider {
+    background: white;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 960px;
+}
+
+.slider::before,
+.slider::after {
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    content: "";
+    /*height: 100px;*/
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+}
+
+.slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+
+.slider::before {
+    left: 0;
+    top: 0;
+}
+
+.slide-track {
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+}
+
+.slide {
+    height: 200px;
+    width: 250px;
+}
+
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(-250px * 7)); }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.block-info-1-content-1 {
+    background: var(--cor-primaria);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+div.block-info-1-content-1 h4 {
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.block-info-1-content-1-btn {
+    background: #FFFFFF;
+    color: var(--cor-primaria);
+}
+
+.block-info-1-content-1-btn:hover {
+    text-decoration: underline;
+    background: rgb(44,186,243);
+    color: #FFF;
+}
+
+
+
+
+
+@media (max-width: 1000px) {
+    .desktop {
+        margin-top: 40px;
+    }
+
+    .desktop-container-description {
+        width: 100%;
+        padding: 10px 5% 50px 5%;
+    }
+
+    .desktop-img-primary {
+        width: 360px;
+    }
+}
+
+@media (max-width: 750px) {
+    .slider::before,
+    .slider::after {
+        width: 100px;
+    }
+}
+
+
+@media (max-width: 550px) {
+    .desktop-container-description {
+        padding: 0 5% 50px 5%;
+    }
+}

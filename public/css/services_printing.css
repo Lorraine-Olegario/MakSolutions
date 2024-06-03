@@ -1,0 +1,136 @@
+.banner-printing {
+    background-image: url('/storage/banners/outsourcing-de-impressoras.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 200px;
+    width: 100%;
+}
+
+
+.inline-img {
+    display: inline-block;
+    width: 20px; /* Ajuste conforme necessário */
+    height: auto;
+    margin-right: 10px; /* Espaçamento entre a imagem e o texto */
+}
+
+
+.list-item-header {
+    display: flex;
+    align-items: center;
+}
+
+
+.printing-container-description-text-highlight {
+    color: var(--cor-primaria);
+}
+
+.printing-container-description-text {
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+.dialog-wrapper {
+    display: none !important;
+}
+
+.wrap,
+#main {
+    height: 100vh;
+    margin: 0 !important;
+}
+
+iframe {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.elementor-images-printing {
+    position: relative;
+    text-align: left;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    background-image: url('https://th.bing.com/th/id/R.183cc0df19e302beaf5fe1505d385201?rik=uNsl5ITCej2Flg&riu=http%3a%2f%2fwww.printservicecartuchos.com.br%2fwp-content%2fuploads%2f2019%2f07%2fempresas-outsourcing-de-impressao_10365_43586_1.jpg&ehk=YlOa2n1uir21cmOYOBq3jAHA9zlwH98T7lJjhiSeic0%3d&risl=&pid=ImgRaw&r=0');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.elementor-images-printing-info {
+    position: relative;
+    background: white;
+    padding: 20px;
+    margin-top: 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.elementor-images-printing-info h1 {
+    color: var(--cor-primaria);
+}
+
+.elementor-images-printing-info p {
+    width: 70%;
+    text-align: justify;
+}
+
+.elementor-images-printing-info button {
+    background: var(--cor-primaria);
+}
+
+button {
+    background-color: #2c5c5b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e7e7c;
+}
+
+.small-image {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 200px;
+    height: 200px;
+    background-image: url('https://a-static.mlcdn.com.br/1500x1500/impressora-multifuncional-hp-pagewide-pro-477dw-colorida-wireless-bivolt/mega-mamute/66165/c975bae4de52a3af960446473604bd69.jpg');
+    background-size: cover;
+    background-position: center;
+}

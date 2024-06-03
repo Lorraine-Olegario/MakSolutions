@@ -1,0 +1,285 @@
+@extends('/layouts/main')
+@section('title', 'Mak Solutions - Outsourcing de Impressoras e Multifuncionais')
+@section('css')
+    <link rel="stylesheet" href="/css/services_labeling_machines.css">
+@stop
+
+@section('content')
+
+    <div class="jumbotron jumbotron-fluid banner-printing">
+        <div class="container p-5">
+{{--            <h1 class="display-4">Locação de Etiquetadoras</h1>--}}
+        </div>
+    </div>
+
+    <section >
+        <div class="container mt-5">
+            <div class="row">
+                <div class="labeling_machines-description col-xs-12 col-sm-6 col-md-6 mb-6 col-100">
+                    <div class="labeling_machines-container-description-text">
+                        <h2 class="font-weight-bold labeling_machines-description-title">LOCAÇÃO DE IMPRESSORAS DE <strong class="labeling_machines-container-description-text-highlight">ETIQUETAS</strong></h2>
+                        <p>Escolher a solução certa para suas necessidades de impressão e etiquetagem pode ser um desafio, mas nós estamos aqui para facilitar essa decisão. Oferecemos um serviço de locação que não só atende às suas demandas operacionais, como também proporciona benefícios financeiros e técnicos inigualáveis.</p>
+                        <p>A locação elimina a necessidade de um grande investimento inicial, permitindo que sua empresa aloque recursos financeiros de forma mais eficiente. Além disso, todos os custos com manutenção e atualizações tecnológicas ficam por conta da locadora, proporcionando mais tranquilidade e foco no que realmente importa: o seu negócio.</p>
+                        <button class="btn labeling_machines-container-btn-quote">SOLICITAR COTAÇÃO</button>
+                    </div>
+
+
+                </div>
+                <div class="labeling_machines-image col-xs-12 col-sm-6 col-md-6 mb-6 col-100 text-center">
+                    <div class="labeling_machines-container-image-1 rounded mx-auto d-block">
+                        <img src="https://pica.zhimg.com/v2-09a72ae9bd1a84652ae3a91001da0f8e_720w.jpg?source=172ae18b" class="img-fluid mb-3" alt="Imagem Impressora Etiquetadora">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="labeling_machines-differentials">
+                        <h5 class="mt-4 mb-4">NOSSOS <strong class="labeling_machines-container-description-text-highlight">DIFERENCIAIS</strong></h5>
+                        <ul>
+                            <li>
+                                <img
+                                    src="https://static.vecteezy.com/system/resources/previews/008/134/818/original/check-mark-icon-checkmark-right-symbol-tick-sign-ok-button-correct-circle-icon-free-vector.jpg"
+                                    alt="Imagem certo - Nosso serviço contem Configurações Personalizadas">
+                                <p><strong>Capacidade de Cortar Etiquetas em Tamanhos Personalizados:</strong> Atendemos às suas necessidades específicas com etiquetas sob medida.</p>
+                            </li>
+                            <li>
+                                <img
+                                    src="https://static.vecteezy.com/system/resources/previews/008/134/818/original/check-mark-icon-checkmark-right-symbol-tick-sign-ok-button-correct-circle-icon-free-vector.jpg"
+                                    alt="Imagem certo - Atendimento Sob Demanda"
+                                >
+                                <p><strong>Etiquetas Personalizáveis:</strong> Dê um toque único ao seu produto com etiquetas feitas especialmente para você.</p>
+                            </li>
+                            <li>
+                                <img
+                                    src="https://static.vecteezy.com/system/resources/previews/008/134/818/original/check-mark-icon-checkmark-right-symbol-tick-sign-ok-button-correct-circle-icon-free-vector.jpg"
+                                    alt="Imagem certo - Instalação Completa"
+                                >
+                                <p><strong>Fornecimento de Suprimentos:</strong> Garantimos que você nunca fique sem o que precisa para manter suas operações em pleno funcionamento.</p>
+                            </li>
+                            <li>
+                                <img
+                                    src="https://static.vecteezy.com/system/resources/previews/008/134/818/original/check-mark-icon-checkmark-right-symbol-tick-sign-ok-button-correct-circle-icon-free-vector.jpg"
+                                    alt="Imagem certo - Equipamentos Atualizados"
+                                >
+                                <p><strong>Suporte Técnico Especializado:</strong> Conte com nossa equipe de especialistas sempre pronta para ajudar.</p>
+                            </li>
+                            <li>
+                                <img
+                                    src="https://static.vecteezy.com/system/resources/previews/008/134/818/original/check-mark-icon-checkmark-right-symbol-tick-sign-ok-button-correct-circle-icon-free-vector.jpg"
+                                    alt="Imagem certo - Redução de Custo"
+                                >
+                                <p><strong>Treinamentos:</strong> Oferecemos treinamentos completos para que você e sua equipe aproveitem ao máximo nossas soluções.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <div class="wrapper-grey padded">
+            <div class="container">
+                <h4 class="mt-5 mb-4 text-center">GALERIA</h4>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://gainscha.mx/wp-content/uploads/2023/07/8.jpg');">
+                            <div class="card-category">Etiqetadora</div>
+{{--                            <div class="card-description">--}}
+{{--                                <h2>home</h2>--}}
+{{--                                <p>Lovely house</p>--}}
+{{--                            </div>--}}
+                            <img class="card-user avatar avatar-large" src="https://gainscha.mx/wp-content/uploads/2023/07/8.jpg">
+                            <a class="card-link" href="#" ></a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://www.trendbarkod.com.tr/image/cache/catalog/2023/2-550x550w.png');">
+                            <div class="card-category">Etiqetadora</div>
+{{--                            <div class="card-description">--}}
+{{--                                <h2>home</h2>--}}
+{{--                                <p>Lovely house</p>--}}
+{{--                            </div>--}}
+                            <img class="card-user avatar avatar-large" src="https://www.trendbarkod.com.tr/image/cache/catalog/2023/2-550x550w.png">
+                            <a class="card-link" href="#" ></a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://th.bing.com/th/id/OIP.H7LQTOxW0WUESPn3zT1ptgHaHa?rs=1&pid=ImgDetMain');">
+                            <div class="card-category">Etiqetadora</div>
+{{--                            <div class="card-description">--}}
+{{--                                <h2>Home</h2>--}}
+{{--                                <p>Lovely house</p>--}}
+{{--                            </div>--}}
+                            <img class="card-user avatar avatar-large" src="https://th.bing.com/th/id/OIP.H7LQTOxW0WUESPn3zT1ptgHaHa?rs=1&pid=ImgDetMain">
+                            <a class="card-link" href="#" ></a>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-4 gallery-image-none">
+                        <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://gainscha.mx/wp-content/uploads/2023/07/8.jpg');">
+                            <div class="card-category">Etiqetadora</div>
+                            {{--                            <div class="card-description">--}}
+                            {{--                                <h2>home</h2>--}}
+                            {{--                                <p>Lovely house</p>--}}
+                            {{--                            </div>--}}
+                            <img class="card-user avatar avatar-large" src="https://gainscha.mx/wp-content/uploads/2023/07/8.jpg">
+                            <a class="card-link" href="#" ></a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 gallery-image-none">
+                        <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://www.trendbarkod.com.tr/image/cache/catalog/2023/2-550x550w.png');">
+                            <div class="card-category">Etiqetadora</div>
+                            {{--                            <div class="card-description">--}}
+                            {{--                                <h2>home</h2>--}}
+                            {{--                                <p>Lovely house</p>--}}
+                            {{--                            </div>--}}
+                            <img class="card-user avatar avatar-large" src="https://www.trendbarkod.com.tr/image/cache/catalog/2023/2-550x550w.png">
+                            <a class="card-link" href="#" ></a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 gallery-image-none">
+                        <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://th.bing.com/th/id/OIP.H7LQTOxW0WUESPn3zT1ptgHaHa?rs=1&pid=ImgDetMain');">
+                            <div class="card-category">Etiqetadora</div>
+                            {{--                            <div class="card-description">--}}
+                            {{--                                <h2>Home</h2>--}}
+                            {{--                                <p>Lovely house</p>--}}
+                            {{--                            </div>--}}
+                            <img class="card-user avatar avatar-large" src="https://th.bing.com/th/id/OIP.H7LQTOxW0WUESPn3zT1ptgHaHa?rs=1&pid=ImgDetMain">
+                            <a class="card-link" href="#" ></a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <button id="show-more" class="btn btn-primary">Exibir Mais</button>
+                            <button id="show-less" class="btn btn-secondary d-none">Exibir Menos</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{{--        <div class="container mt-4">--}}
+{{--            <h4 class="mt-5 mb-4 text-center">GALERIA</h4>--}}
+{{--            <div class="row gallery-image">--}}
+{{--                <div class="gallery-box col-xs-12 col-sm-6 col-md-3 mb-4 text-center">--}}
+{{--                    <div--}}
+{{--                        class="bg-image hover-overlay ripple shadow-1-strong rounded mx-auto d-block"--}}
+{{--                        data-ripple-color="light"--}}
+{{--                    >--}}
+{{--                        <img src="https://gainscha.mx/wp-content/uploads/2023/07/8.jpg" class="img-fluid" alt="Imagem 1">--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="gallery-box col-xs-12 col-sm-6 col-md-3 mb-4 text-center">--}}
+{{--                    <div--}}
+{{--                        class="bg-image hover-overlay ripple shadow-1-strong rounded mx-auto d-block"--}}
+{{--                        data-ripple-color="light"--}}
+{{--                    >--}}
+{{--                        <img src="https://www.trendbarkod.com.tr/image/cache/catalog/2023/2-550x550w.png" class="img-fluid" alt="Imagem 2">--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="gallery-box col-xs-12 col-sm-6 col-md-3 mb-4 text-center">--}}
+{{--                    <div--}}
+{{--                        class="bg-image hover-overlay ripple shadow-1-strong rounded mx-auto d-block"--}}
+{{--                        data-ripple-color="light"--}}
+{{--                    >--}}
+{{--                        <img src="https://www.etiquetasbrasil.com.br/fotos/133/g_etiquetas-de-ribbon.jpg" class="img-fluid" alt="Imagem 3">--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="gallery-box col-xs-12 col-sm-6 col-md-3 mb-4 text-center">--}}
+{{--                    <div--}}
+{{--                        class="bg-image hover-overlay ripple shadow-1-strong rounded mx-auto d-block"--}}
+{{--                        data-ripple-color="light"--}}
+{{--                    >--}}
+{{--                        <img src="https://th.bing.com/th/id/OIP.H7LQTOxW0WUESPn3zT1ptgHaHa?rs=1&pid=ImgDetMain" class="img-fluid" alt="Imagem 4">--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="gallery-box col-xs-12 col-sm-6 col-md-3 mb-4 text-center gallery-image-none">--}}
+{{--                    <div--}}
+{{--                        class="bg-image hover-overlay ripple shadow-1-strong rounded mx-auto d-block"--}}
+{{--                        data-ripple-color="light"--}}
+{{--                    >--}}
+{{--                        <img src="https://gainscha.mx/wp-content/uploads/2023/07/8.jpg" class="img-fluid" alt="Imagem 1">--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="gallery-box col-xs-12 col-sm-6 col-md-3 mb-4 text-center gallery-image-none">--}}
+{{--                    <div--}}
+{{--                        class="bg-image hover-overlay ripple shadow-1-strong rounded mx-auto d-block"--}}
+{{--                        data-ripple-color="light"--}}
+{{--                    >--}}
+{{--                        <img src="https://www.trendbarkod.com.tr/image/cache/catalog/2023/2-550x550w.png" class="img-fluid" alt="Imagem 2">--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="gallery-box col-xs-12 col-sm-6 col-md-3 mb-4 text-center gallery-image-none">--}}
+{{--                    <div--}}
+{{--                        class="bg-image hover-overlay ripple shadow-1-strong rounded mx-auto d-block"--}}
+{{--                        data-ripple-color="light"--}}
+{{--                    >--}}
+{{--                        <img src="https://www.etiquetasbrasil.com.br/fotos/133/g_etiquetas-de-ribbon.jpg" class="img-fluid" alt="Imagem 3">--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="gallery-box col-xs-12 col-sm-6 col-md-3 mb-4 text-center gallery-image-none">--}}
+{{--                    <div--}}
+{{--                        class="bg-image hover-overlay ripple shadow-1-strong rounded mx-auto d-block"--}}
+{{--                        data-ripple-color="light"--}}
+{{--                    >--}}
+{{--                        <img src="https://th.bing.com/th/id/OIP.H7LQTOxW0WUESPn3zT1ptgHaHa?rs=1&pid=ImgDetMain" class="img-fluid" alt="Imagem 4">--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="row">--}}
+{{--                <div class="col-12 text-center">--}}
+{{--                    <button id="show-more" class="btn btn-primary">Exibir Mais</button>--}}
+{{--                    <button id="show-less" class="btn btn-secondary d-none">Exibir Menos</button>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+    </section>
+
+
+@endsection
+
+@section('js')
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            let showMoreButton = document.getElementById('show-more');
+            let showLessButton = document.getElementById('show-less');
+            let galleryImages = document.querySelectorAll('.gallery-image-none');
+
+            showMoreButton.addEventListener('click', function() {
+                galleryImages.forEach(function(image) {
+                    image.style.display = 'block';
+                });
+                showMoreButton.classList.add('d-none');
+                showLessButton.classList.remove('d-none');
+            });
+
+            showLessButton.addEventListener('click', function() {
+                galleryImages.forEach(function(image) {
+                    image.style.display = 'none';
+                });
+                showLessButton.classList.add('d-none');
+                showMoreButton.classList.remove('d-none');
+            });
+        });
+    </script>
+@stop
