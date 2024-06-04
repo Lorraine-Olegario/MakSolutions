@@ -18,11 +18,11 @@
             </div>
 
             <div class="carousel-inner">
-                <div class="carousel-item active"><img src="/storage/banners/banner_01.jpeg" class="d-block w-100" alt="..."></div>
-                <div class="carousel-item"><img src="/storage/banners/etiquetadoras.png" class="d-block w-100" alt="..."></div>
-                <div class="carousel-item"><img src="/storage/banners/banner_01.jpeg" class="d-block w-100" alt="..."></div>
-                <div class="carousel-item"><img src="/storage/banners/banner_01.jpeg" class="d-block w-100" alt="..."></div>
-                <div class="carousel-item"><img src="/storage/banners/banner_01.jpeg" class="d-block w-100" alt="..."></div>
+                <div class="carousel-item active"><img src="/img/banners/banner_01.jpeg" class="d-block w-100" alt="..."></div>
+                <div class="carousel-item"><img src="/img/banners/etiquetadoras.png" class="d-block w-100" alt="..."></div>
+                <div class="carousel-item"><img src="/img/banners/banner_01.jpeg" class="d-block w-100" alt="..."></div>
+                <div class="carousel-item"><img src="/img/banners/banner_01.jpeg" class="d-block w-100" alt="..."></div>
+                <div class="carousel-item"><img src="/img/banners/banner_01.jpeg" class="d-block w-100" alt="..."></div>
             </div>
 
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -47,7 +47,7 @@
                         <div class="service-box extra">
                             <figure class="icon">
                                 <img
-                                    src="/storage/service-image-3.png"
+                                    src="/img/service-image-3.png"
                                     alt=""
                                     height="90"
                                     width="90"
@@ -66,7 +66,7 @@
                         <div class="service-box extra">
                             <figure class="icon">
                                 <img
-                                    src="/storage/service-image-1.png"
+                                    src="/img/service-image-1.png"
                                     alt=""
                                     height="90"
                                     width="90"
@@ -85,7 +85,7 @@
                         <div class="service-box extra">
                             <figure class="icon">
                                 <img
-                                    src="/storage/service-image-ty-2.png"
+                                    src="/img/service-image-2.png"
                                     alt=""
                                     height="90"
                                     width="90"
@@ -104,7 +104,7 @@
                         <div class="service-box extra">
                             <figure class="icon">
                                 <img
-                                    src="/storage/service-image-ty-1.png"
+                                    src="/img/service-image-4.png"
                                     alt=""
                                     height="90"
                                     width="90"
@@ -148,73 +148,73 @@
 
 
 
-{{--    <section class="print_control">--}}
-{{--        <div class="wpb_row vc_row-fluid full-row">--}}
-{{--            <div class="container">--}}
-{{--                <div class="wpb_column vc_column_container vc_col-sm-12">--}}
-{{--                    <div class="vc_column-inner ">--}}
-{{--                        <div class="wpb_wrapper">--}}
-{{--                            <div class="max-title max-title4">--}}
-{{--                                <h2>Tenha o controle total de tudo que a <strong>sua empresa imprime </strong></h2>--}}
-{{--                            </div>--}}
-{{--                            <div class="vc_row wpb_row vc_inner vc_row-fluid">--}}
-{{--                                <div class="wpb_column vc_column_container vc_col-sm-4">--}}
-{{--                                    <div class="vc_column-inner ">--}}
-{{--                                        <div class="wpb_wrapper">--}}
-{{--                                            <article class="icon-box20">--}}
-{{--                                                <h4>GESTÃO DE PROCESSOS E DOCUMENTOS</h4>--}}
-{{--                                                <p>Soluções criativas e personalizadas para gestão de processos e documentos.</p>--}}
-{{--                                            </article>--}}
-{{--                                            <hr class="vertical-space2">--}}
-{{--                                            <article class="icon-box20">--}}
-{{--                                                <h4>ASSISTÊNCIA TÉCNICA AUTORIZADA</h4>--}}
-{{--                                                <p>Atendimento nacional para equipamentos de pequeno, médio e grande porte.</p>--}}
-{{--                                            </article>--}}
-{{--                                            <hr class="vertical-space2">--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-{{--                                <div class="wpb_column vc_column_container vc_col-sm-4">--}}
-{{--                                    <div class="vc_column-inner ">--}}
-{{--                                        <div class="wpb_wrapper">--}}
-{{--                                            <article class="icon-box20">--}}
-{{--                                                <i class="icon-focus" style=" color:#e30613;"></i>--}}
-{{--                                                <h4>CAPTURA INTELIGENTE</h4>--}}
-{{--                                                <p>Digitalização de documentos aliada ao Sistema ECM.</p>--}}
-{{--                                            </article>--}}
-{{--                                            <hr class="vertical-space2">--}}
-{{--                                            <article class="icon-box20">--}}
-{{--                                                <h4>SUPRIMENTOS E PEÇAS ORIGINAIS</h4>--}}
-{{--                                                <p>Estoque próprio de peças e insumos originais com garantia de atendimento</p>--}}
-{{--                                            </article>--}}
-{{--                                            <hr class="vertical-space2">--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-{{--                                <div class="wpb_column vc_column_container vc_col-sm-4">--}}
-{{--                                    <div class="vc_column-inner ">--}}
-{{--                                        <div class="wpb_wrapper">--}}
-{{--                                            <article class="icon-box20">--}}
-{{--                                                <h4>GESTÃO DE IMPRESSÃO</h4>--}}
-{{--                                                <p>Venda, locação, assistência técnica e outsourcing de equipamentos multimarcas.</p>--}}
-{{--                                            </article>--}}
-{{--                                            <hr class="vertical-space2">--}}
-{{--                                            <article class="icon-box20">--}}
-{{--                                                <i class="icon-target" style=" color:#e30613;"></i>--}}
-{{--                                                <h4>MARKETING MULTICANAL</h4>--}}
-{{--                                                <p>Comunicação integrada e campanhas personalizadas Cross Media.</p>--}}
-{{--                                            </article>--}}
-{{--                                            <hr class="vertical-space2">--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-{{--    </section>--}}
+    <section class="print_control">
+        <div class="wpb_row vc_row-fluid full-row">
+            <div class="container">
+                <div class="wpb_column vc_column_container vc_col-sm-12">
+                    <div class="vc_column-inner ">
+                        <div class="wpb_wrapper">
+                            <div class="max-title max-title4">
+                                <h2>Tenha o controle total de tudo que a <strong>sua empresa imprime </strong></h2>
+                            </div>
+                            <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                <div class="wpb_column vc_column_container vc_col-sm-4">
+                                    <div class="vc_column-inner ">
+                                        <div class="wpb_wrapper">
+                                            <article class="icon-box20">
+                                                <h4>GESTÃO DE PROCESSOS E DOCUMENTOS</h4>
+                                                <p>Soluções criativas e personalizadas para gestão de processos e documentos.</p>
+                                            </article>
+                                            <hr class="vertical-space2">
+                                            <article class="icon-box20">
+                                                <h4>ASSISTÊNCIA TÉCNICA AUTORIZADA</h4>
+                                                <p>Atendimento nacional para equipamentos de pequeno, médio e grande porte.</p>
+                                            </article>
+                                            <hr class="vertical-space2">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wpb_column vc_column_container vc_col-sm-4">
+                                    <div class="vc_column-inner ">
+                                        <div class="wpb_wrapper">
+                                            <article class="icon-box20">
+                                                <i class="icon-focus" style=" color:#e30613;"></i>
+                                                <h4>CAPTURA INTELIGENTE</h4>
+                                                <p>Digitalização de documentos aliada ao Sistema ECM.</p>
+                                            </article>
+                                            <hr class="vertical-space2">
+                                            <article class="icon-box20">
+                                                <h4>SUPRIMENTOS E PEÇAS ORIGINAIS</h4>
+                                                <p>Estoque próprio de peças e insumos originais com garantia de atendimento</p>
+                                            </article>
+                                            <hr class="vertical-space2">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wpb_column vc_column_container vc_col-sm-4">
+                                    <div class="vc_column-inner ">
+                                        <div class="wpb_wrapper">
+                                            <article class="icon-box20">
+                                                <h4>GESTÃO DE IMPRESSÃO</h4>
+                                                <p>Venda, locação, assistência técnica e outsourcing de equipamentos multimarcas.</p>
+                                            </article>
+                                            <hr class="vertical-space2">
+                                            <article class="icon-box20">
+                                                <i class="icon-target" style=" color:#e30613;"></i>
+                                                <h4>MARKETING MULTICANAL</h4>
+                                                <p>Comunicação integrada e campanhas personalizadas Cross Media.</p>
+                                            </article>
+                                            <hr class="vertical-space2">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 

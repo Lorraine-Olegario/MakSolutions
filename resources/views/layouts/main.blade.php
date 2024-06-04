@@ -26,7 +26,7 @@
             <header>
                 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
                     <a class="navbar-brand ms-lg-5" href="/">
-                        <img src="/storage/company/logo/88eab180abaaeee3869fdd6dc035baf7.png" width="130" height="60" alt="Logo Mak Solutions">
+                        <img src="/img/company/logo/88eab180abaaeee3869fdd6dc035baf7.png" width="130" height="60" alt="Logo Mak Solutions">
                     </a>
 
                     <button
@@ -104,7 +104,7 @@
 
                         <div class="col-lg-4 col-md-12 mt-5">
                             <img
-                                src="/storage/company/logo/88eab180abaaeee3869fdd6dc035baf7.png"
+                                src="/img/company/logo/88eab180abaaeee3869fdd6dc035baf7.png"
                                 class="pt-3"
                                 width="280"
                                 height="140"

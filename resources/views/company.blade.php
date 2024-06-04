@@ -52,7 +52,7 @@
                     <div class="vc_column-inner ">
                         <div class="wpb_wrapper text-center">
                             <article class="icon-box2">
-                                <img src="/storage/company/missao.png" width="80">
+                                <img src="/img/company/missao.png" width="80">
                                 <h4 class="mt-4 mb-3">Missão</h4>
                                 <p>Oferecer soluções tecnológicas em produção e gerenciamento de documentos
                                     que atendam as mais diversas necessidades de nossos clientes.</p>
@@ -64,7 +64,7 @@
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <div class="wpb_wrapper text-center">
                         <article class="icon-box2">
-                            <img src="/storage/company/visao.png" width="120">
+                            <img src="/img/company/visao.png" width="120">
                             <h4 class="mt-4 mb-3">Visão</h4>
                             <p>Ser líder, em todo estado de Minas Gerais, em comercialização de equipamentos
                                 e suprimentos e softwares no segmento de impressão e gestão de documentos,
@@ -76,7 +76,7 @@
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <div class="wpb_wrapper text-center">
                         <article class="icon-box2">
-                            <img src="/storage/company/valores.png" width="150">
+                            <img src="/img/company/valores.png" width="150">
                             <h4 class="mt-4 mb-3">Valores</h4>
                             <p>Integridade, Comprometimento, Valorização humana, Superação dos resultados,
                                 Melhoria contínua, Inovação e Sustentabilidade.</p>

@@ -7,7 +7,7 @@
 
 @section('content')
 
-    <div class="jumbotron jumbotron-fluid banner-printing"></div>
+    <div class="jumbotron jumbotron-fluid banner-desktop"></div>
 
     <section class="desktop">
         <div class="container">

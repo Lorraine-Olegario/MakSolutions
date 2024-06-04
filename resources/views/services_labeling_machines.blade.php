@@ -6,26 +6,27 @@
 
 @section('content')
 
-    <div class="jumbotron jumbotron-fluid banner-printing">
-        <div class="container p-5">
+    <div class="jumbotron jumbotron-fluid banner-labeling_machines">
+{{--        <div class="container p-5">--}}
 {{--            <h1 class="display-4">Locação de Etiquetadoras</h1>--}}
-        </div>
+{{--        </div>--}}
     </div>
 
-    <section >
+    <section class="labeling_machines">
         <div class="container mt-5">
             <div class="row">
-                <div class="labeling_machines-description col-xs-12 col-sm-6 col-md-6 mb-6 col-100">
-                    <div class="labeling_machines-container-description-text">
-                        <h2 class="font-weight-bold labeling_machines-description-title">LOCAÇÃO DE IMPRESSORAS DE <strong class="labeling_machines-container-description-text-highlight">ETIQUETAS</strong></h2>
-                        <p>Escolher a solução certa para suas necessidades de impressão e etiquetagem pode ser um desafio, mas nós estamos aqui para facilitar essa decisão. Oferecemos um serviço de locação que não só atende às suas demandas operacionais, como também proporciona benefícios financeiros e técnicos inigualáveis.</p>
-                        <p>A locação elimina a necessidade de um grande investimento inicial, permitindo que sua empresa aloque recursos financeiros de forma mais eficiente. Além disso, todos os custos com manutenção e atualizações tecnológicas ficam por conta da locadora, proporcionando mais tranquilidade e foco no que realmente importa: o seu negócio.</p>
-                        <button class="btn labeling_machines-container-btn-quote">SOLICITAR COTAÇÃO</button>
+                <div class="col-xl-6 col-lg-12">
+                    <div class="labeling_machines-description ">
+                        <div class="labeling_machines-container-description-text">
+                            <h2 class="font-weight-bold labeling_machines-description-title">LOCAÇÃO DE IMPRESSORAS DE <strong class="labeling_machines-container-description-text-highlight">ETIQUETAS</strong></h2>
+                            <p>Escolher a solução certa para suas necessidades de impressão e etiquetagem pode ser um desafio, mas nós estamos aqui para facilitar essa decisão. Oferecemos um serviço de locação que não só atende às suas demandas operacionais, como também proporciona benefícios financeiros e técnicos inigualáveis.</p>
+                            <p>A locação elimina a necessidade de um grande investimento inicial, permitindo que sua empresa aloque recursos financeiros de forma mais eficiente. Além disso, todos os custos com manutenção e atualizações tecnológicas ficam por conta da locadora, proporcionando mais tranquilidade e foco no que realmente importa: o seu negócio.</p>
+                            <button class="btn labeling_machines-container-btn-quote">SOLICITAR COTAÇÃO</button>
+                        </div>
                     </div>
-
-
                 </div>
-                <div class="labeling_machines-image col-xs-12 col-sm-6 col-md-6 mb-6 col-100 text-center">
+
+                <div class="labeling_machines-image col-xl-6 col-lg-12 text-center">
                     <div class="labeling_machines-container-image-1 rounded mx-auto d-block">
                         <img src="https://pica.zhimg.com/v2-09a72ae9bd1a84652ae3a91001da0f8e_720w.jpg?source=172ae18b" class="img-fluid mb-3" alt="Imagem Impressora Etiquetadora">
                     </div>
