@@ -40,9 +40,9 @@
     {{--SERVICES--}}
     <section class="services">
         <div class="container mt-5 mb-5">
-            <div class="row">
+            <div class="row justify-content-center">
                 <h2 class="mt-5 mb-5 text-center">NOSSAS SOLUÇÕES PERSONALIZADAS</h2>
-                <div class="service service-1 col-xs-12 col-sm-6 col-md-3 mb-4">
+                <div class="service col-xl-3 col-md-6 col-sm-12 col-lg-3 col-xxl-3 mb-4 mx-auto">
                     <a href="./locacao-impressoras-multifuncionais">
                         <div class="service-box extra">
                             <figure class="icon">
@@ -55,13 +55,13 @@
                             </figure>
                             <div class="service-box_body">
                                 <h2 class="title text-muted"><strong>Outsourcing de impressoras e multifuncionais</strong></h2>
-                                <div class="service-box_txt">Praesent vestibulum aenean non ummy hendrerit mauris. Hasellus porta. Fusce suscipit varius mi.</div>
+                                <div class="service-box_txt">Venda, locação, assistência técnica e outsourcing de equipamentos multimarcas.</div>
                             </div>
                         </div>
                     </a>
                 </div>
 
-                <div class="service service-2 col-xs-12 col-sm-6 col-md-3 mb-4">
+                <div class="service col-xl-3 col-md-6 col-sm-12 col-lg-3 col-xxl-3 mb-4 mx-auto">
                     <a href="/locacao-notebooks-e-desktops">
                         <div class="service-box extra">
                             <figure class="icon">
@@ -74,13 +74,13 @@
                             </figure>
                             <div class="service-box_body">
                                 <h2 class="title text-muted"><strong>Outsourcing de notebooks e desktops</strong></h2>
-                                <div class="service-box_txt">Praesent vestibulum aenean non ummy hendrerit mauris. Hasellus porta. Fusce suscipit varius mi.</div>
+                                <div class="service-box_txt">Configurações personalizadas, instalação completa, equipamentos atualizados e suporte técnico, tudo adaptado às suas necessidades.</div>
                             </div>
                         </div>
                     </a>
                 </div>
 
-                <div class="service service-3 col-xs-12 col-sm-6 col-md-3 mb-4">
+                <div class="service col-xl-3 col-md-6 col-sm-12 col-lg-3 col-xxl-3 mb-4 mx-auto">
                     <a href="/locacao-etiquetadoras">
                         <div class="service-box extra">
                             <figure class="icon">
@@ -93,13 +93,13 @@
                             </figure>
                             <div class="service-box_body">
                                 <h2 class="title text-muted"><strong>Locação de Etiquetadoras</strong></h2>
-                                <div class="service-box_txt">Praesent vestibulum aenean non ummy hendrerit mauris. Hasellus porta. Fusce suscipit varius mi.</div>
+                                <div class="service-box_txt">Simplifique sua operação com nosso serviço de locação de impressoras e etiquetadoras, que oferece personalização, suporte técnico, e redução de custos</div>
                             </div>
                         </div>
                     </a>
                 </div>
 
-                <div class="service service-4 col-xs-12 col-sm-6 col-md-3 mb-4">
+                <div class="service col-xl-3 col-md-6 col-sm-12 col-lg-3 col-xxl-3 mb-4 mx-auto">
                     <a href="#">
                         <div class="service-box extra">
                             <figure class="icon">
@@ -112,7 +112,7 @@
                             </figure>
                             <div class="service-box_body">
                                 <h2 class="title text-muted"><strong>Gerenciamento Eletronico Documentos</strong></h2>
-                                <div class="service-box_txt">Praesent vestibulum aenean non ummy hendrerit mauris. Hasellus porta. Fusce suscipit varius mi.</div>
+                                <div class="service-box_txt">Soluções criativas e personalizadas para gestão de processos e documentos.</div>
                             </div>
                         </div>
                     </a>
@@ -122,6 +122,88 @@
     </section>
 
 
+    <section class="locacao">
+        <div class="container">
+            <div class="row">
+                <h2 class="mt-5 mb-5 text-center">EQUIPAMENTOS PARA <strong class="product-info-menu-locacao-text-highlight">LOCAÇÃO</strong></h2>
+
+                <div class="container text-muted">
+                    <ul class="product-info-menu-locacao-marcadores">
+                        <li class="product-info-menu-locacao-marcadores product-info-menu-locacao">
+                            <a class="product-info-menu-locacao-name" href="div1">Locação de Impressoras</a>
+                        </li>
+                        <li class="product-info-menu-locacao-marcadores product-info-menu-locacao">
+                            <a class="product-info-menu-locacao-name" href="div2">Locação de Multifuncionais</a>
+                        </li>
+                        <li class="product-info-menu-locacao-marcadores product-info-menu-locacao">
+                            <a class="product-info-menu-locacao-name" href="div3">Locação de Copiadoras</a>
+                        </li>
+                    </ul>
+
+                    <div class="product-info mt-3 mb-5">
+                        <div class="product-info-menu-locacao-group" id="div1">
+                            <div class="product-info-menu-locacao-1-line"></div>
+
+                            <div class="col text-center">
+                                <img
+                                    class="product-info-menu-locacao-img rounded mx-auto d-block"
+                                    src="/img/impressoras/img01.png"
+                                    width="280"
+                                    alt="Equipamento Impressoras para Locação"
+                                >
+                            </div>
+                            <div class="product-info-menu-locacao-desc">
+                                <p>A locação de impressoras é uma solução prática e econômica para empresas de todos os portes,
+                                    órgãos públicos e até mesmo para pessoas físicas. Com essa opção, é possível ter acesso
+                                    a equipamentos de qualidade, sem a necessidade de um grande investimento inicial.
+                                    Além disso, a locação geralmente inclui serviços de suporte técnico e manutenção, garantindo
+                                    o bom funcionamento dos equipamentos. Essa alternativa permite que as organizações foquem em
+                                    suas atividades principais, enquanto deixam a gestão de impressão nas mãos de especialistas,
+                                    otimizando recursos e aumentando a eficiência operacional.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="product-info-menu-locacao-group" id="div2">
+                            <div class="product-info-menu-locacao-2-line"></div>
+                            <div class="col text-center">
+                                <img
+                                    class="product-info-menu-locacao-img rounded mx-auto d-block"
+                                    src="/img/impressoras/img02.png"
+                                    width="280"
+                                >
+                            </div>
+                            <div class="product-info-menu-locacao-desc">
+                                <p>A locação de copiadoras oferece uma solução conveniente e econômica para empresas de todos os tamanhos,
+                                    órgãos governamentais e indivíduos. Com essa opção, é possível ter acesso a equipamentos de alta
+                                    qualidade sem um grande investimento inicial. Além disso, a locação geralmente inclui suporte técnico
+                                    e manutenção, permitindo que as organizações e indivíduos foquem em suas atividades principais,
+                                    enquanto deixam a gestão de cópias nas mãos de especialistas, aumentando a eficiência operacional.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="product-info-menu-locacao-group" id="div3">
+                            <div class="product-info-menu-locacao-3-line"></div>
+                            <img
+                                class="product-info-menu-locacao-img rounded mx-auto d-block"
+                                src="/img/impressoras/img03.jpg"
+                                width="220"
+                            >
+                            <div class="product-info-menu-locacao-desc">
+                                <p>A locação de multifuncionais é uma solução versátil e econômica para empresas de todos os portes,
+                                    órgãos governamentais e indivíduos. Com essa opção, é possível ter acesso a equipamentos multifuncionais
+                                    de alta qualidade sem um grande investimento inicial. Além disso, a locação geralmente inclui suporte
+                                    técnico e manutenção, permitindo que as organizações e indivíduos foquem em suas atividades principais,
+                                    enquanto deixam a gestão dos equipamentos nas mãos de especialistas, aumentando a eficiência operacional.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <section class="information">
@@ -151,65 +233,59 @@
     <section class="print_control">
         <div class="wpb_row vc_row-fluid full-row">
             <div class="container">
-                <div class="wpb_column vc_column_container vc_col-sm-12">
-                    <div class="vc_column-inner ">
-                        <div class="wpb_wrapper">
-                            <div class="max-title max-title4">
-                                <h2>Tenha o controle total de tudo que a <strong>sua empresa imprime </strong></h2>
-                            </div>
-                            <div class="vc_row wpb_row vc_inner vc_row-fluid">
-                                <div class="wpb_column vc_column_container vc_col-sm-4">
-                                    <div class="vc_column-inner ">
-                                        <div class="wpb_wrapper">
-                                            <article class="icon-box20">
-                                                <h4>GESTÃO DE PROCESSOS E DOCUMENTOS</h4>
-                                                <p>Soluções criativas e personalizadas para gestão de processos e documentos.</p>
-                                            </article>
-                                            <hr class="vertical-space2">
-                                            <article class="icon-box20">
-                                                <h4>ASSISTÊNCIA TÉCNICA AUTORIZADA</h4>
-                                                <p>Atendimento nacional para equipamentos de pequeno, médio e grande porte.</p>
-                                            </article>
-                                            <hr class="vertical-space2">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="wpb_column vc_column_container vc_col-sm-4">
-                                    <div class="vc_column-inner ">
-                                        <div class="wpb_wrapper">
-                                            <article class="icon-box20">
-                                                <i class="icon-focus" style=" color:#e30613;"></i>
-                                                <h4>CAPTURA INTELIGENTE</h4>
-                                                <p>Digitalização de documentos aliada ao Sistema ECM.</p>
-                                            </article>
-                                            <hr class="vertical-space2">
-                                            <article class="icon-box20">
-                                                <h4>SUPRIMENTOS E PEÇAS ORIGINAIS</h4>
-                                                <p>Estoque próprio de peças e insumos originais com garantia de atendimento</p>
-                                            </article>
-                                            <hr class="vertical-space2">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="wpb_column vc_column_container vc_col-sm-4">
-                                    <div class="vc_column-inner ">
-                                        <div class="wpb_wrapper">
-                                            <article class="icon-box20">
-                                                <h4>GESTÃO DE IMPRESSÃO</h4>
-                                                <p>Venda, locação, assistência técnica e outsourcing de equipamentos multimarcas.</p>
-                                            </article>
-                                            <hr class="vertical-space2">
-                                            <article class="icon-box20">
-                                                <i class="icon-target" style=" color:#e30613;"></i>
-                                                <h4>MARKETING MULTICANAL</h4>
-                                                <p>Comunicação integrada e campanhas personalizadas Cross Media.</p>
-                                            </article>
-                                            <hr class="vertical-space2">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                <div class="row">
+                    <div class="max-title max-title4">
+                        <h2>Tenha o controle total de tudo que a <strong>sua empresa imprime </strong></h2>
+                    </div>
+                    <div class="col-xl-3 col-md-3 col-sm-6 col-lg-3 col-xxl-3 mb-4 mx-auto">
+                        <article class="icon-box20">
+                            <h4>GESTÃO DE PROCESSOS E DOCUMENTOS</h4>
+                            <p>Soluções criativas e personalizadas para gestão de processos e documentos.</p>
+                        </article>
+                        <hr class="vertical-space2">
+                    </div>
+
+                    <div class="col-xl-3 col-md-3 col-sm-6 col-lg-3 col-xxl-3 mb-4 mx-auto">
+                        <article class="icon-box20">
+                            <h4>ASSISTÊNCIA TÉCNICA AUTORIZADA</h4>
+                            <p>Atendimento nacional para equipamentos de pequeno, médio e grande porte.</p>
+                        </article>
+                        <hr class="vertical-space2">
+                    </div>
+
+                    <div class="col-xl-3 col-md-3 col-sm-6 col-lg-3 col-xxl-3 mb-4 mx-auto">
+                        <article class="icon-box20">
+                            <i class="icon-focus" style=" color:#e30613;"></i>
+                            <h4>CAPTURA INTELIGENTE</h4>
+                            <p>Digitalização de documentos aliada ao Sistema ECM.</p>
+                        </article>
+                        <hr class="vertical-space2">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-3 col-md-3 col-sm-6 col-lg-3 col-xxl-3 mb-4 mx-auto">
+                        <article class="icon-box20">
+                            <h4>SUPRIMENTOS E PEÇAS ORIGINAIS</h4>
+                            <p>Estoque próprio de peças e insumos originais com garantia de atendimento</p>
+                        </article>
+                        <hr class="vertical-space2">
+                    </div>
+
+                    <div class="col-xl-3 col-md-3 col-sm-6 col-lg-3 col-xxl-3 mb-4 mx-auto">
+                        <article class="icon-box20">
+                            <h4>GESTÃO DE IMPRESSÃO</h4>
+                            <p>Venda, locação, assistência técnica e outsourcing de equipamentos multimarcas.</p>
+                        </article>
+                        <hr class="vertical-space2">
+                    </div>
+
+                    <div class="col-xl-3 col-md-3 col-sm-6 col-lg-3 col-xxl-3 mb-4 mx-auto">
+                        <article class="icon-box20">
+                            <i class="icon-target" style=" color:#e30613;"></i>
+                            <h4>MARKETING MULTICANAL</h4>
+                            <p>Comunicação integrada e campanhas personalizadas Cross Media.</p>
+                        </article>
+                        <hr class="vertical-space2">
                     </div>
                 </div>
             </div>
@@ -219,15 +295,14 @@
 
 
     <section class="news">
-        <div class="container-fostrap">
-            <div class="content">
+        <div class="content">
                 <div class="container">
-                    <div class="row">
                         <h4 class="title-blog text-center">BLOG</h4>
                         <h2 class="mb-5 text-center">Últimas Notícias</h2>
+                    <div class="row row-cols-1 row-cols-md-2">
 
-                        <div class="new col-xs-12 col-sm-6 col-md-3 mb-4">
-                            <div class="card-news card float-left">
+                        <div class="new col-xl-3 col-md-6 col-sm-12 col-lg-3 col-xxl-3 mb-4 mx-auto">
+                            <div class="card-news card">
                                 <a class="img-card">
                                     <img src="https://i0.wp.com/www.techbr.com.br/wp-content/uploads/2016/09/hp-inc-original.jpg?ssl=1" />
                                 </a>
@@ -248,7 +323,7 @@
                             </div>
                         </div>
 
-                        <div class="new col-xs-12 col-sm-6 col-md-3 mb-4">
+                        <div class="new col-xl-3 col-md-6 col-sm-12 col-lg-3 col-xxl-3 mb-4 mx-auto">
                             <div class="card-news card">
                                 <a class="img-card">
                                     <img src="https://1.bp.blogspot.com/-Bii3S69BdjQ/VtdOpIi4aoI/AAAAAAAABlk/F0z23Yr59f0/s640/cover.jpg" />
@@ -267,7 +342,7 @@
                             </div>
                         </div>
 
-                        <div class="new col-xs-12 col-sm-6 col-md-3 mb-4">
+                        <div class="new col-xl-3 col-md-6 col-sm-12 col-lg-3 col-xxl-3 mb-4 mx-auto d-none d-md-block">
                             <div class="card-news card">
                                 <a class="img-card">
                                     <img src="https://1.bp.blogspot.com/-Bii3S69BdjQ/VtdOpIi4aoI/AAAAAAAABlk/F0z23Yr59f0/s640/cover.jpg" />
@@ -287,7 +362,7 @@
                             </div>
                         </div>
 
-                        <div class="new col-xs-12 col-sm-6 col-md-3 mb-4">
+                        <div class="new col-xl-3 col-md-6 col-sm-12 col-lg-3 col-xxl-3 mb-4 mx-auto d-none d-md-block">
                             <div class="card-news card">
                                 <a class="img-card">
                                     <img src="https://1.bp.blogspot.com/-Bii3S69BdjQ/VtdOpIi4aoI/AAAAAAAABlk/F0z23Yr59f0/s640/cover.jpg" />
@@ -308,7 +383,21 @@
                     </div>
                 </div>
             </div>
-        </div>
     </section>
 
 @endsection
+
+@section('js')
+    <script>
+        $(function() {
+            $(".product-info-menu-locacao-group").css("display", "none");
+            $(".product-info-menu-locacao-group#div1").addClass("active");
+            $(".product-info-menu-locacao-name").on("click", function(e) {
+                e.preventDefault();
+                $(".product-info-menu-locacao-group").removeClass("active");
+                var id = $(this).attr("href");
+                $("#" + id + "").addClass("active");
+            });
+        });
+    </script>
+@stop
