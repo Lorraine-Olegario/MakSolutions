@@ -123,86 +123,169 @@
 
 
     <section class="locacao">
-        <div class="container">
+        <div class="container mt-5 mb-5">
             <div class="row">
-                <h2 class="mt-5 mb-5 text-center">EQUIPAMENTOS PARA <strong class="product-info-menu-locacao-text-highlight">LOCAÇÃO</strong></h2>
-
-                <div class="container text-muted">
-                    <ul class="product-info-menu-locacao-marcadores">
-                        <li class="product-info-menu-locacao-marcadores product-info-menu-locacao">
-                            <a class="product-info-menu-locacao-name" href="div1">Locação de Impressoras</a>
+                <h2 class="col-12 text-center">EQUIPAMENTOS PARA <strong class="locacao-text-highlight">LOCAÇÃO</strong></h2>
+                <div class="col-12 d-flex justify-content-center mt-5">
+                    <ul class="nav nav-pills align-items-center nav-pills-locacao">
+                        <li class="nav-item">
+                            <h5>
+                                <a class="nav-link" href="#div1" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="div1">Locação de Impressoras</a>
+                                <div class="active-indicator" id="indicator1"></div>
+                            </h5>
                         </li>
-                        <li class="product-info-menu-locacao-marcadores product-info-menu-locacao">
-                            <a class="product-info-menu-locacao-name" href="div2">Locação de Multifuncionais</a>
+                        <li class="nav-item">
+                            <h5>
+                                <a class="nav-link" href="#div2" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="div2">Locação de Multifuncionais</a>
+                                <div class="active-indicator" id="indicator2"></div>
+                            </h5>
                         </li>
-                        <li class="product-info-menu-locacao-marcadores product-info-menu-locacao">
-                            <a class="product-info-menu-locacao-name" href="div3">Locação de Copiadoras</a>
+                        <li class="nav-item">
+                            <h5>
+                                <a class="nav-link" href="#div3" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="div3">Locação de Copiadoras</a>
+                                <div class="active-indicator" id="indicator3"></div>
+                            </h5>
                         </li>
                     </ul>
-
-                    <div class="product-info mt-3 mb-5">
-                        <div class="product-info-menu-locacao-group" id="div1">
-                            <div class="product-info-menu-locacao-1-line"></div>
-
-                            <div class="col text-center">
-                                <img
-                                    class="product-info-menu-locacao-img rounded mx-auto d-block"
-                                    src="/img/impressoras/img01.png"
-                                    width="280"
-                                    alt="Equipamento Impressoras para Locação"
-                                >
-                            </div>
-                            <div class="product-info-menu-locacao-desc">
-                                <p>A locação de impressoras é uma solução prática e econômica para empresas de todos os portes,
-                                    órgãos públicos e até mesmo para pessoas físicas. Com essa opção, é possível ter acesso
-                                    a equipamentos de qualidade, sem a necessidade de um grande investimento inicial.
-                                    Além disso, a locação geralmente inclui serviços de suporte técnico e manutenção, garantindo
-                                    o bom funcionamento dos equipamentos. Essa alternativa permite que as organizações foquem em
-                                    suas atividades principais, enquanto deixam a gestão de impressão nas mãos de especialistas,
-                                    otimizando recursos e aumentando a eficiência operacional.
-                                </p>
+                </div>
+                <div class="col-12 mt-4 mb-5">
+                    <div id="accordion">
+                        <div id="div1" class="collapse show mt-3" data-parent="#accordion">
+                            <div class="collapse-content row">
+                                <div class="col-md-4 d-flex justify-content-center">
+                                    <img class="rounded" src="/img/impressoras/img01.png" alt="Equipamento Impressoras para Locação" width="280">
+                                </div>
+                                <div class="col-md-8 d-flex align-items-center">
+                                    <p>A locação de impressoras é uma solução prática e econômica para empresas de todos os portes,
+                                        órgãos públicos e até mesmo para pessoas físicas. Com essa opção, é possível ter acesso
+                                        a equipamentos de qualidade, sem a necessidade de um grande investimento inicial.
+                                        Além disso, a locação geralmente inclui serviços de suporte técnico e manutenção, garantindo
+                                        o bom funcionamento dos equipamentos. Essa alternativa permite que as organizações foquem em
+                                        suas atividades principais, enquanto deixam a gestão de impressão nas mãos de especialistas,
+                                        otimizando recursos e aumentando a eficiência operacional.
+                                    </p>
+                                </div>
                             </div>
                         </div>
-
-                        <div class="product-info-menu-locacao-group" id="div2">
-                            <div class="product-info-menu-locacao-2-line"></div>
-                            <div class="col text-center">
-                                <img
-                                    class="product-info-menu-locacao-img rounded mx-auto d-block"
-                                    src="/img/impressoras/img02.png"
-                                    width="280"
-                                >
-                            </div>
-                            <div class="product-info-menu-locacao-desc">
-                                <p>A locação de copiadoras oferece uma solução conveniente e econômica para empresas de todos os tamanhos,
-                                    órgãos governamentais e indivíduos. Com essa opção, é possível ter acesso a equipamentos de alta
-                                    qualidade sem um grande investimento inicial. Além disso, a locação geralmente inclui suporte técnico
-                                    e manutenção, permitindo que as organizações e indivíduos foquem em suas atividades principais,
-                                    enquanto deixam a gestão de cópias nas mãos de especialistas, aumentando a eficiência operacional.
-                                </p>
+                        <div id="div2" class="collapse mt-3" data-parent="#accordion">
+                            <div class="collapse-content row">
+                                <div class="col-md-4 d-flex justify-content-center">
+                                    <img class="rounded" src="/img/impressoras/img02.png" alt="Locação de Multifuncionais" width="280">
+                                </div>
+                                <div class="col-md-8 d-flex align-items-center">
+                                    <p>A locação de copiadoras oferece uma solução conveniente e econômica para empresas de todos os tamanhos,
+                                        órgãos governamentais e indivíduos. Com essa opção, é possível ter acesso a equipamentos de alta
+                                        qualidade sem um grande investimento inicial. Além disso, a locação geralmente inclui suporte técnico
+                                        e manutenção, permitindo que as organizações e indivíduos foquem em suas atividades principais,
+                                        enquanto deixam a gestão de cópias nas mãos de especialistas, aumentando a eficiência operacional.
+                                    </p>
+                                </div>
                             </div>
                         </div>
-
-                        <div class="product-info-menu-locacao-group" id="div3">
-                            <div class="product-info-menu-locacao-3-line"></div>
-                            <img
-                                class="product-info-menu-locacao-img rounded mx-auto d-block"
-                                src="/img/impressoras/img03.jpg"
-                                width="220"
-                            >
-                            <div class="product-info-menu-locacao-desc">
-                                <p>A locação de multifuncionais é uma solução versátil e econômica para empresas de todos os portes,
-                                    órgãos governamentais e indivíduos. Com essa opção, é possível ter acesso a equipamentos multifuncionais
-                                    de alta qualidade sem um grande investimento inicial. Além disso, a locação geralmente inclui suporte
-                                    técnico e manutenção, permitindo que as organizações e indivíduos foquem em suas atividades principais,
-                                    enquanto deixam a gestão dos equipamentos nas mãos de especialistas, aumentando a eficiência operacional.
-                                </p>
+                        <div id="div3" class="collapse mt-3" data-parent="#accordion">
+                            <div class="collapse-content row">
+                                <div class="col-md-4 d-flex justify-content-center">
+                                    <img class="rounded" src="/img/impressoras/img03.jpg" alt="Locação de Copiadoras" width="220">
+                                </div>
+                                <div class="col-md-8 d-flex align-items-center">
+                                    <p>A locação de multifuncionais é uma solução versátil e econômica para empresas de todos os portes,
+                                        órgãos governamentais e indivíduos. Com essa opção, é possível ter acesso a equipamentos multifuncionais
+                                        de alta qualidade sem um grande investimento inicial. Além disso, a locação geralmente inclui suporte
+                                        técnico e manutenção, permitindo que as organizações e indivíduos foquem em suas atividades principais,
+                                        enquanto deixam a gestão dos equipamentos nas mãos de especialistas, aumentando a eficiência operacional.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+
+
+        {{--        <div class="container">--}}
+{{--            <div class="row">--}}
+{{--                <h2 class="mt-5 mb-5 text-center">EQUIPAMENTOS PARA <strong class="product-info-menu-locacao-text-highlight">LOCAÇÃO</strong></h2>--}}
+
+{{--                <div class="container text-muted">--}}
+{{--                    <ul class="product-info-menu-locacao-marcadores">--}}
+{{--                        <li class="product-info-menu-locacao-marcadores product-info-menu-locacao">--}}
+{{--                            <a class="product-info-menu-locacao-name" href="div1">Locação de Impressoras</a>--}}
+{{--                        </li>--}}
+{{--                        <li class="product-info-menu-locacao-marcadores product-info-menu-locacao">--}}
+{{--                            <a class="product-info-menu-locacao-name" href="div2">Locação de Multifuncionais</a>--}}
+{{--                        </li>--}}
+{{--                        <li class="product-info-menu-locacao-marcadores product-info-menu-locacao">--}}
+{{--                            <a class="product-info-menu-locacao-name" href="div3">Locação de Copiadoras</a>--}}
+{{--                        </li>--}}
+{{--                    </ul>--}}
+
+{{--                    <div class="product-info mt-3 mb-5">--}}
+{{--                        <div class="product-info-menu-locacao-group" id="div1">--}}
+{{--                            <div class="product-info-menu-locacao-1-line"></div>--}}
+
+{{--                            <div class="col text-center">--}}
+{{--                                <img--}}
+{{--                                    class="product-info-menu-locacao-img rounded mx-auto d-block"--}}
+{{--                                    src="/img/impressoras/img01.png"--}}
+{{--                                    width="280"--}}
+{{--                                    alt="Equipamento Impressoras para Locação"--}}
+{{--                                >--}}
+{{--                            </div>--}}
+{{--                            <div class="product-info-menu-locacao-desc">--}}
+{{--                                <p>A locação de impressoras é uma solução prática e econômica para empresas de todos os portes,--}}
+{{--                                    órgãos públicos e até mesmo para pessoas físicas. Com essa opção, é possível ter acesso--}}
+{{--                                    a equipamentos de qualidade, sem a necessidade de um grande investimento inicial.--}}
+{{--                                    Além disso, a locação geralmente inclui serviços de suporte técnico e manutenção, garantindo--}}
+{{--                                    o bom funcionamento dos equipamentos. Essa alternativa permite que as organizações foquem em--}}
+{{--                                    suas atividades principais, enquanto deixam a gestão de impressão nas mãos de especialistas,--}}
+{{--                                    otimizando recursos e aumentando a eficiência operacional.--}}
+{{--                                </p>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+
+{{--                        <div class="product-info-menu-locacao-group" id="div2">--}}
+{{--                            <div class="product-info-menu-locacao-2-line"></div>--}}
+{{--                            <div class="col text-center">--}}
+{{--                                <img--}}
+{{--                                    class="product-info-menu-locacao-img rounded mx-auto d-block"--}}
+{{--                                    src="/img/impressoras/img02.png"--}}
+{{--                                    width="280"--}}
+{{--                                    alt="Locação de Multifuncionais"--}}
+{{--                                >--}}
+{{--                            </div>--}}
+{{--                            <div class="product-info-menu-locacao-desc">--}}
+{{--                                <p>A locação de copiadoras oferece uma solução conveniente e econômica para empresas de todos os tamanhos,--}}
+{{--                                    órgãos governamentais e indivíduos. Com essa opção, é possível ter acesso a equipamentos de alta--}}
+{{--                                    qualidade sem um grande investimento inicial. Além disso, a locação geralmente inclui suporte técnico--}}
+{{--                                    e manutenção, permitindo que as organizações e indivíduos foquem em suas atividades principais,--}}
+{{--                                    enquanto deixam a gestão de cópias nas mãos de especialistas, aumentando a eficiência operacional.--}}
+{{--                                </p>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+
+{{--                        <div class="product-info-menu-locacao-group" id="div3">--}}
+{{--                            <div class="product-info-menu-locacao-3-line"></div>--}}
+{{--                            <img--}}
+{{--                                class="product-info-menu-locacao-img rounded mx-auto d-block"--}}
+{{--                                src="/img/impressoras/img03.jpg"--}}
+{{--                                width="220"--}}
+{{--                                alt="Locação de Copiadoras"--}}
+{{--                            >--}}
+{{--                            <div class="product-info-menu-locacao-desc">--}}
+{{--                                <p>A locação de multifuncionais é uma solução versátil e econômica para empresas de todos os portes,--}}
+{{--                                    órgãos governamentais e indivíduos. Com essa opção, é possível ter acesso a equipamentos multifuncionais--}}
+{{--                                    de alta qualidade sem um grande investimento inicial. Além disso, a locação geralmente inclui suporte--}}
+{{--                                    técnico e manutenção, permitindo que as organizações e indivíduos foquem em suas atividades principais,--}}
+{{--                                    enquanto deixam a gestão dos equipamentos nas mãos de especialistas, aumentando a eficiência operacional.--}}
+{{--                                </p>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
     </section>
 
 
@@ -389,15 +472,22 @@
 
 @section('js')
     <script>
-        $(function() {
-            $(".product-info-menu-locacao-group").css("display", "none");
-            $(".product-info-menu-locacao-group#div1").addClass("active");
-            $(".product-info-menu-locacao-name").on("click", function(e) {
-                e.preventDefault();
-                $(".product-info-menu-locacao-group").removeClass("active");
-                var id = $(this).attr("href");
-                $("#" + id + "").addClass("active");
+        $(document).ready(function() {
+            $('.show').each(function() {
+                let targetId = $(this).attr('id'); // Obtém o ID da seção expandida
+                $('#indicator' + targetId.substr(3)).show(); // Mostra o indicador correspondente
             });
         });
+
+        // Script para controlar a exibição do indicador ao abrir uma seção
+        $('#accordion').on('show.bs.collapse', function (e) {
+            let targetId = $(e.target).attr('id'); // Obtém o ID do elemento que está sendo expandido
+            $('#indicator1, #indicator2, #indicator3').hide(); // Oculta todos os indicadores
+            $('#indicator' + targetId.substr(3)).show(); // Mostra o indicador correspondente ao elemento expandido
+        });
     </script>
+
+{{--    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>--}}
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+{{--    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>--}}
 @stop
