@@ -29,8 +29,11 @@ Route::get('/locacao-notebooks-e-desktops', function () {
     return view('services_desktop');
 });
 
-
 Route::get('/locacao-etiquetadoras', function () {
     return view('services_labeling_machines');
+});
+
+Route::get('/gestao-documental', function () {
+    return view('services_document_management');
 });
 

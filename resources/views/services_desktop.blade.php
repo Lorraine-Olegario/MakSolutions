@@ -18,41 +18,41 @@
                     <ul>
                         <li>
                             <img
-                                src="https://static.vecteezy.com/system/resources/previews/008/134/818/original/check-mark-icon-checkmark-right-symbol-tick-sign-ok-button-correct-circle-icon-free-vector.jpg"
+                                src="/img/icon-checkmark-right.jpg"
                                 alt="Imagem certo - Nosso serviço contem Configurações Personalizadas">
                             <p>Configurações Personalizadas</p>
                         </li>
                         <li>
                             <img
-                                src="https://static.vecteezy.com/system/resources/previews/008/134/818/original/check-mark-icon-checkmark-right-symbol-tick-sign-ok-button-correct-circle-icon-free-vector.jpg"
+                                src="/img/icon-checkmark-right.jpg"
                                 alt="Imagem certo - Atendimento Sob Demanda"
                             >
                             <p>Atendimento Sob Demanda</p>
                         </li>
                         <li>
                             <img
-                                src="https://static.vecteezy.com/system/resources/previews/008/134/818/original/check-mark-icon-checkmark-right-symbol-tick-sign-ok-button-correct-circle-icon-free-vector.jpg"
+                                src="/img/icon-checkmark-right.jpg"
                                 alt="Imagem certo - Instalação Completa"
                             >
                             <p>Instalação Completa</p>
                         </li>
                         <li>
                             <img
-                                src="https://static.vecteezy.com/system/resources/previews/008/134/818/original/check-mark-icon-checkmark-right-symbol-tick-sign-ok-button-correct-circle-icon-free-vector.jpg"
+                                src="/img/icon-checkmark-right.jpg"
                                 alt="Imagem certo - Equipamentos Atualizados"
                             >
                             <p>Equipamentos Atualizados</p>
                         </li>
                         <li>
                             <img
-                                src="https://static.vecteezy.com/system/resources/previews/008/134/818/original/check-mark-icon-checkmark-right-symbol-tick-sign-ok-button-correct-circle-icon-free-vector.jpg"
+                                src="/img/icon-checkmark-right.jpg"
                                 alt="Imagem certo - Redução de Custo"
                             >
                             <p>Redução de Custo</p>
                         </li>
                         <li>
                             <img
-                                src="https://static.vecteezy.com/system/resources/previews/008/134/818/original/check-mark-icon-checkmark-right-symbol-tick-sign-ok-button-correct-circle-icon-free-vector.jpg"
+                                src="/img/icon-checkmark-right.jpg"
                                 alt="Imagem certo - Suporte Técnico"
                             >
                             <p>Suporte Técnico</p>
@@ -65,7 +65,7 @@
                 <div class="col text-center">
                     <img
                         class="desktop-img-primary rounded mx-auto d-block"
-                        src="https://gtsolucoes.com.br/wp-content/uploads/2017/04/man-e1474874914495.png"
+                        src="/img/man.png"
                         alt="Imagem representativa de compuatores"
                     >
                 </div>
@@ -81,46 +81,46 @@
                 <div class="slider">
                     <div class="slide-track">
                         <div class="slide">
-                            <img src="https://static.vecteezy.com/system/resources/previews/000/648/392/original/computer-icon-symbol-sign-vector.jpg" class="component-elements-img-carousel" alt="Imagem de um ilustrativa  computador" />
+                            <img src="/img/icon-computer.jpg" class="component-elements-img-carousel" alt="Imagem de um ilustrativa  computador" />
                         </div>
                         <div class="slide">
-                            <img src="https://images.vexels.com/media/users/3/157564/isolated/preview/d7d05c7c1070e49a5385019c254901a6-icone-de-laptop-simples.png" class="component-elements-img-carousel" alt="Imagem ilustrativa de um Notebook" />
+                            <img src="/img/icone-laptop.webp" class="component-elements-img-carousel" alt="Imagem ilustrativa de um Notebook" />
                         </div>
                         <div class="slide">
-                            <img src="https://png.pngtree.com/png-vector/20190716/ourlarge/pngtree-mouse-icon-png-image_1546882.jpg" class="component-elements-img-carousel" alt="Imagem ilustrativa de um Mouse" />
+                            <img src="/img/icon-mouse.jpg" class="component-elements-img-carousel" alt="Imagem ilustrativa de um Mouse" />
                         </div>
                         <div class="slide">
-                            <img src="https://static.vecteezy.com/system/resources/previews/000/627/293/original/vector-monitor-icon-symbol-sign.jpg" class="component-elements-img-carousel" alt="Imagem Monitor de Computador" />
+                            <img src="/img/icon-monitor.jpg" class="component-elements-img-carousel" alt="Imagem Monitor de Computador" />
                         </div>
                         <div class="slide">
-                            <img src="https://th.bing.com/th/id/R.34c24a05f5136d66228e2716f166a665?rik=sLJOHbU%2brEm7JA&pid=ImgRaw&r=0" class="component-elements-img-carousel" alt="Imagem ilustrativa  de um Tecaldo" />
+                            <img src="/img/icon-teclado.png" class="component-elements-img-carousel" alt="Imagem ilustrativa  de um Tecaldo" />
                         </div>
                         <div class="slide">
-                            <img src="https://static.vecteezy.com/ti/vetor-gratis/p3/6087552-ssd-icon-in-simples-one-line-style-vetor.jpg" class="component-elements-img-carousel" alt="Imagem ilustrativa de um SSD" />
+                            <img src="/img/icon-ssd.jpg" class="component-elements-img-carousel" alt="Imagem ilustrativa de um SSD" />
                         </div>
                         <div class="slide">
-                            <img src="https://static.vecteezy.com/system/resources/previews/021/363/278/non_2x/webcam-icon-for-your-website-mobile-presentation-and-logo-design-free-vector.jpg" class="component-elements-img-carousel" alt="Imagem ilustrativa  de uma Webcam" />
+                            <img src="/img/icon-webcam.jpg" class="component-elements-img-carousel" alt="Imagem ilustrativa  de uma Webcam" />
                         </div>
                         <div class="slide">
-                            <img src="https://static.vecteezy.com/system/resources/previews/000/648/392/original/computer-icon-symbol-sign-vector.jpg" class="component-elements-img-carousel" alt="Imagem de um ilustrativa  computador" />
+                            <img src="/img/icon-computer.jpg" class="component-elements-img-carousel" alt="Imagem de um ilustrativa  computador" />
                         </div>
                         <div class="slide">
-                            <img src="https://images.vexels.com/media/users/3/157564/isolated/preview/d7d05c7c1070e49a5385019c254901a6-icone-de-laptop-simples.png" class="component-elements-img-carousel" alt="Imagem ilustrativa de um Notebook" />
+                            <img src="/img/icone-laptop.webp" class="component-elements-img-carousel" alt="Imagem ilustrativa de um Notebook" />
                         </div>
                         <div class="slide">
-                            <img src="https://png.pngtree.com/png-vector/20190716/ourlarge/pngtree-mouse-icon-png-image_1546882.jpg" class="component-elements-img-carousel" alt="Imagem ilustrativa de um Mouse" />
+                            <img src="/img/icon-mouse.jpg" class="component-elements-img-carousel" alt="Imagem ilustrativa de um Mouse" />
                         </div>
                         <div class="slide">
-                            <img src="https://static.vecteezy.com/system/resources/previews/000/627/293/original/vector-monitor-icon-symbol-sign.jpg" class="component-elements-img-carousel" alt="Imagem Monitor de Computador" />
+                            <img src="/img/icon-monitor.jpg" class="component-elements-img-carousel" alt="Imagem Monitor de Computador" />
                         </div>
                         <div class="slide">
-                            <img src="https://th.bing.com/th/id/R.34c24a05f5136d66228e2716f166a665?rik=sLJOHbU%2brEm7JA&pid=ImgRaw&r=0" class="component-elements-img-carousel" alt="Imagem ilustrativa  de um Tecaldo" />
+                            <img src="/img/icon-teclado.png" class="component-elements-img-carousel" alt="Imagem ilustrativa  de um Tecaldo" />
                         </div>
                         <div class="slide">
-                            <img src="https://static.vecteezy.com/ti/vetor-gratis/p3/6087552-ssd-icon-in-simples-one-line-style-vetor.jpg" class="component-elements-img-carousel" alt="Imagem ilustrativa de um SSD" />
+                            <img src="/img/icon-ssd.jpg" class="component-elements-img-carousel" alt="Imagem ilustrativa de um SSD" />
                         </div>
                         <div class="slide">
-                            <img src="https://static.vecteezy.com/system/resources/previews/021/363/278/non_2x/webcam-icon-for-your-website-mobile-presentation-and-logo-design-free-vector.jpg" class="component-elements-img-carousel" alt="Imagem ilustrativa  de uma Webcam" />
+                            <img src="/img/icon-webcam.jpg" class="component-elements-img-carousel" alt="Imagem ilustrativa  de uma Webcam" />
                         </div>
                     </div>
                 </div>

@@ -41,7 +41,7 @@
     <section class="services">
         <div class="container mt-5 mb-5">
             <div class="row justify-content-center">
-                <h2 class="mt-5 mb-5 text-center">NOSSAS SOLUÇÕES PERSONALIZADAS</h2>
+                <h2 class="mt-5 mb-5 text-center">NOSSAS <strong class="services-text-highlight">SOLUÇÕES</strong> PERSONALIZADAS</h2>
                 <div class="service col-xl-3 col-md-6 col-sm-12 col-lg-3 col-xxl-3 mb-4 mx-auto">
                     <a href="./locacao-impressoras-multifuncionais">
                         <div class="service-box extra">
@@ -100,7 +100,7 @@
                 </div>
 
                 <div class="service col-xl-3 col-md-6 col-sm-12 col-lg-3 col-xxl-3 mb-4 mx-auto">
-                    <a href="#">
+                    <a href="/gestao-documental">
                         <div class="service-box extra">
                             <figure class="icon">
                                 <img
@@ -111,7 +111,7 @@
                                 />
                             </figure>
                             <div class="service-box_body">
-                                <h2 class="title text-muted"><strong>Gerenciamento Eletronico Documentos</strong></h2>
+                                <h2 class="title text-muted"><strong>Gerenciamento Eletrônico Documentos</strong></h2>
                                 <div class="service-box_txt">Soluções criativas e personalizadas para gestão de processos e documentos.</div>
                             </div>
                         </div>
@@ -201,115 +201,61 @@
                 </div>
             </div>
         </div>
-
-
-
-        {{--        <div class="container">--}}
-{{--            <div class="row">--}}
-{{--                <h2 class="mt-5 mb-5 text-center">EQUIPAMENTOS PARA <strong class="product-info-menu-locacao-text-highlight">LOCAÇÃO</strong></h2>--}}
-
-{{--                <div class="container text-muted">--}}
-{{--                    <ul class="product-info-menu-locacao-marcadores">--}}
-{{--                        <li class="product-info-menu-locacao-marcadores product-info-menu-locacao">--}}
-{{--                            <a class="product-info-menu-locacao-name" href="div1">Locação de Impressoras</a>--}}
-{{--                        </li>--}}
-{{--                        <li class="product-info-menu-locacao-marcadores product-info-menu-locacao">--}}
-{{--                            <a class="product-info-menu-locacao-name" href="div2">Locação de Multifuncionais</a>--}}
-{{--                        </li>--}}
-{{--                        <li class="product-info-menu-locacao-marcadores product-info-menu-locacao">--}}
-{{--                            <a class="product-info-menu-locacao-name" href="div3">Locação de Copiadoras</a>--}}
-{{--                        </li>--}}
-{{--                    </ul>--}}
-
-{{--                    <div class="product-info mt-3 mb-5">--}}
-{{--                        <div class="product-info-menu-locacao-group" id="div1">--}}
-{{--                            <div class="product-info-menu-locacao-1-line"></div>--}}
-
-{{--                            <div class="col text-center">--}}
-{{--                                <img--}}
-{{--                                    class="product-info-menu-locacao-img rounded mx-auto d-block"--}}
-{{--                                    src="/img/impressoras/img01.png"--}}
-{{--                                    width="280"--}}
-{{--                                    alt="Equipamento Impressoras para Locação"--}}
-{{--                                >--}}
-{{--                            </div>--}}
-{{--                            <div class="product-info-menu-locacao-desc">--}}
-{{--                                <p>A locação de impressoras é uma solução prática e econômica para empresas de todos os portes,--}}
-{{--                                    órgãos públicos e até mesmo para pessoas físicas. Com essa opção, é possível ter acesso--}}
-{{--                                    a equipamentos de qualidade, sem a necessidade de um grande investimento inicial.--}}
-{{--                                    Além disso, a locação geralmente inclui serviços de suporte técnico e manutenção, garantindo--}}
-{{--                                    o bom funcionamento dos equipamentos. Essa alternativa permite que as organizações foquem em--}}
-{{--                                    suas atividades principais, enquanto deixam a gestão de impressão nas mãos de especialistas,--}}
-{{--                                    otimizando recursos e aumentando a eficiência operacional.--}}
-{{--                                </p>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-
-{{--                        <div class="product-info-menu-locacao-group" id="div2">--}}
-{{--                            <div class="product-info-menu-locacao-2-line"></div>--}}
-{{--                            <div class="col text-center">--}}
-{{--                                <img--}}
-{{--                                    class="product-info-menu-locacao-img rounded mx-auto d-block"--}}
-{{--                                    src="/img/impressoras/img02.png"--}}
-{{--                                    width="280"--}}
-{{--                                    alt="Locação de Multifuncionais"--}}
-{{--                                >--}}
-{{--                            </div>--}}
-{{--                            <div class="product-info-menu-locacao-desc">--}}
-{{--                                <p>A locação de copiadoras oferece uma solução conveniente e econômica para empresas de todos os tamanhos,--}}
-{{--                                    órgãos governamentais e indivíduos. Com essa opção, é possível ter acesso a equipamentos de alta--}}
-{{--                                    qualidade sem um grande investimento inicial. Além disso, a locação geralmente inclui suporte técnico--}}
-{{--                                    e manutenção, permitindo que as organizações e indivíduos foquem em suas atividades principais,--}}
-{{--                                    enquanto deixam a gestão de cópias nas mãos de especialistas, aumentando a eficiência operacional.--}}
-{{--                                </p>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-
-{{--                        <div class="product-info-menu-locacao-group" id="div3">--}}
-{{--                            <div class="product-info-menu-locacao-3-line"></div>--}}
-{{--                            <img--}}
-{{--                                class="product-info-menu-locacao-img rounded mx-auto d-block"--}}
-{{--                                src="/img/impressoras/img03.jpg"--}}
-{{--                                width="220"--}}
-{{--                                alt="Locação de Copiadoras"--}}
-{{--                            >--}}
-{{--                            <div class="product-info-menu-locacao-desc">--}}
-{{--                                <p>A locação de multifuncionais é uma solução versátil e econômica para empresas de todos os portes,--}}
-{{--                                    órgãos governamentais e indivíduos. Com essa opção, é possível ter acesso a equipamentos multifuncionais--}}
-{{--                                    de alta qualidade sem um grande investimento inicial. Além disso, a locação geralmente inclui suporte--}}
-{{--                                    técnico e manutenção, permitindo que as organizações e indivíduos foquem em suas atividades principais,--}}
-{{--                                    enquanto deixam a gestão dos equipamentos nas mãos de especialistas, aumentando a eficiência operacional.--}}
-{{--                                </p>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--        </div>--}}
     </section>
 
 
+
+
+
+
     <section class="information">
-        <div class="container-fluid p-0">
-            <div class="parallax position-relative">
-                <div class="overlay"></div> <!-- Adiciona uma div para o fundo azul -->
-                <div class="container content text-white float-right">
-                    <div class="row">
-                        <h1>Contate Nossas Atendentes!</h1>
-                        <p>Descubra nossas soluções de locação de equipamentos! </p>
+        <div class="container">
+            <div class="row s-banner-section c-white">
+                <div class="col-md-6 information-banner-text">
+                    <h1>Contate Nossas Atendentes!</h1>
+                    <p class="mt-4">A nível organizacional, o consenso sobre a necessidade de qualificação
+                        assume uma posição crucial no estabelecimento do processo de comunicação como um todo.
+                    </p>
 
-                        <p class="custom-paragraph">A nível organizacional, o consenso sobre a necessidade de qualificação
-                            assume uma posição crucial no estabelecimento do processo de comunicação como um todo.
-                        </p>
+                    <p>Tel: (99) 99999-9999</p>
 
-                        <p>Tel: (99) 99999-9999</p>
-
-                    </div>
-                    <button class="btn btn-quote">Solicite Orçamento</button>
+                    <a href="/" class="btn information-banner-btn mb-3">Conversar Time Vendas</a>
+                </div>
+                <div class="col-md-6 information-banner-img">
+                    <img
+                        class="information-banner-contact-img"
+                        src="https://www.famsecurity.com.br/wp-content/uploads/pretty-smiling-woman-transperent-glasses-removebg-preview.png"
+                        alt="Contate nossas atendentes"
+                    >
                 </div>
             </div>
         </div>
     </section>
+
+
+
+
+{{--    <section class="information">--}}
+{{--        <div class="container-fluid p-0">--}}
+{{--            <div class="parallax position-relative">--}}
+{{--                <div class="overlay"></div> <!-- Adiciona uma div para o fundo azul -->--}}
+{{--                <div class="container content text-white float-right">--}}
+{{--                    <div class="row">--}}
+{{--                        <h1>Contate Nossas Atendentes!</h1>--}}
+{{--                        <p>Descubra nossas soluções de locação de equipamentos! </p>--}}
+
+{{--                        <p class="custom-paragraph">A nível organizacional, o consenso sobre a necessidade de qualificação--}}
+{{--                            assume uma posição crucial no estabelecimento do processo de comunicação como um todo.--}}
+{{--                        </p>--}}
+
+{{--                        <p>Tel: (99) 99999-9999</p>--}}
+
+{{--                    </div>--}}
+{{--                    <button class="btn btn-quote">Solicite Orçamento</button>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </section>--}}
 
 
 

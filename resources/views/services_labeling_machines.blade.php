@@ -28,7 +28,7 @@
 
                 <div class="labeling_machines-image col-xl-6 col-lg-12 text-center">
                     <div class="labeling_machines-container-image-1 rounded mx-auto d-block">
-                        <img src="https://pica.zhimg.com/v2-09a72ae9bd1a84652ae3a91001da0f8e_720w.jpg?source=172ae18b" class="img-fluid mb-3" alt="Imagem Impressora Etiquetadora">
+                        <img src="/img/impressoras/etiquetadora.png" class="img-fluid mb-3" alt="Imagem Impressora Etiquetadora">
                     </div>
                 </div>
             </div>
@@ -40,34 +40,34 @@
                         <ul>
                             <li>
                                 <img
-                                    src="https://static.vecteezy.com/system/resources/previews/008/134/818/original/check-mark-icon-checkmark-right-symbol-tick-sign-ok-button-correct-circle-icon-free-vector.jpg"
+                                    src="/img/icon-checkmark-right.jpg"
                                     alt="Imagem certo - Nosso serviço contem Configurações Personalizadas">
                                 <p><strong>Capacidade de Cortar Etiquetas em Tamanhos Personalizados:</strong> Atendemos às suas necessidades específicas com etiquetas sob medida.</p>
                             </li>
                             <li>
                                 <img
-                                    src="https://static.vecteezy.com/system/resources/previews/008/134/818/original/check-mark-icon-checkmark-right-symbol-tick-sign-ok-button-correct-circle-icon-free-vector.jpg"
+                                    src="/img/icon-checkmark-right.jpg"
                                     alt="Imagem certo - Atendimento Sob Demanda"
                                 >
                                 <p><strong>Etiquetas Personalizáveis:</strong> Dê um toque único ao seu produto com etiquetas feitas especialmente para você.</p>
                             </li>
                             <li>
                                 <img
-                                    src="https://static.vecteezy.com/system/resources/previews/008/134/818/original/check-mark-icon-checkmark-right-symbol-tick-sign-ok-button-correct-circle-icon-free-vector.jpg"
+                                    src="/img/icon-checkmark-right.jpg"
                                     alt="Imagem certo - Instalação Completa"
                                 >
                                 <p><strong>Fornecimento de Suprimentos:</strong> Garantimos que você nunca fique sem o que precisa para manter suas operações em pleno funcionamento.</p>
                             </li>
                             <li>
                                 <img
-                                    src="https://static.vecteezy.com/system/resources/previews/008/134/818/original/check-mark-icon-checkmark-right-symbol-tick-sign-ok-button-correct-circle-icon-free-vector.jpg"
+                                    src="/img/icon-checkmark-right.jpg"
                                     alt="Imagem certo - Equipamentos Atualizados"
                                 >
                                 <p><strong>Suporte Técnico Especializado:</strong> Conte com nossa equipe de especialistas sempre pronta para ajudar.</p>
                             </li>
                             <li>
                                 <img
-                                    src="https://static.vecteezy.com/system/resources/previews/008/134/818/original/check-mark-icon-checkmark-right-symbol-tick-sign-ok-button-correct-circle-icon-free-vector.jpg"
+                                    src="/img/icon-checkmark-right.jpg"
                                     alt="Imagem certo - Redução de Custo"
                                 >
                                 <p><strong>Treinamentos:</strong> Oferecemos treinamentos completos para que você e sua equipe aproveitem ao máximo nossas soluções.</p>
@@ -91,63 +91,63 @@
 {{--                                <h2>home</h2>--}}
 {{--                                <p>Lovely house</p>--}}
 {{--                            </div>--}}
-                            <img class="card-user avatar avatar-large" src="https://gainscha.mx/wp-content/uploads/2023/07/8.jpg">
+                            <img class="card-user avatar avatar-large" src="/img/impressoras/etiquetadora.png" alt="Imagem Etiquetadora">
                             <a class="card-link" href="#" ></a>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-4">
-                        <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://www.trendbarkod.com.tr/image/cache/catalog/2023/2-550x550w.png');">
+                        <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('/img/impressoras/etiquetadora_2.png');">
                             <div class="card-category">Etiqetadora</div>
 {{--                            <div class="card-description">--}}
 {{--                                <h2>home</h2>--}}
 {{--                                <p>Lovely house</p>--}}
 {{--                            </div>--}}
-                            <img class="card-user avatar avatar-large" src="https://www.trendbarkod.com.tr/image/cache/catalog/2023/2-550x550w.png">
+                            <img class="card-user avatar avatar-large" src="/img/impressoras/etiquetadora.png" alt="Imagem Etiquetadora">
                             <a class="card-link" href="#" ></a>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-4">
-                        <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://th.bing.com/th/id/OIP.H7LQTOxW0WUESPn3zT1ptgHaHa?rs=1&pid=ImgDetMain');">
+                        <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('/img/impressoras/etiquetadora-open.jfif');">
                             <div class="card-category">Etiqetadora</div>
 {{--                            <div class="card-description">--}}
 {{--                                <h2>Home</h2>--}}
 {{--                                <p>Lovely house</p>--}}
 {{--                            </div>--}}
-                            <img class="card-user avatar avatar-large" src="https://th.bing.com/th/id/OIP.H7LQTOxW0WUESPn3zT1ptgHaHa?rs=1&pid=ImgDetMain">
+                            <img class="card-user avatar avatar-large" src="/img/impressoras/etiquetadora-open.jfif" alt="Imagem Etiquetadora Aberta">
                             <a class="card-link" href="#" ></a>
                         </div>
                     </div>
 
                     <div class="col-xs-12 col-sm-4 gallery-image-none">
-                        <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://gainscha.mx/wp-content/uploads/2023/07/8.jpg');">
+                        <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('/img/impressoras/etiquetadora.png');">
                             <div class="card-category">Etiqetadora</div>
                             {{--                            <div class="card-description">--}}
                             {{--                                <h2>home</h2>--}}
                             {{--                                <p>Lovely house</p>--}}
                             {{--                            </div>--}}
-                            <img class="card-user avatar avatar-large" src="https://gainscha.mx/wp-content/uploads/2023/07/8.jpg">
+                            <img class="card-user avatar avatar-large" src="/img/impressoras/etiquetadora.png" alt="Imagem Etiquetadora">
                             <a class="card-link" href="#" ></a>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-4 gallery-image-none">
-                        <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://www.trendbarkod.com.tr/image/cache/catalog/2023/2-550x550w.png');">
+                        <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('/img/impressoras/etiquetadora_2.png');">
                             <div class="card-category">Etiqetadora</div>
                             {{--                            <div class="card-description">--}}
                             {{--                                <h2>home</h2>--}}
                             {{--                                <p>Lovely house</p>--}}
                             {{--                            </div>--}}
-                            <img class="card-user avatar avatar-large" src="https://www.trendbarkod.com.tr/image/cache/catalog/2023/2-550x550w.png">
+                            <img class="card-user avatar avatar-large" src="/img/impressoras/etiquetadora_2.png" alt="Imagem Etiquetadora">
                             <a class="card-link" href="#" ></a>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-4 gallery-image-none">
-                        <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://th.bing.com/th/id/OIP.H7LQTOxW0WUESPn3zT1ptgHaHa?rs=1&pid=ImgDetMain');">
+                        <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('/img/impressoras/etiquetadora-open.jfif');">
                             <div class="card-category">Etiqetadora</div>
                             {{--                            <div class="card-description">--}}
                             {{--                                <h2>Home</h2>--}}
                             {{--                                <p>Lovely house</p>--}}
                             {{--                            </div>--}}
-                            <img class="card-user avatar avatar-large" src="https://th.bing.com/th/id/OIP.H7LQTOxW0WUESPn3zT1ptgHaHa?rs=1&pid=ImgDetMain">
+                            <img class="card-user avatar avatar-large" src="/img/impressoras/etiquetadora-open.jfif" alt="Imagem Etiquetadora">
                             <a class="card-link" href="#" ></a>
                         </div>
                     </div>
@@ -195,7 +195,7 @@
 {{--                        class="bg-image hover-overlay ripple shadow-1-strong rounded mx-auto d-block"--}}
 {{--                        data-ripple-color="light"--}}
 {{--                    >--}}
-{{--                        <img src="https://www.trendbarkod.com.tr/image/cache/catalog/2023/2-550x550w.png" class="img-fluid" alt="Imagem 2">--}}
+{{--                        <img src="/img/impressoras/etiquetadora_2.png" class="img-fluid" alt="Imagem 2">--}}
 {{--                    </div>--}}
 {{--                </div>--}}
 {{--                <div class="gallery-box col-xs-12 col-sm-6 col-md-3 mb-4 text-center">--}}
@@ -211,7 +211,7 @@
 {{--                        class="bg-image hover-overlay ripple shadow-1-strong rounded mx-auto d-block"--}}
 {{--                        data-ripple-color="light"--}}
 {{--                    >--}}
-{{--                        <img src="https://th.bing.com/th/id/OIP.H7LQTOxW0WUESPn3zT1ptgHaHa?rs=1&pid=ImgDetMain" class="img-fluid" alt="Imagem 4">--}}
+{{--                        <img src="/img/impressoras/etiquetadora-open.jfif" class="img-fluid" alt="Imagem 4">--}}
 {{--                    </div>--}}
 {{--                </div>--}}
 {{--                <div class="gallery-box col-xs-12 col-sm-6 col-md-3 mb-4 text-center gallery-image-none">--}}
@@ -227,7 +227,7 @@
 {{--                        class="bg-image hover-overlay ripple shadow-1-strong rounded mx-auto d-block"--}}
 {{--                        data-ripple-color="light"--}}
 {{--                    >--}}
-{{--                        <img src="https://www.trendbarkod.com.tr/image/cache/catalog/2023/2-550x550w.png" class="img-fluid" alt="Imagem 2">--}}
+{{--                        <img src="/img/impressoras/etiquetadora_2.png" class="img-fluid" alt="Imagem 2">--}}
 {{--                    </div>--}}
 {{--                </div>--}}
 {{--                <div class="gallery-box col-xs-12 col-sm-6 col-md-3 mb-4 text-center gallery-image-none">--}}
@@ -243,7 +243,7 @@
 {{--                        class="bg-image hover-overlay ripple shadow-1-strong rounded mx-auto d-block"--}}
 {{--                        data-ripple-color="light"--}}
 {{--                    >--}}
-{{--                        <img src="https://th.bing.com/th/id/OIP.H7LQTOxW0WUESPn3zT1ptgHaHa?rs=1&pid=ImgDetMain" class="img-fluid" alt="Imagem 4">--}}
+{{--                        <img src="/img/impressoras/etiquetadora-open.jfif" class="img-fluid" alt="Imagem 4">--}}
 {{--                    </div>--}}
 {{--                </div>--}}
 {{--            </div>--}}

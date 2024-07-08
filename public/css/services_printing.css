@@ -1,5 +1,5 @@
 .banner-printing {
-    background-image: url('/storage/banners/outsourcing-de-impressoras.png');
+    background-image: url('/img/banners/outsourcing-de-impressoras.png');
     background-size: cover;
     background-position: center;
     color: white;
@@ -84,7 +84,7 @@ iframe {
     left: 0;
     width: 100%;
     height: 300px;
-    background-image: url('https://th.bing.com/th/id/R.183cc0df19e302beaf5fe1505d385201?rik=uNsl5ITCej2Flg&riu=http%3a%2f%2fwww.printservicecartuchos.com.br%2fwp-content%2fuploads%2f2019%2f07%2fempresas-outsourcing-de-impressao_10365_43586_1.jpg&ehk=YlOa2n1uir21cmOYOBq3jAHA9zlwH98T7lJjhiSeic0%3d&risl=&pid=ImgRaw&r=0');
+    background-image: url('/img/banners/banner_copiadoras.jpg');
     background-size: cover;
     background-position: center;
     opacity: 0.7;
@@ -130,7 +130,7 @@ button:hover {
     right: 20px;
     width: 200px;
     height: 200px;
-    background-image: url('https://a-static.mlcdn.com.br/1500x1500/impressora-multifuncional-hp-pagewide-pro-477dw-colorida-wireless-bivolt/mega-mamute/66165/c975bae4de52a3af960446473604bd69.jpg');
+    background-image: url('/img/impressoras/impressora-multifuncional-hp.webp');
     background-size: cover;
     background-position: center;
 }

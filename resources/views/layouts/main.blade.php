@@ -62,7 +62,7 @@
                                     <a class="dropdown-item" href="/locacao-impressoras-multifuncionais">Impressoras e Multifuncionais</a>
                                     <a class="dropdown-item" href="/locacao-notebooks-e-desktops">Locação de Notebooks e Desktops</a>
                                     <a class="dropdown-item" href="/locacao-etiquetadoras">Locação de Etiquetadoras</a>
-                                    <a class="dropdown-item" href="#">Gerenciamento Eletronico Documentos</a>
+                                    <a class="dropdown-item" href="/gestao-documental">Gerenciamento Eletronico Documentos</a>
                                 </div>
                             </li>
 
