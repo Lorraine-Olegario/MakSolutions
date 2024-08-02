@@ -1,0 +1,42 @@
+#btn-phone-header {
+    background: var(--cor-primaria);
+    color: #FFF;
+    margin-left: 30px;
+}
+
+#btn-phone-header i {
+    padding-right: 7px;
+    display: inline-block;
+    animation: balancar 1s infinite;
+}
+
+@keyframes balancar {
+    0% {
+        transform: rotate(0deg);
+    }
+    20% {
+        transform: rotate(-10deg);
+    }
+    40% {
+        transform: rotate(10deg);
+    }
+    60% {
+        transform: rotate(-10deg);
+    }
+    80% {
+        transform: rotate(10deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #btn-phone-header {
+        display: none;
+    }
+
+    .navbar {
+        padding: 5px 30px;
+    }
+}

@@ -1,5 +1,5 @@
 @extends('/layouts/main')
-@section('title', 'Mak Solutions - Outsourcing de Impressoras e Multifuncionais')
+@section('title', 'Mak Solutions - Outsourcing de Etiquetadoras')
 @section('css')
     <link rel="stylesheet" href="/css/services_labeling_machines.css">
 @stop

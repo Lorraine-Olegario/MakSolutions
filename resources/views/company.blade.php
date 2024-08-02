@@ -1,5 +1,5 @@
 @extends('/layouts/main')
-@section('title', 'Mak Solutions')
+@section('title', 'Mak Solutions - Quem Somos? | Nossa História')
 @section('css')
     <link rel="stylesheet" href="/css/company.css">
 @stop
@@ -12,14 +12,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12 mt-5">
-                    <div class="broken-name">
-                        <p>MAK</p>
-                        <p>SOLU - </p>
-                        <p>TIONS</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-6 col-md-12 mt-5">
+{{--                    <div class="broken-name">--}}
+{{--                        <p>MAK</p>--}}
+{{--                        <p>SOLU - </p>--}}
+{{--                        <p>TIONS</p>--}}
+{{--                    </div>--}}
                     <h3>NOSSA HISTÓRIA</h3>
                     <p class="mt-4">A Mak Solutions atua a mais de 20 anos em todo Brazil no segmento de
                         produção e gerenciamento de documentos, tendo como foco de negócio oferecer as mais
@@ -29,7 +26,9 @@
                         demonstrado flexibilidade nos processos para atendimento a uma demanda exclusiva,
                         sem prejuízo da qualidade nos serviços prestados.
                     </p>
+                </div>
 
+                <div class="col-lg-6 col-md-12 mt-5">
                     <h3>QUEM SOMOS</h3>
                     <p class="mt-4">A Mak Solutios possui uma grande estrutura voltada principalmente
                         para Outsourcing de impressão e comercialização de impressoras, copiadoras,

@@ -26,7 +26,7 @@
             <header>
                 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
                     <a class="navbar-brand ms-lg-5" href="/">
-                        <img src="/img/company/logo/88eab180abaaeee3869fdd6dc035baf7.png" width="130" height="60" alt="Logo Mak Solutions">
+                        <img src="/img/company/logo/logo.png" width="130" height="60" alt="Logo Mak Solutions">
                     </a>
 
                     <button
@@ -77,7 +77,7 @@
                             <li>
                                 <button type="button" class="btn" id="btn-phone-header">
                                     <i class="fa fa-phone" aria-hidden="true"></i>
-                                    (31) 99999-9999
+                                    (31) 3824-9060
                                 </button>
                             </li>
                         </ul>
@@ -89,7 +89,7 @@
                 @yield('content')
             </main>
 
-            <a href="https://api.whatsapp.com/send?phone=5531975945868&text"
+            <a href="https://api.whatsapp.com/send?phone=553138249060&text=Olá, preciso falar com o comercial"
                target="_blank"
                style="position:fixed;bottom:20px;right:30px;z-index:1;">
                 <svg enable-background="new 0 0 512 512" width="50" height="50" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
@@ -104,7 +104,7 @@
 
                         <div class="col-lg-4 col-md-12 mt-5">
                             <img
-                                src="/img/company/logo/88eab180abaaeee3869fdd6dc035baf7.png"
+                                src="/img/company/logo/logo.png"
                                 class="pt-3"
                                 width="280"
                                 height="140"
@@ -116,7 +116,7 @@
                             <h5>Entre em contato</h5>
                             <p class="text-justify">Av. José Júlio da Costa 2080 (Ideal)</br>Ipatinga, MG, 35160-294</p>
                             <p class="text-justify">(31) 3824-9060 | (31) 3824-9060</p>
-                            <p class="text-justify">maksolutions@maksolutions.com.br</p>
+                            <p class="text-justify">contato@maksolutions.com.br</p>
                         </div>
 
 
