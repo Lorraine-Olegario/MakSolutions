@@ -146,7 +146,6 @@
                                 </ul>
                             </div>
                         </div>
-
                     </div>
 
                     <p class="text-center text-light py-4 my-4 border-top">&copy; <?=date('Y')?> Copyright - Mak Solutions</p>

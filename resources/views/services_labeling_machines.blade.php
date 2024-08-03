@@ -6,11 +6,7 @@
 
 @section('content')
 
-    <div class="jumbotron jumbotron-fluid banner-labeling_machines">
-{{--        <div class="container p-5">--}}
-{{--            <h1 class="display-4">Locação de Etiquetadoras</h1>--}}
-{{--        </div>--}}
-    </div>
+    <div class="jumbotron jumbotron-fluid banner-labeling_machines"></div>
 
     <section class="labeling_machines">
         <div class="container mt-5">
@@ -87,10 +83,6 @@
                     <div class="col-xs-12 col-sm-4">
                         <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://gainscha.mx/wp-content/uploads/2023/07/8.jpg');">
                             <div class="card-category">Etiqetadora</div>
-{{--                            <div class="card-description">--}}
-{{--                                <h2>home</h2>--}}
-{{--                                <p>Lovely house</p>--}}
-{{--                            </div>--}}
                             <img class="card-user avatar avatar-large" src="/img/impressoras/etiquetadora.png" alt="Imagem Etiquetadora">
                             <a class="card-link" href="#" ></a>
                         </div>
@@ -98,10 +90,6 @@
                     <div class="col-xs-12 col-sm-4">
                         <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('/img/impressoras/etiquetadora_2.png');">
                             <div class="card-category">Etiqetadora</div>
-{{--                            <div class="card-description">--}}
-{{--                                <h2>home</h2>--}}
-{{--                                <p>Lovely house</p>--}}
-{{--                            </div>--}}
                             <img class="card-user avatar avatar-large" src="/img/impressoras/etiquetadora.png" alt="Imagem Etiquetadora">
                             <a class="card-link" href="#" ></a>
                         </div>
@@ -109,10 +97,6 @@
                     <div class="col-xs-12 col-sm-4">
                         <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('/img/impressoras/etiquetadora-open.jfif');">
                             <div class="card-category">Etiqetadora</div>
-{{--                            <div class="card-description">--}}
-{{--                                <h2>Home</h2>--}}
-{{--                                <p>Lovely house</p>--}}
-{{--                            </div>--}}
                             <img class="card-user avatar avatar-large" src="/img/impressoras/etiquetadora-open.jfif" alt="Imagem Etiquetadora Aberta">
                             <a class="card-link" href="#" ></a>
                         </div>
@@ -121,10 +105,6 @@
                     <div class="col-xs-12 col-sm-4 gallery-image-none">
                         <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('/img/impressoras/etiquetadora.png');">
                             <div class="card-category">Etiqetadora</div>
-                            {{--                            <div class="card-description">--}}
-                            {{--                                <h2>home</h2>--}}
-                            {{--                                <p>Lovely house</p>--}}
-                            {{--                            </div>--}}
                             <img class="card-user avatar avatar-large" src="/img/impressoras/etiquetadora.png" alt="Imagem Etiquetadora">
                             <a class="card-link" href="#" ></a>
                         </div>
@@ -132,10 +112,6 @@
                     <div class="col-xs-12 col-sm-4 gallery-image-none">
                         <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('/img/impressoras/etiquetadora_2.png');">
                             <div class="card-category">Etiqetadora</div>
-                            {{--                            <div class="card-description">--}}
-                            {{--                                <h2>home</h2>--}}
-                            {{--                                <p>Lovely house</p>--}}
-                            {{--                            </div>--}}
                             <img class="card-user avatar avatar-large" src="/img/impressoras/etiquetadora_2.png" alt="Imagem Etiquetadora">
                             <a class="card-link" href="#" ></a>
                         </div>
@@ -143,10 +119,6 @@
                     <div class="col-xs-12 col-sm-4 gallery-image-none">
                         <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('/img/impressoras/etiquetadora-open.jfif');">
                             <div class="card-category">Etiqetadora</div>
-                            {{--                            <div class="card-description">--}}
-                            {{--                                <h2>Home</h2>--}}
-                            {{--                                <p>Lovely house</p>--}}
-                            {{--                            </div>--}}
                             <img class="card-user avatar avatar-large" src="/img/impressoras/etiquetadora-open.jfif" alt="Imagem Etiquetadora">
                             <a class="card-link" href="#" ></a>
                         </div>
@@ -161,99 +133,6 @@
                 </div>
             </div>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{{--        <div class="container mt-4">--}}
-{{--            <h4 class="mt-5 mb-4 text-center">GALERIA</h4>--}}
-{{--            <div class="row gallery-image">--}}
-{{--                <div class="gallery-box col-xs-12 col-sm-6 col-md-3 mb-4 text-center">--}}
-{{--                    <div--}}
-{{--                        class="bg-image hover-overlay ripple shadow-1-strong rounded mx-auto d-block"--}}
-{{--                        data-ripple-color="light"--}}
-{{--                    >--}}
-{{--                        <img src="https://gainscha.mx/wp-content/uploads/2023/07/8.jpg" class="img-fluid" alt="Imagem 1">--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--                <div class="gallery-box col-xs-12 col-sm-6 col-md-3 mb-4 text-center">--}}
-{{--                    <div--}}
-{{--                        class="bg-image hover-overlay ripple shadow-1-strong rounded mx-auto d-block"--}}
-{{--                        data-ripple-color="light"--}}
-{{--                    >--}}
-{{--                        <img src="/img/impressoras/etiquetadora_2.png" class="img-fluid" alt="Imagem 2">--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--                <div class="gallery-box col-xs-12 col-sm-6 col-md-3 mb-4 text-center">--}}
-{{--                    <div--}}
-{{--                        class="bg-image hover-overlay ripple shadow-1-strong rounded mx-auto d-block"--}}
-{{--                        data-ripple-color="light"--}}
-{{--                    >--}}
-{{--                        <img src="https://www.etiquetasbrasil.com.br/fotos/133/g_etiquetas-de-ribbon.jpg" class="img-fluid" alt="Imagem 3">--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--                <div class="gallery-box col-xs-12 col-sm-6 col-md-3 mb-4 text-center">--}}
-{{--                    <div--}}
-{{--                        class="bg-image hover-overlay ripple shadow-1-strong rounded mx-auto d-block"--}}
-{{--                        data-ripple-color="light"--}}
-{{--                    >--}}
-{{--                        <img src="/img/impressoras/etiquetadora-open.jfif" class="img-fluid" alt="Imagem 4">--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--                <div class="gallery-box col-xs-12 col-sm-6 col-md-3 mb-4 text-center gallery-image-none">--}}
-{{--                    <div--}}
-{{--                        class="bg-image hover-overlay ripple shadow-1-strong rounded mx-auto d-block"--}}
-{{--                        data-ripple-color="light"--}}
-{{--                    >--}}
-{{--                        <img src="https://gainscha.mx/wp-content/uploads/2023/07/8.jpg" class="img-fluid" alt="Imagem 1">--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--                <div class="gallery-box col-xs-12 col-sm-6 col-md-3 mb-4 text-center gallery-image-none">--}}
-{{--                    <div--}}
-{{--                        class="bg-image hover-overlay ripple shadow-1-strong rounded mx-auto d-block"--}}
-{{--                        data-ripple-color="light"--}}
-{{--                    >--}}
-{{--                        <img src="/img/impressoras/etiquetadora_2.png" class="img-fluid" alt="Imagem 2">--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--                <div class="gallery-box col-xs-12 col-sm-6 col-md-3 mb-4 text-center gallery-image-none">--}}
-{{--                    <div--}}
-{{--                        class="bg-image hover-overlay ripple shadow-1-strong rounded mx-auto d-block"--}}
-{{--                        data-ripple-color="light"--}}
-{{--                    >--}}
-{{--                        <img src="https://www.etiquetasbrasil.com.br/fotos/133/g_etiquetas-de-ribbon.jpg" class="img-fluid" alt="Imagem 3">--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--                <div class="gallery-box col-xs-12 col-sm-6 col-md-3 mb-4 text-center gallery-image-none">--}}
-{{--                    <div--}}
-{{--                        class="bg-image hover-overlay ripple shadow-1-strong rounded mx-auto d-block"--}}
-{{--                        data-ripple-color="light"--}}
-{{--                    >--}}
-{{--                        <img src="/img/impressoras/etiquetadora-open.jfif" class="img-fluid" alt="Imagem 4">--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--            <div class="row">--}}
-{{--                <div class="col-12 text-center">--}}
-{{--                    <button id="show-more" class="btn btn-primary">Exibir Mais</button>--}}
-{{--                    <button id="show-less" class="btn btn-secondary d-none">Exibir Menos</button>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--        </div>--}}
     </section>
 
 

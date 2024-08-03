@@ -396,11 +396,8 @@
 @endsection
 
 @section('js')
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
     <script>
+        //seção de equipamentos para locação
         $(document).ready(function () {
             $('.show').each(function () {
                 let targetId = $(this).attr('id'); // Obtém o ID da seção expandida
@@ -415,6 +412,4 @@
             $('#indicator' + targetId.substr(3)).show(); // Mostra o indicador correspondente ao elemento expandido
         });
     </script>
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
 @stop
