@@ -1,0 +1,90 @@
+.text-highlight {
+    color: var(--cor-primaria);
+}
+
+
+
+/* Truncar títulos longos */
+.truncate {
+    display: block;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: color 0.3s;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Hover para títulos */
+.truncate:hover {
+    color: #007bff; /* Cor de hover, ajuste conforme necessário */
+    text-decoration: underline;
+}
+
+/* Título e data de publicação */
+.title-date {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem; /* Espaço entre o título e a data */
+    margin-bottom: 2rem;
+}
+
+.title-date .publication-date {
+    font-size: 1rem;
+    color: #6c757d; /* Ajuste a cor conforme necessário */
+}
+
+
+
+
+/* Estilização para a seção "Mais Notícias" */
+.more-news {
+    margin-top: 2rem;
+}
+
+.more-news h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.more-news .list-group {
+    list-style: none;
+    padding-left: 0;
+}
+
+.more-news .list-group-item {
+    line-height: 15px;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+    transition: background-color 0.3s;
+}
+
+.more-news .list-group-item:hover {
+    background-color: #f8f9fa;
+}
+
+.more-news .list-group-item a {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #333333;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.more-news .list-group-item a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.more-news .list-group-item .text-muted {
+    font-size: 0.875rem;
+    color: #6c757d;
+}
