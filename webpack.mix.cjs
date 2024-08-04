@@ -1,4 +1,6 @@
 const mix = require('laravel-mix');
+const WebpackObfuscator = require('webpack-obfuscator');
+const TerserPlugin = require('terser-webpack-plugin');
 
 mix
     .styles(['resources/css/style.css'], 'public/css/style.css')
@@ -10,15 +12,33 @@ mix
     .styles(['resources/css/services_document_management.css'], 'public/css/services_document_management.css')
     .styles(['resources/css/services_labeling_machines.css'], 'public/css/services_labeling_machines.css')
     .styles(['resources/css/services_printing.css'], 'public/css/services_printing.css')
+    .styles(['resources/css/news.css'], 'public/css/news.css')
     .options({
         processCssUrls: false,
-        terser: {
-            extractComments: false,
-        },
         postCss: [
             require('cssnano')({
                 preset: 'default',
             }),
         ],
     })
-    .version();
+    .version()
+    .webpackConfig({
+        optimization: {
+            minimize: true,
+            minimizer: [
+                new TerserPlugin({
+                    terserOptions: {
+                        compress: {
+                            drop_console: true,
+                        },
+                    },
+                }),
+            ],
+        },
+        plugins: [
+            new WebpackObfuscator({
+                rotateStringArray: true,
+                // Outras opções podem ser configuradas aqui
+            }, []),
+        ],
+    });
