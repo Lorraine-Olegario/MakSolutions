@@ -349,7 +349,7 @@
                                     <p class="card-text"><small class="text-muted">Posted on July 30, 2024</small></p>
                                     <p class="card-text">This is a short description of the news article. It provides a
                                         brief overview of the content.</p>
-                                    <a href="#" class="btn btn-primary">Saiba mais</a>
+                                    <a href="/noticias/1" class="btn btn-primary">Saiba mais</a>
                                 </div>
                             </div>
                         </div>
@@ -361,7 +361,7 @@
                                     <p class="card-text"><small class="text-muted">Posted on July 29, 2024</small></p>
                                     <p class="card-text">This is a short description of the news article. It provides a
                                         brief overview of the content.</p>
-                                    <a href="#" class="btn btn-primary">Saiba mais</a>
+                                    <a href="/noticias" class="btn btn-primary">Saiba mais</a>
                                 </div>
                             </div>
                         </div>

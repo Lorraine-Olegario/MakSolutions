@@ -13,9 +13,9 @@
         <!-- Bootstrap Icons -->
         <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 
-        <link rel="stylesheet" href="{{ asset('/css/style.css') }}">
-        <link rel="stylesheet" href="{{ asset('/css/menu.css') }}">
-        <link rel="stylesheet" href="{{ asset('/css/footer.css') }}">
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/menu.css">
+        <link rel="stylesheet" href="/css/footer.css">
         @yield('css')
 
         <title>@yield('title')</title>

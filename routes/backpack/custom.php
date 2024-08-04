@@ -20,4 +20,5 @@ Route::group([
     Route::crud('user', 'UserCrudController');
     Route::crud('banner', 'BannerCrudController');
     Route::crud('company', 'CompanyCrudController');
+    Route::crud('news', 'NewsCrudController');
 });

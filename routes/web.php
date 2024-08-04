@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Admin\NewsCrudController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -36,4 +38,6 @@ Route::get('/locacao-etiquetadoras', function () {
 Route::get('/gestao-documental', function () {
     return view('services_document_management');
 });
+
+Route::get('/noticias/{id}', [NewsCrudController::class, 'show']);
 
