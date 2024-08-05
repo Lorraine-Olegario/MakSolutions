@@ -13,6 +13,8 @@ mix
     .styles(['resources/css/services_labeling_machines.css'], 'public/css/services_labeling_machines.css')
     .styles(['resources/css/services_printing.css'], 'public/css/services_printing.css')
     .styles(['resources/css/news.css'], 'public/css/news.css')
+    .styles(['resources/css/news.css'], 'public/css/news.css')
+    .styles(['resources/css/errors/404.css'], 'public/css/errors/404.css')
     .options({
         processCssUrls: false,
         postCss: [
