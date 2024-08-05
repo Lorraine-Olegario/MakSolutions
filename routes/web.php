@@ -41,5 +41,6 @@ Route::get('/gestao-documental', function () {
     return view('services_document_management');
 });
 
-Route::get('/noticias/{id}', [NewsCrudController::class, 'show']);
+// Route::get('/noticias/{id}', [NewsCrudController::class, 'show']);
+Route::get('noticias/{slug}', [NewsController::class, 'show']);
 

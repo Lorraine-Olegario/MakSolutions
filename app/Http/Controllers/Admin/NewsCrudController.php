@@ -76,9 +76,11 @@ class NewsCrudController extends CrudController
         $this->setupCreateOperation();
     }
 
-    public function show(int $id)
+    public function show($slug)
+    // public function show(int $id)
     {
-        $news = News::find($id);
+        // $news = News::find($id);
+        $news = News::where('slug', $slug)->firstOrFail();
         $otherNews = News::get()->sortByDesc('created_at')->skip(0)->take(3);
 
         return view('/news', [

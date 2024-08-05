@@ -360,7 +360,7 @@
                                         <h5 class="card-title">{{ $displayNews->title }}</h5>
                                         <p class="card-text"><small class="text-muted">Publicação: {{ Carbon::parse($displayNews->publication_data)->translatedFormat('d F Y') }}</small></p>
                                         {{-- <p class="card-text">{{ $displayNews->sub_title }}</p> --}}
-                                        <a href="/noticias/{{ $displayNews->id }}" class="btn btn-primary">Continuar Lendo ...</a>
+                                        <a href="{{ url('noticias/' . $displayNews->slug) }}" class="btn btn-primary">Continuar Lendo ...</a>
                                     </div>
                                 </div>
                             </div>
@@ -372,7 +372,7 @@
                     <ul class="list-group">
                         @foreach($otherNews as $_news)
                             <li class="list-group-item">
-                                <a href="/noticias/{{ $displayNews->id }}">{{ $_news->title }}</a>
+                                <a href="{{ url('noticias/' . $_news->slug) }}">{{ $_news->title }}</a>
                                 <br>
                                 <span class="text-muted"> Data Publicação: {{ Carbon::parse($_news->publication_data)->translatedFormat('d F Y') }}</span>
                             </li>

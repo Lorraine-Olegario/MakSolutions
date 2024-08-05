@@ -2,9 +2,10 @@
 
 namespace App\Models;
 
+use Illuminate\Support\Str;
+use Illuminate\Database\Eloquent\Model;
 use Backpack\CRUD\app\Models\Traits\CrudTrait;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
 
 class News extends Model
 {
@@ -42,6 +43,13 @@ class News extends Model
         parent::boot();
         static::deleting(function($obj) {
             Storage::disk('delete')->delete($obj->cover_image);
+        });
+
+
+        static::saving(function ($news) {
+            if (!$news->slug) { // Verifica se o slug já está definido
+                $news->slug = Str::slug($news->title);
+            }
         });
     }
     /*

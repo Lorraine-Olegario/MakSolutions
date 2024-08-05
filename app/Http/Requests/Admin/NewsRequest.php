@@ -25,7 +25,7 @@ class NewsRequest extends FormRequest
             'title'          => 'required',
             'publication_data' => 'required|min:10|max:10',
             'description'       => 'required|min:50',
-            'cover_image'     => 'required|dimensions:width=1200,height=800',
+            'cover_image'     => 'dimensions:width=1200,height=800',
         ];
     }
 

@@ -28,7 +28,7 @@
                     <ul class="list-group">
                         @foreach($otherNews as $_news)
                             <li class="list-group-item">
-                                <a href="/noticias/{{ $_news->id }}" class="truncate" title="{{ $_news->title }}">{{ $_news->title }}</a>
+                                <a href="{{ url('noticias/' . $_news->slug) }}" class="truncate" title="{{ $_news->title }}">{{ $_news->title }}</a>
                                 <br>
                                 <span class="text-muted">Data Publicação: {{ Carbon::parse($_news->publication_data)->translatedFormat('d F Y') }}</span>
                             </li>
