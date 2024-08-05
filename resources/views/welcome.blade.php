@@ -15,26 +15,32 @@
     <div class="flex-fill">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <div class="carousel-indicators">
-                <button type="button" data-target="#carouselExampleIndicators" data-slide-to="0" class="active"
-                        aria-current="Slide 0"></button>
-                <button type="button" data-target="#carouselExampleIndicators" data-slide-to="1"
-                        aria-label="Slide 1"></button>
-                <button type="button" data-target="#carouselExampleIndicators" data-slide-to="2"
-                        aria-label="Slide 2"></button>
-                <button type="button" data-target="#carouselExampleIndicators" data-slide-to="3"
-                        aria-label="Slide 3"></button>
-                <button type="button" data-target="#carouselExampleIndicators" data-slide-to="4"
-                        aria-label="Slide 4"></button>
+                @php
+                    $item = 0;
+                @endphp
+                @foreach ($banners as $banner)
+                    <button type="button" data-target="#carouselExampleIndicators" data-slide-to="{{ $item }}" class="active" aria-current="Slide {{ $item }}"></button>
+                    @php $item++; @endphp
+                @endforeach
             </div>
 
             <div class="carousel-inner">
-                <div class="carousel-item active"><img src="/img/banners/banner_01.jpeg" class="d-block w-100"
-                                                       alt="..."></div>
-                <div class="carousel-item"><img src="/img/banners/etiquetadoras.png" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item"><img src="/img/banners/banner_04.png" class="d-block w-100" alt="..."></div>
-                <div class="carousel-item"><img src="/img/banners/banner_01.jpeg" class="d-block w-100" alt="..."></div>
-                <div class="carousel-item"><img src="/img/banners/banner_01.jpeg" class="d-block w-100" alt="..."></div>
+                @php
+                    $first = true;
+                @endphp
+
+                @foreach ($banners as $banner)
+                    @php
+                        $imagePath = public_path('/storage/' . $banner->image); // Ajuste o caminho conforme a localização das imagens
+                    @endphp
+                    @if (file_exists($imagePath))
+                        <div class="carousel-item {{ $first ? 'active' : '' }}">>
+                            <img src="/storage/{{ $banner->image }}" class="d-block w-100" alt="{{ $banner->description }}">
+                        </div>
+
+                        @php $first = false; @endphp
+                    @endif
+                @endforeach
             </div>
 
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
