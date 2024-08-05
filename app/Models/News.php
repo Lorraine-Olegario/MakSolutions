@@ -33,7 +33,7 @@ class News extends Model
     {
         $attribute_name = "cover_image";
         $disk = "public";
-        $destination_path = "news";
+        $destination_path = $this->exists ? "news/{$this->id}/" : "news/";
         $this->uploadFileToDisk($value, $attribute_name, $disk, $destination_path);
     }
 

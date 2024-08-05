@@ -25,7 +25,19 @@ class NewsRequest extends FormRequest
             'title'          => 'required',
             'publication_data' => 'required|min:10|max:10',
             'description'       => 'required|min:50',
-            'cover_image'     => 'required',
+            'cover_image'     => 'required|dimensions:width=1200,height=800',
+        ];
+    }
+
+    /**
+     * Get the validation messages that apply to the request.
+     *
+     * @return array
+     */
+    public function messages()
+    {
+        return [
+            //
         ];
     }
 }

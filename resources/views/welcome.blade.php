@@ -1,3 +1,8 @@
+@php
+    use Carbon\Carbon;
+    Carbon::setLocale('pt_BR');
+@endphp
+
 @extends('/layouts/main')
 @section('title', 'Mak Solutions - Outsourcing de impressão, locação de impressoras| Outsourcing de notebooks e desktops | BPO, ECM, MPS')
 @section('css')
@@ -341,52 +346,31 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="row">
-                        <div class="col-md-6">
-                            <div class="card mb-4 custom-card">
-                                <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="News Image">
-                                <div class="card-body">
-                                    <h5 class="card-title">News Title 1</h5>
-                                    <p class="card-text"><small class="text-muted">Posted on July 30, 2024</small></p>
-                                    <p class="card-text">This is a short description of the news article. It provides a
-                                        brief overview of the content.</p>
-                                    <a href="/noticias/1" class="btn btn-primary">Saiba mais</a>
+                        @foreach($news as $displayNews)
+                            <div class="col-md-6">
+                                <div class="card mb-4 custom-card">
+                                    <img src="/storage/{{ $displayNews->cover_image }}" class="card-img-top" alt="News Image">
+                                    <div class="card-body">
+                                        <h5 class="card-title">{{ $displayNews->title }}</h5>
+                                        <p class="card-text"><small class="text-muted">Publicação: {{ Carbon::parse($displayNews->publication_data)->translatedFormat('d F Y') }}</small></p>
+                                        {{-- <p class="card-text">{{ $displayNews->sub_title }}</p> --}}
+                                        <a href="/noticias/{{ $displayNews->id }}" class="btn btn-primary">Continuar Lendo ...</a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="card mb-4 custom-card">
-                                <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="News Image">
-                                <div class="card-body">
-                                    <h5 class="card-title">News Title 2</h5>
-                                    <p class="card-text"><small class="text-muted">Posted on July 29, 2024</small></p>
-                                    <p class="card-text">This is a short description of the news article. It provides a
-                                        brief overview of the content.</p>
-                                    <a href="/noticias" class="btn btn-primary">Saiba mais</a>
-                                </div>
-                            </div>
-                        </div>
+                        @endforeach
                     </div>
                 </div>
                 <div class="col-lg-4 more-news">
                     <h3>Todas Notícias</h3>
                     <ul class="list-group">
-                        <li class="list-group-item">
-                            <a href="#">News Title 1</a>
-                            <span class="text-muted"> - Posted on July 30, 2024</span>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="#">News Title 2</a>
-                            <span class="text-muted"> - Posted on July 29, 2024</span>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="#">News Title 3</a>
-                            <span class="text-muted"> - Posted on July 28, 2024</span>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="#">News Title 4</a>
-                            <span class="text-muted"> - Posted on July 27, 2024</span>
-                        </li>
-                        <!-- Add more news items as needed -->
+                        @foreach($otherNews as $_news)
+                            <li class="list-group-item">
+                                <a href="/noticias/{{ $displayNews->id }}">{{ $_news->title }}</a>
+                                <br>
+                                <span class="text-muted"> Data Publicação: {{ Carbon::parse($_news->publication_data)->translatedFormat('d F Y') }}</span>
+                            </li>
+                        @endforeach
                     </ul>
                 </div>
             </div>

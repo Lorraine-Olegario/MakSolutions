@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\NewsCrudController;
+use App\Http\Controllers\HomeController;
 
 
 /*
@@ -15,9 +16,10 @@ use App\Http\Controllers\Admin\NewsCrudController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [HomeController::class, 'show']);
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 Route::get('/empresa', function () {
     return view('company');

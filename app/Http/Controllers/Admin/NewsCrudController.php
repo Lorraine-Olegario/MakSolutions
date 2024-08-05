@@ -65,7 +65,7 @@ class NewsCrudController extends CrudController
 
         $this->crud->addField([
             'name'   => 'cover_image',
-            'label'  => 'Imagem Capa',
+            'label'  => 'Imagem Capa [ 1200 x 800 ]',
             'type'   => 'upload',
             'upload' => true
         ]);
