@@ -112,8 +112,6 @@ a {
 /*##########*/
 /*NEWS*/
 /*##########*/
-
-
 .title-blog {
     color: var(--cor-primaria);
 }
@@ -124,56 +122,8 @@ a {
     color: #333;
     font-size: 36px;
 }
-.card-content p {
-    padding: 0 20px;
-}
-.card {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 30px;
-    overflow: hidden;
-    transition: transform 0.3s ease;
-}
-.card:hover {
-    transform: translateY(-5px);
-}
-.img-card img {
-    width: 100%;
-    height: 170px;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-}
-.card-news-title {
-    padding: 20px;
-    color: #5c6873;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 3;
-    max-height: 4.5em; /* Defina a altura máxima em em ou px */
-    overflow: hidden;
-}
-.card-news-text {
-    color: #777;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 3;
-    overflow: hidden;
-}
-.card-link-news {
-    padding: 20px;
-    text-decoration: none;
-}
-.card-link-news a {
-    color: var(--cor-primaria);
-}
-
-.card-link-news a:hover {
+.list-group-item a {
     text-decoration: underline;
-}
-.custom-card {
-    max-width: 400px; /* Define a largura máxima das cartas */
-    margin: auto;     /* Centraliza as cartas quando estão em uma linha de tamanho menor */
 }
 
 
