@@ -367,18 +367,20 @@
                         @endforeach
                     </div>
                 </div>
-                <div class="col-lg-4 more-news">
-                    <h3>Todas Notícias</h3>
-                    <ul class="list-group">
-                        @foreach($otherNews as $_news)
-                            <li class="list-group-item">
-                                <a href="{{ url('noticias/' . $_news->slug) }}">{{ $_news->title }}</a>
-                                <br>
-                                <span class="text-muted"> Data Publicação: {{ Carbon::parse($_news->publication_data)->translatedFormat('d F Y') }}</span>
-                            </li>
-                        @endforeach
-                    </ul>
-                </div>
+                @if($otherNews->isNotEmpty())
+                    <div class="col-lg-4 more-news">
+                        <h3>Todas Notícias</h3>
+                        <ul class="list-group">
+                            @foreach($otherNews as $_news)
+                                <li class="list-group-item">
+                                    <a href="{{ url('noticias/' . $_news->slug) }}">{{ $_news->title }}</a>
+                                    <br>
+                                    <span class="text-muted"> Data Publicação: {{ Carbon::parse($_news->publication_data)->translatedFormat('d F Y') }}</span>
+                                </li>
+                            @endforeach
+                        </ul>
+                    </div>
+                @endif
             </div>
         </div>
     </section>
