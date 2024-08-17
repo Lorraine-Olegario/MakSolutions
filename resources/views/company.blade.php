@@ -1,13 +1,12 @@
 @extends('/layouts/main')
 @section('title', 'Mak Solutions - Quem Somos? | Nossa História')
 @section('css')
-    <link rel="stylesheet" href="/css/company.css">
+    <link rel="stylesheet" href="<?=env('APP_URL')?>/css/company.css">
 @stop
 
 @section('content')
 
     <div class="jumbotron jumbotron-fluid banner-company"></div>
-
     <section class="about">
         <div class="container">
             <div class="row">
@@ -18,7 +17,7 @@
 {{--                        <p>TIONS</p>--}}
 {{--                    </div>--}}
                     <h3>NOSSA HISTÓRIA</h3>
-                    <p class="mt-4">A Mak Solutions atua a mais de 20 anos em todo Brazil no segmento de
+                    <p class="mt-4">A Mak Solutions atua a mais de 30 anos em todo Brazil no segmento de
                         produção e gerenciamento de documentos, tendo como foco de negócio oferecer as mais
                         modernas soluções em impressão e gestão de documentos para empresas, governos e
                         instituições de ensino.
@@ -31,9 +30,8 @@
                 <div class="col-lg-6 col-md-12 mt-5">
                     <h3>QUEM SOMOS</h3>
                     <p class="mt-4">A Mak Solutios possui uma grande estrutura voltada principalmente
-                        para Outsourcing de impressão e comercialização de impressoras, copiadoras,
-                        multifuncionais, suprimentos e peças. A empresa conta com uma equipe de
-                        profissionais devidamente treinados para oferecer agilidade e qualidade
+                        para Outsourcing de impressão, ativos de TI e equipamentos de atomação. A empresa conta
+                        com uma equipe de profissionais devidamente treinados para oferecer agilidade e qualidade
                         a clientes, dando todo o suporte técnico necessário ao pós venda e aos clientes
                         que contratam nossos serviços. A empresa atua em todo Brazil, tendo como principal
                         objetivo o respeito ao cliente e a busca de melhorias constantes visando sempre a
@@ -51,10 +49,10 @@
                     <div class="vc_column-inner ">
                         <div class="wpb_wrapper text-center">
                             <article class="icon-box2">
-                                <img src="/img/company/missao.png" width="80">
+                                <img src="<?=env('APP_URL')?>/img/company/missao.png" width="80" title="Missão" alt="Missão">
                                 <h4 class="mt-4 mb-3">Missão</h4>
-                                <p>Oferecer soluções tecnológicas em produção e gerenciamento de documentos
-                                    que atendam as mais diversas necessidades de nossos clientes.</p>
+                                <p>Oferecer soluções tecnológicas em produção e gerenciamento de documentos, ativos em TI e equipamentos
+                                     de automação, dando suporte ao cliente auxiliando seus processos de produção e serviços.</p>
                             </article>
                         </div>
                     </div>
@@ -63,11 +61,10 @@
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <div class="wpb_wrapper text-center">
                         <article class="icon-box2">
-                            <img src="/img/company/visao.png" width="120">
+                            <img src="<?=env('APP_URL')?>/img/company/visao.png" width="120" title="Visão" alt="Visão">
                             <h4 class="mt-4 mb-3">Visão</h4>
-                            <p>Ser líder, em todo estado de Minas Gerais, em comercialização de equipamentos
-                                e suprimentos e softwares no segmento de impressão e gestão de documentos,
-                                com excelência na prestação de serviços.</p>
+                            <p>Ser líder, em todo estado de Minas Gerais, em outsourcing de impressão, ativos de TI e equipamentos de
+                                automação, com excelência na prestação de serviços.</p>
                         </article>
                     </div>
                 </div>
@@ -75,7 +72,7 @@
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <div class="wpb_wrapper text-center">
                         <article class="icon-box2">
-                            <img src="/img/company/valores.png" width="150">
+                            <img src="<?=env('APP_URL')?>/img/company/valores.png" width="150" title="Valores" alt="Valores">
                             <h4 class="mt-4 mb-3">Valores</h4>
                             <p>Integridade, Comprometimento, Valorização humana, Superação dos resultados,
                                 Melhoria contínua, Inovação e Sustentabilidade.</p>
@@ -122,8 +119,4 @@
             </iframe>
         </div>
     </section>
-
 @endsection
-
-@section('js')
-@stop

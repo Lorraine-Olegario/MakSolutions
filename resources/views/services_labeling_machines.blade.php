@@ -1,7 +1,7 @@
 @extends('/layouts/main')
 @section('title', 'Mak Solutions - Outsourcing de Etiquetadoras')
 @section('css')
-    <link rel="stylesheet" href="/css/services_labeling_machines.css">
+    <link rel="stylesheet" href="<?=env('APP_URL')?>/css/services_labeling_machines.css">
 @stop
 
 @section('content')
@@ -24,7 +24,7 @@
 
                 <div class="labeling_machines-image col-xl-6 col-lg-12 text-center">
                     <div class="labeling_machines-container-image-1 rounded mx-auto d-block">
-                        <img src="/img/impressoras/etiquetadora.png" class="img-fluid mb-3" alt="Imagem Impressora Etiquetadora">
+                        <img src="<?=env('APP_URL')?>/img/impressoras/etiquetadora.png" class="img-fluid mb-3" alt="Imagem Impressora Etiquetadora">
                     </div>
                 </div>
             </div>
@@ -36,34 +36,34 @@
                         <ul>
                             <li>
                                 <img
-                                    src="/img/icon-checkmark-right.jpg"
+                                    src="<?=env('APP_URL')?>/img/icon-checkmark-right.jpg"
                                     alt="Imagem certo - Nosso serviço contem Configurações Personalizadas">
                                 <p><strong>Capacidade de Cortar Etiquetas em Tamanhos Personalizados:</strong> Atendemos às suas necessidades específicas com etiquetas sob medida.</p>
                             </li>
                             <li>
                                 <img
-                                    src="/img/icon-checkmark-right.jpg"
+                                    src="<?=env('APP_URL')?>/img/icon-checkmark-right.jpg"
                                     alt="Imagem certo - Atendimento Sob Demanda"
                                 >
                                 <p><strong>Etiquetas Personalizáveis:</strong> Dê um toque único ao seu produto com etiquetas feitas especialmente para você.</p>
                             </li>
                             <li>
                                 <img
-                                    src="/img/icon-checkmark-right.jpg"
+                                    src="<?=env('APP_URL')?>/img/icon-checkmark-right.jpg"
                                     alt="Imagem certo - Instalação Completa"
                                 >
                                 <p><strong>Fornecimento de Suprimentos:</strong> Garantimos que você nunca fique sem o que precisa para manter suas operações em pleno funcionamento.</p>
                             </li>
                             <li>
                                 <img
-                                    src="/img/icon-checkmark-right.jpg"
+                                    src="<?=env('APP_URL')?>/img/icon-checkmark-right.jpg"
                                     alt="Imagem certo - Equipamentos Atualizados"
                                 >
                                 <p><strong>Suporte Técnico Especializado:</strong> Conte com nossa equipe de especialistas sempre pronta para ajudar.</p>
                             </li>
                             <li>
                                 <img
-                                    src="/img/icon-checkmark-right.jpg"
+                                    src="<?=env('APP_URL')?>/img/icon-checkmark-right.jpg"
                                     alt="Imagem certo - Redução de Custo"
                                 >
                                 <p><strong>Treinamentos:</strong> Oferecemos treinamentos completos para que você e sua equipe aproveitem ao máximo nossas soluções.</p>
@@ -81,45 +81,45 @@
                 <h4 class="mt-5 mb-4 text-center">GALERIA</h4>
                 <div class="row">
                     <div class="col-xs-12 col-sm-4">
-                        <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://gainscha.mx/wp-content/uploads/2023/07/8.jpg');">
+                        <div class="card">
                             <div class="card-category">Etiqetadora</div>
-                            <img class="card-user avatar avatar-large" src="/img/impressoras/etiquetadora.png" alt="Imagem Etiquetadora">
+                            <img class="card-user avatar avatar-large" src="<?=env('APP_URL')?>/img/impressoras/etiquetadora.png" alt="Imagem Etiquetadora">
                             <a class="card-link" href="#" ></a>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-4">
-                        <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('/img/impressoras/etiquetadora_2.png');">
+                        <div class="card">
                             <div class="card-category">Etiqetadora</div>
-                            <img class="card-user avatar avatar-large" src="/img/impressoras/etiquetadora.png" alt="Imagem Etiquetadora">
+                            <img class="card-user avatar avatar-large" src="<?=env('APP_URL')?>/img/impressoras/etiquetadora.png" alt="Imagem Etiquetadora">
                             <a class="card-link" href="#" ></a>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-4">
-                        <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('/img/impressoras/etiquetadora-open.jfif');">
+                        <div class="card">
                             <div class="card-category">Etiqetadora</div>
-                            <img class="card-user avatar avatar-large" src="/img/impressoras/etiquetadora-open.jfif" alt="Imagem Etiquetadora Aberta">
+                            <img class="card-user avatar avatar-large" src="<?=env('APP_URL')?>/img/impressoras/etiquetadora-open.jfif" alt="Imagem Etiquetadora Aberta">
                             <a class="card-link" href="#" ></a>
                         </div>
                     </div>
 
                     <div class="col-xs-12 col-sm-4 gallery-image-none">
-                        <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('/img/impressoras/etiquetadora.png');">
+                        <div class="card">
                             <div class="card-category">Etiqetadora</div>
-                            <img class="card-user avatar avatar-large" src="/img/impressoras/etiquetadora.png" alt="Imagem Etiquetadora">
+                            <img class="card-user avatar avatar-large" src="<?=env('APP_URL')?>/img/impressoras/etiquetadora.png" alt="Imagem Etiquetadora">
                             <a class="card-link" href="#" ></a>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-4 gallery-image-none">
-                        <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('/img/impressoras/etiquetadora_2.png');">
+                        <div class="card">
                             <div class="card-category">Etiqetadora</div>
-                            <img class="card-user avatar avatar-large" src="/img/impressoras/etiquetadora_2.png" alt="Imagem Etiquetadora">
+                            <img class="card-user avatar avatar-large" src="<?=env('APP_URL')?>/img/impressoras/etiquetadora_2.png" alt="Imagem Etiquetadora">
                             <a class="card-link" href="#" ></a>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-4 gallery-image-none">
-                        <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('/img/impressoras/etiquetadora-open.jfif');">
+                        <div class="card">
                             <div class="card-category">Etiqetadora</div>
-                            <img class="card-user avatar avatar-large" src="/img/impressoras/etiquetadora-open.jfif" alt="Imagem Etiquetadora">
+                            <img class="card-user avatar avatar-large" src="<?=env('APP_URL')?>/img/impressoras/etiquetadora-open.jfif" alt="Imagem Etiquetadora">
                             <a class="card-link" href="#" ></a>
                         </div>
                     </div>

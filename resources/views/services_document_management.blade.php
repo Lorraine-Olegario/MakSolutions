@@ -1,7 +1,7 @@
 @extends('/layouts/main')
 @section('title', 'Mak Solutions - Gestão de Documentos')
 @section('css')
-    <link rel="stylesheet" href="/css/services_document_management.css">
+    <link rel="stylesheet" href="<?=env('APP_URL')?>/css/services_document_management.css">
 @stop
 
 @section('content')
@@ -31,7 +31,7 @@
                         <ul class="mt-3">
                             <li>
                                 <img
-                                    src="/img/icon-checkmark-right.jpg"
+                                    src="<?=env('APP_URL')?>/img/icon-checkmark-right.jpg"
                                     alt="Imagem certo - Nosso serviço contem Configurações Personalizadas">
                                 <p><strong>Acesso Rápido e Facilitado:</strong> Com o GED, localizar um documento específico
                                     torna-se uma tarefa rápida e simples. Em vez de vasculhar pilhas de papéis, seus funcionários
@@ -40,7 +40,7 @@
                             </li>
                             <li>
                                 <img
-                                    src="/img/icon-checkmark-right.jpg"
+                                    src="<?=env('APP_URL')?>/img/icon-checkmark-right.jpg"
                                     alt="Imagem certo - Atendimento Sob Demanda"
                                 >
                                 <p><strong>Segurança e Conformidade: </strong>A segurança das informações é uma prioridade. O
@@ -51,7 +51,7 @@
                             </li>
                             <li>
                                 <img
-                                    src="/img/icon-checkmark-right.jpg"
+                                    src="<?=env('APP_URL')?>/img/icon-checkmark-right.jpg"
                                     alt="Imagem certo - Instalação Completa"
                                 >
                                 <p><strong>Redução de Custos: </strong> Eliminando a necessidade de armazenamento físico e
@@ -75,7 +75,7 @@
                     </div>
                 </div>
 
-               <img class="mt-5 mb-5 w-100" src="/img/banners/processo-gestao-documental.png" alt="Imagem processo de gestão de documentos">
+               <img class="mt-5 mb-5 w-100" src="<?=env('APP_URL')?>/img/banners/processo-gestao-documental.png" alt="Imagem processo de gestão de documentos">
             </div>
         </div>
     </section>
@@ -84,7 +84,7 @@
         <div class="row">
             <div class="col-md-12 block-info-1-content-1">
                 <h4>Contate-nos para impulsionar sua empresa com organização e segurança!
-                    <a href="#">
+                    <a href="<?=env('APP_URL')?>">
                         <button type="button" class="block-info-1-content-1-btn btn text-left">Agendar Apresentação</button>
                     </a>
                 </h4>

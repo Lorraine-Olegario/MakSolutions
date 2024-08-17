@@ -4,9 +4,9 @@
 @endphp
 
 @extends('/layouts/main')
-@section('title', 'Mak Solutions - Outsourcing de Impressoras e Multifuncionais')
+@section('title', 'Mak Solutions - Outsourcing de impressão, locação de impressoras| Outsourcing de notebooks e desktops | BPO, ECM, MPS')
 @section('css')
-    <link rel="stylesheet" href="/css/news.css">
+    <link rel="stylesheet" href="<?=env('APP_URL')?>/css/news.css">
 @stop
 
 

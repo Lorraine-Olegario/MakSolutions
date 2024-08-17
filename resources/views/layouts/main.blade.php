@@ -6,16 +6,25 @@
         <meta name="author" content="Mak Solutions">
         <meta name="keywords" content="Impressoras, Locação impressoras, Aluguel de impressoras, Locação Computadores">
         <meta name="description" content="Locação de impressoras, Aluguel de impressoras, Locação Computadores">
+        <meta property="og:title" content="Mak Solutions - Outsourcing de impressão, locação de impressoras| Outsourcing de notebooks e desktops">
+        <meta property="og:description" content="Locação de impressoras, Aluguel de impressoras, Locação Computadores">
+        <meta property="og:image" content="https://maksolutions.com.br/img/company/logo/logo.png">
+        <meta property="og:url" content="https://maksolutions.com.br/">
+        <meta property="og:type" content="website">
+        <meta name="robots" content="index, follow">
+        <link rel="icon" href="<?=env('APP_URL')?>/favicon.ico" type="image/x-icon">
 
         <!-- Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link href="<?=env('APP_URL')?>/css/bootstrap.min.css" rel="stylesheet" >
 
         <!-- Bootstrap Icons -->
+        {{-- <link rel="stylesheet" href="<?=env('APP_URL')?>/css/font-awesome.min.css"> --}}
         <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 
-        <link rel="stylesheet" href="/css/style.css">
-        <link rel="stylesheet" href="/css/menu.css">
-        <link rel="stylesheet" href="/css/footer.css">
+
+        <link rel="stylesheet" href="<?=env('APP_URL')?>/css/style.css">
+        <link rel="stylesheet" href="<?=env('APP_URL')?>/css/menu.css">
+        <link rel="stylesheet" href="<?=env('APP_URL')?>/css/footer.css">
         @yield('css')
 
         <title>@yield('title')</title>
@@ -26,7 +35,7 @@
             <header>
                 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
                     <a class="navbar-brand ms-lg-5" href="/">
-                        <img src="/img/company/logo/logo.png" width="130" height="60" alt="Logo Mak Solutions">
+                        <img src="<?=env('APP_URL')?>/img/company/logo/logo.png" width="130" height="60" alt="Logo Mak Solutions">
                     </a>
 
                     <button
@@ -37,6 +46,7 @@
                         aria-controls="navbarNavDropdown"
                         aria-expanded="false"
                         aria-label="Toggle navigation"
+                        aria-labelledby="Menu Responsivo"
                     >
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -45,7 +55,7 @@
                         <ul class="navbar-nav">
 
                             <li class="nav-item active">
-                                <a class="nav-link" href="/">HOME</a>
+                                <a class="nav-link" href="<?=env('APP_URL')?>">HOME</a>
                             </li>
 
                             <li class="nav-item dropdown">
@@ -59,15 +69,15 @@
                                 </a>
 
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item" href="/locacao-impressoras-multifuncionais">Impressoras e Multifuncionais</a>
-                                    <a class="dropdown-item" href="/locacao-notebooks-e-desktops">Locação de Notebooks e Desktops</a>
-                                    <a class="dropdown-item" href="/locacao-etiquetadoras">Locação de Etiquetadoras</a>
-                                    <a class="dropdown-item" href="/gestao-documental">Gerenciamento Eletronico Documentos</a>
+                                    <a class="dropdown-item" href="<?=env('APP_URL')?>/locacao-impressoras-multifuncionais">Impressoras e Multifuncionais</a>
+                                    <a class="dropdown-item" href="<?=env('APP_URL')?>/locacao-notebooks-e-desktops">Locação de Notebooks e Desktops</a>
+                                    <a class="dropdown-item" href="<?=env('APP_URL')?>/locacao-etiquetadoras">Locação de Etiquetadoras</a>
+                                    <a class="dropdown-item" href="<?=env('APP_URL')?>/gestao-documental">Gerenciamento Eletronico Documentos</a>
                                 </div>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="/empresa">EMPRESA</a>
+                                <a class="nav-link" href="<?=env('APP_URL')?>/empresa">EMPRESA</a>
                             </li>
 
                             <li class="nav-item">
@@ -75,7 +85,7 @@
                             </li>
 
                             <li>
-                                <button type="button" class="btn" id="btn-phone-header">
+                                <button type="button" class="btn" id="btn-phone-header" aria-labelledby="Contate-nos">
                                     <i class="fa fa-phone" aria-hidden="true"></i>
                                     (31) 3824-9060
                                 </button>
@@ -104,7 +114,7 @@
 
                         <div class="col-lg-4 col-md-12 mt-5">
                             <img
-                                src="/img/company/logo/logo.png"
+                                src="<?=env('APP_URL')?>/img/company/logo/logo.png"
                                 class="pt-3"
                                 width="280"
                                 height="140"
@@ -127,19 +137,19 @@
                             <div class="d-flex gap-2">
                                 <ul class="list-unstyled d-flex">
                                     <li class="ps-4">
-                                        <a href="/" target="_blank">
+                                        <a href="<?=env('APP_URL')?>" target="_blank">
                                             <i class="fa fa-facebook fa-2x facebook-icon"></i>
                                         </a>
                                     </li>
 
                                     <li class="ps-4">
-                                        <a href="/" target="_blank">
+                                        <a href="<?=env('APP_URL')?>" target="_blank">
                                             <i class="fa fa-instagram fa-2x instagram-icon"></i>
                                         </a>
                                     </li>
 
                                     <li class="ps-4">
-                                        <a href="/" target="_blank">
+                                        <a href="<?=env('APP_URL')?>" target="_blank">
                                             <i class="fa fa-whatsapp fa-2x whatsapp-icon"></i>
                                         </a>
                                     </li>
@@ -153,9 +163,14 @@
             </footer>
         </div>
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="<?=env('APP_URL')?>/js/jquery-3.3.1.slim.min.js"></script>
+        <script src="<?=env('APP_URL')?>/js/popper.min.js"></script>
+        <script src="<?=env('APP_URL')?>/js/bootstrap.min.js"></script>
+
+        {{-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> --}}
+
         @yield('js')
     </body>
 </html>

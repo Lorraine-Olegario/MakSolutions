@@ -61,7 +61,7 @@ class Banner extends Model
     {
         parent::boot();
         static::deleting(static function($obj) {
-            Storage::disk('delete')->delete($obj->imagem);
+            Storage::disk('delete')->delete($obj->image);
         });
     }
 

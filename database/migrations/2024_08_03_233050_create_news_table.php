@@ -19,7 +19,7 @@ return new class extends Migration
             $table->integer('category')->nullable();
             $table->integer('status')->nullable();
             $table->text('publication_data');
-            $table->text('description');
+            $table->longText('description');
             $table->text('content')->nullable();
             $table->text('cover_image');
         });

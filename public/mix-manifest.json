@@ -1,4 +1,9 @@
 {
+    "/js/aos.js": "/js/aos.js?id=d3718e34eeb0355be8e3179a2e2bccb7",
+    "/js/bootstrap.min.js": "/js/bootstrap.min.js?id=d3718e34eeb0355be8e3179a2e2bccb7",
+    "/js/jquery-3.3.1.slim.min.js": "/js/jquery-3.3.1.slim.min.js?id=d3718e34eeb0355be8e3179a2e2bccb7",
+    "/js/popper.min.js": "/js/popper.min.js?id=d3718e34eeb0355be8e3179a2e2bccb7",
+    "/css/bootstrap.min.css": "/css/bootstrap.min.css?id=a549af2a81cd9900ee897d8bc9c4b5e9",
     "/css/style.css": "/css/style.css?id=fc13374ba9dd95489306f1c8749d6519",
     "/css/index.css": "/css/index.css?id=b53bf09d3b7c7e7d9122ced93800b294",
     "/css/footer.css": "/css/footer.css?id=6afa06ff87c7fe3b4ea6e11220c57295",
@@ -9,5 +14,7 @@
     "/css/services_labeling_machines.css": "/css/services_labeling_machines.css?id=4866c4061e2531a679a9cc7b85a0a58c",
     "/css/services_printing.css": "/css/services_printing.css?id=0f093c30fff0bc381f9fae60c483dd2f",
     "/css/news.css": "/css/news.css?id=97d4768e8ad0a25f57ebcff450830720",
-    "/css/errors/404.css": "/css/errors/404.css?id=a6e23fa063ddb3e45e63fd69329031d7"
+    "/css/errors/404.css": "/css/errors/404.css?id=746534cd7b6e2d1c52330f1b8d070fbd",
+    "/css/animate.min.css": "/css/animate.min.css?id=c0be8e53226ac34833fd9b5dbc01ebc5",
+    "/css/font-awesome.min.css": "/css/font-awesome.min.css?id=4083f5d376eb849a458cc790b53ba080"
 }

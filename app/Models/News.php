@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 use Illuminate\Database\Eloquent\Model;
 use Backpack\CRUD\app\Models\Traits\CrudTrait;
@@ -30,7 +31,7 @@ class News extends Model
     | FUNCTIONS
     |--------------------------------------------------------------------------
     */
-    public function setCoverImageAttribute($value)
+    public function setCoverImageAttribute($value): void
     {
         $attribute_name = "cover_image";
         $disk = "public";
@@ -38,16 +39,16 @@ class News extends Model
         $this->uploadFileToDisk($value, $attribute_name, $disk, $destination_path);
     }
 
-    public static function boot()
+    public static function boot(): void
     {
         parent::boot();
-        static::deleting(function($obj) {
+        static::deleting(static function($obj) {
             Storage::disk('delete')->delete($obj->cover_image);
         });
 
 
-        static::saving(function ($news) {
-            if (!$news->slug) { // Verifica se o slug já está definido
+        static::saving(static function ($news) {
+            if (!$news->slug) {
                 $news->slug = Str::slug($news->title);
             }
         });

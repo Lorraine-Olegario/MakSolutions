@@ -8,4 +8,4 @@
 <x-backpack::menu-item title="Banners" icon="la la-picture-o" :link="backpack_url('banner')" />
 <x-backpack::menu-item title="Empresa" icon="la la-bank" :link="backpack_url('company')" />
 
-<x-backpack::menu-item title="News" icon="la la-question" :link="backpack_url('news')" />
+<x-backpack::menu-item title="News" icon="la la-desktop" :link="backpack_url('news')" />

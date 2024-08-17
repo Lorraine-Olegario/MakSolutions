@@ -3,6 +3,12 @@ const WebpackObfuscator = require('webpack-obfuscator');
 const TerserPlugin = require('terser-webpack-plugin');
 
 mix
+    .scripts(['resources/js/aos.js'], 'public/js/aos.js')
+    .scripts(['resources/js/aos.js'], 'public/js/bootstrap.min.js')
+    .scripts(['resources/js/aos.js'], 'public/js/jquery-3.3.1.slim.min.js')
+    .scripts(['resources/js/aos.js'], 'public/js/popper.min.js')
+
+    .styles(['resources/css/bootstrap.min.css'], 'public/css/bootstrap.min.css')
     .styles(['resources/css/style.css'], 'public/css/style.css')
     .styles(['resources/css/index.css'], 'public/css/index.css')
     .styles(['resources/css/footer.css'], 'public/css/footer.css')
@@ -15,6 +21,8 @@ mix
     .styles(['resources/css/news.css'], 'public/css/news.css')
     .styles(['resources/css/news.css'], 'public/css/news.css')
     .styles(['resources/css/errors/404.css'], 'public/css/errors/404.css')
+    .styles(['resources/css/animate.min.css'], 'public/css/animate.min.css')
+    .styles(['resources/css/font-awesome.min.css'], 'public/css/font-awesome.min.css')
     .options({
         processCssUrls: false,
         postCss: [

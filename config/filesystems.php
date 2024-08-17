@@ -56,6 +56,13 @@ return [
             'throw' => false,
         ],
 
+        'delete' => [
+            'driver' => 'local',
+            'root' => public_path('storage').'/'.env('FOLDER_PUBLIC'),
+            'url' => env('APP_URL').'/public',
+            'visibility' => 'public',
+        ],
+
     ],
 
     /*

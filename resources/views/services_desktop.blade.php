@@ -1,8 +1,8 @@
 @extends('/layouts/main')
 @section('title', 'Mak Solutions - Outsourcing de Notebooks e Desktops')
 @section('css')
-    <link rel="stylesheet" href="/css/services_desktop.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="<?=env('APP_URL')?>/css/services_desktop.css">
+    <link rel="stylesheet" href="<?=env('APP_URL')?>/css/animate.min.css">
 @stop
 
 @section('content')
@@ -18,54 +18,54 @@
                     <ul>
                         <li>
                             <img
-                                src="/img/icon-checkmark-right.jpg"
+                                src="<?=env('APP_URL')?>/img/icon-checkmark-right.jpg"
                                 alt="Imagem certo - Nosso serviço contem Configurações Personalizadas">
                             <p>Configurações Personalizadas</p>
                         </li>
                         <li>
                             <img
-                                src="/img/icon-checkmark-right.jpg"
+                                src="<?=env('APP_URL')?>/img/icon-checkmark-right.jpg"
                                 alt="Imagem certo - Atendimento Sob Demanda"
                             >
                             <p>Atendimento Sob Demanda</p>
                         </li>
                         <li>
                             <img
-                                src="/img/icon-checkmark-right.jpg"
+                                src="<?=env('APP_URL')?>/img/icon-checkmark-right.jpg"
                                 alt="Imagem certo - Instalação Completa"
                             >
                             <p>Instalação Completa</p>
                         </li>
                         <li>
                             <img
-                                src="/img/icon-checkmark-right.jpg"
+                                src="<?=env('APP_URL')?>/img/icon-checkmark-right.jpg"
                                 alt="Imagem certo - Equipamentos Atualizados"
                             >
                             <p>Equipamentos Atualizados</p>
                         </li>
                         <li>
                             <img
-                                src="/img/icon-checkmark-right.jpg"
+                                src="<?=env('APP_URL')?>/img/icon-checkmark-right.jpg"
                                 alt="Imagem certo - Redução de Custo"
                             >
                             <p>Redução de Custo</p>
                         </li>
                         <li>
                             <img
-                                src="/img/icon-checkmark-right.jpg"
+                                src="<?=env('APP_URL')?>/img/icon-checkmark-right.jpg"
                                 alt="Imagem certo - Suporte Técnico"
                             >
                             <p>Suporte Técnico</p>
                         </li>
                     </ul>
                     <p>Garantimos uma experiência personalizada e eficiente, assegurando que você tenha exatamente o que precisa para alcançar seus objetivos empresariais.</p>
-                    <button class="btn desktop-container-btn-quote">SOLICITAR COTAÇÃO</button>
+                    <button class="btn desktop-container-btn-quote" aria-labelledby="Solicitar Cotação para Nossos Atendentes">SOLICITAR COTAÇÃO</button>
                 </div>
 
                 <div class="col text-center">
                     <img
                         class="desktop-img-primary rounded mx-auto d-block"
-                        src="/img/man.png"
+                        src="<?=env('APP_URL')?>/img/man.png"
                         alt="Imagem representativa de compuatores"
                     >
                 </div>
@@ -81,46 +81,46 @@
                 <div class="slider">
                     <div class="slide-track">
                         <div class="slide">
-                            <img src="/img/icon-computer.jpg" class="component-elements-img-carousel" alt="Imagem de um ilustrativa  computador" />
+                            <img src="<?=env('APP_URL')?>/img/icon-computer.jpg" class="component-elements-img-carousel" alt="Imagem de um ilustrativa  computador" />
                         </div>
                         <div class="slide">
-                            <img src="/img/icone-laptop.webp" class="component-elements-img-carousel" alt="Imagem ilustrativa de um Notebook" />
+                            <img src="<?=env('APP_URL')?>/img/icone-laptop.webp" class="component-elements-img-carousel" alt="Imagem ilustrativa de um Notebook" />
                         </div>
                         <div class="slide">
-                            <img src="/img/icon-mouse.jpg" class="component-elements-img-carousel" alt="Imagem ilustrativa de um Mouse" />
+                            <img src="<?=env('APP_URL')?>/img/icon-mouse.jpg" class="component-elements-img-carousel" alt="Imagem ilustrativa de um Mouse" />
                         </div>
                         <div class="slide">
-                            <img src="/img/icon-monitor.jpg" class="component-elements-img-carousel" alt="Imagem Monitor de Computador" />
+                            <img src="<?=env('APP_URL')?>/img/icon-monitor.jpg" class="component-elements-img-carousel" alt="Imagem Monitor de Computador" />
                         </div>
                         <div class="slide">
-                            <img src="/img/icon-teclado.png" class="component-elements-img-carousel" alt="Imagem ilustrativa  de um Tecaldo" />
+                            <img src="<?=env('APP_URL')?>/img/icon-teclado.png" class="component-elements-img-carousel" alt="Imagem ilustrativa  de um Tecaldo" />
                         </div>
                         <div class="slide">
-                            <img src="/img/icon-ssd.jpg" class="component-elements-img-carousel" alt="Imagem ilustrativa de um SSD" />
+                            <img src="<?=env('APP_URL')?>/img/icon-ssd.jpg" class="component-elements-img-carousel" alt="Imagem ilustrativa de um SSD" />
                         </div>
                         <div class="slide">
-                            <img src="/img/icon-webcam.jpg" class="component-elements-img-carousel" alt="Imagem ilustrativa  de uma Webcam" />
+                            <img src="<?=env('APP_URL')?>/img/icon-webcam.jpg" class="component-elements-img-carousel" alt="Imagem ilustrativa  de uma Webcam" />
                         </div>
                         <div class="slide">
-                            <img src="/img/icon-computer.jpg" class="component-elements-img-carousel" alt="Imagem de um ilustrativa  computador" />
+                            <img src="<?=env('APP_URL')?>/img/icon-computer.jpg" class="component-elements-img-carousel" alt="Imagem de um ilustrativa  computador" />
                         </div>
                         <div class="slide">
-                            <img src="/img/icone-laptop.webp" class="component-elements-img-carousel" alt="Imagem ilustrativa de um Notebook" />
+                            <img src="<?=env('APP_URL')?>/img/icone-laptop.webp" class="component-elements-img-carousel" alt="Imagem ilustrativa de um Notebook" />
                         </div>
                         <div class="slide">
-                            <img src="/img/icon-mouse.jpg" class="component-elements-img-carousel" alt="Imagem ilustrativa de um Mouse" />
+                            <img src="<?=env('APP_URL')?>/img/icon-mouse.jpg" class="component-elements-img-carousel" alt="Imagem ilustrativa de um Mouse" />
                         </div>
                         <div class="slide">
-                            <img src="/img/icon-monitor.jpg" class="component-elements-img-carousel" alt="Imagem Monitor de Computador" />
+                            <img src="<?=env('APP_URL')?>/img/icon-monitor.jpg" class="component-elements-img-carousel" alt="Imagem Monitor de Computador" />
                         </div>
                         <div class="slide">
-                            <img src="/img/icon-teclado.png" class="component-elements-img-carousel" alt="Imagem ilustrativa  de um Tecaldo" />
+                            <img src="<?=env('APP_URL')?>/img/icon-teclado.png" class="component-elements-img-carousel" alt="Imagem ilustrativa  de um Tecaldo" />
                         </div>
                         <div class="slide">
-                            <img src="/img/icon-ssd.jpg" class="component-elements-img-carousel" alt="Imagem ilustrativa de um SSD" />
+                            <img src="<?=env('APP_URL')?>/img/icon-ssd.jpg" class="component-elements-img-carousel" alt="Imagem ilustrativa de um SSD" />
                         </div>
                         <div class="slide">
-                            <img src="/img/icon-webcam.jpg" class="component-elements-img-carousel" alt="Imagem ilustrativa  de uma Webcam" />
+                            <img src="<?=env('APP_URL')?>/img/icon-webcam.jpg" class="component-elements-img-carousel" alt="Imagem ilustrativa  de uma Webcam" />
                         </div>
                     </div>
                 </div>
@@ -131,18 +131,14 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 block-info-1-content-1">
-                <h4> Solicite já seu orçamento personalizado! 
-                    <a href="#">
+                <h4>Solicite já seu orçamento personalizado!
+                    <a href="<?=env('APP_URL')?>">
                         <button type="button" class="block-info-1-content-1-btn btn text-left">Solicitar Cotação</button>
                     </a>
                 </h4>
             </div>
         </div>
     </div>
-
-
-
-
 @endsection
 
 @section('js')

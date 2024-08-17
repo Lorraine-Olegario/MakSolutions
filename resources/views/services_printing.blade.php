@@ -1,7 +1,7 @@
 @extends('/layouts/main')
 @section('title', 'Mak Solutions - Outsourcing de Impressoras e Multifuncionais')
 @section('css')
-    <link rel="stylesheet" href="/css/services_printing.css">
+    <link rel="stylesheet" href="<?=env('APP_URL')?>/css/services_printing.css">
 @stop
 
 @section('content')
@@ -22,14 +22,14 @@
                     <ul class="list-unstyled">
                         <li class="mb-4">
                             <div class="list-item-header">
-                                <img src="https://th.bing.com/th/id/OIP.1KQtMH4aJeSWR_HwT5hyZgHaHa?rs=1&pid=ImgDetMain" class="img-fluid inline-img" alt="Equipamentos">
+                                <img src="<?=env('APP_URL')?>/img/estrela.jfif" class="img-fluid inline-img" alt="Equipamentos">
                                 <h5>Atualização tecnológica de equipamentos</h5>
                             </div>
                             <p class="printing-container-description-text">Com o outsourcing de impressão, o cliente pode contar com equipamentos de última geração sem a necessidade de um investimento inicial significativo. Isso permite que os recursos financeiros sejam direcionados para as atividades principais da empresa, aumentando a eficiência e a competitividade no mercado.</p>
                         </li>
                         <li class="mb-4">
                             <div class="list-item-header">
-                                <img src="https://th.bing.com/th/id/OIP.1KQtMH4aJeSWR_HwT5hyZgHaHa?rs=1&pid=ImgDetMain" class="img-fluid inline-img" alt="Impressão">
+                                <img src="<?=env('APP_URL')?>/img/estrela.jfif" class="img-fluid inline-img" alt="Impressão">
                                 <h5>Impressão sustentável e redução de custos</h5>
                             </div>
                             <p class="printing-container-description-text">O outsourcing permite um controle rigoroso sobre tudo o que é impresso, possibilitando retenção de impressões quando necessário e armazenamento eletrônico de documentos. Dessa forma, há uma redução significativa no uso de papel e uma gestão correta de resíduos e insumos, contribuindo para a sustentabilidade ambiental e a redução de custos operacionais.</p>
@@ -40,14 +40,14 @@
                     <ul class="list-unstyled">
                         <li class="mb-4">
                             <div class="list-item-header">
-                                <img src="https://th.bing.com/th/id/OIP.1KQtMH4aJeSWR_HwT5hyZgHaHa?rs=1&pid=ImgDetMain" class="img-fluid inline-img" alt="Impressão Segura">
+                                <img src="<?=env('APP_URL')?>/img/estrela.jfif" class="img-fluid inline-img" alt="Impressão Segura">
                                 <h5>Impressão segura</h5>
                             </div>
                             <p class="printing-container-description-text">A segurança na impressão é garantida por meio da autenticação pessoal do usuário, que deve se identificar com crachá, senha ou biometria para liberar a impressão. Isso evita que documentos sejam esquecidos nas bandejas de saída, garantindo que informações sensíveis não fiquem expostas indevidamente.</p>
                         </li>
                         <li class="mb-4">
                             <div class="list-item-header">
-                                <img src="https://th.bing.com/th/id/OIP.1KQtMH4aJeSWR_HwT5hyZgHaHa?rs=1&pid=ImgDetMain" class="img-fluid inline-img" alt="Gestão Eficiente">
+                                <img src="<?=env('APP_URL')?>/img/estrela.jfif" class="img-fluid inline-img" alt="Gestão Eficiente">
                                 <h5>Gestão eficiente de impressão</h5>
                             </div>
                             <p class="printing-container-description-text">Com máquinas modernas e softwares de bilhetagem, a empresa pode monitorar detalhadamente o que é impresso, por quem e em que quantidade. Relatórios detalhados ajudam os gestores a entender o impacto dos documentos impressos nos custos e a implementar políticas de cotas por usuário ou setor, otimizando os recursos de impressão.</p>
@@ -78,7 +78,7 @@
 @endsection
 
 @section('js')
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="<?=env('APP_URL')?>/js/aos.js"></script>
     <script>
         AOS.init({
             duration: 1000,
