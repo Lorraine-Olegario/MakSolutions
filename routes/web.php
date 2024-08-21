@@ -16,7 +16,10 @@ use App\Http\Controllers\HomeController;
 |
 */
 
-Route::get('/', [HomeController::class, 'show']);
+
+Route::get('/', function () {
+    return view('welcome');
+});
 
 Route::get('/empresa', function () {
     return view('company');
@@ -38,5 +41,5 @@ Route::get('/gestao-documental', function () {
     return view('services_document_management');
 });
 
-Route::get('noticias/{slug}', [NewsCrudController::class, 'show']);
+// Route::get('noticias/{slug}', [NewsCrudController::class, 'show']);
 

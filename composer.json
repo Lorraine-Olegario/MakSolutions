@@ -6,9 +6,6 @@
     "license": "MIT",
     "require": {
         "php": "^8.1",
-        "backpack/backupmanager": "^5.0",
-        "backpack/crud": "^6.7",
-        "backpack/theme-coreuiv2": "^1.2",
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^10.10",
         "laravel/sanctum": "^3.3",
@@ -17,7 +14,6 @@
         "spatie/laravel-sitemap": "^7.0"
     },
     "require-dev": {
-        "backpack/generators": "^4.0",
         "fakerphp/faker": "^1.9.1",
         "laracasts/generators": "^2.0",
         "laravel/pint": "^1.0",
