@@ -62,7 +62,7 @@
                             </li>
                         </ul>
 
-                        <h3 class="mt-5">Implantando GED na<strong class="documental-container-text-highlight">Sua Empresa</strong> </h3>
+                        <h3 class="mt-5">Implantando GED na <strong class="documental-container-text-highlight">Sua Empresa</strong> </h3>
                         <p class="mt-4"> Implementar um sistema de GED pode parecer uma tarefa complexa, mas com a parceria
                             certa, o processo é simplificado. Nossa equipe está pronta para auxiliar sua empresa em todas as
                             etapas, desde a escolha da solução adequada até a customização e treinamento dos usuários.

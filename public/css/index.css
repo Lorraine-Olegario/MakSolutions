@@ -150,8 +150,18 @@ a {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
-    max-height: 4.5em; /* Defina a altura máxima em em ou px */
+    max-height: 4.5em;
     overflow: hidden;
+}
+.card-title {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.2;
+    max-height: 2.4em;
+    width: 100%;
 }
 .card-news-text {
     color: #777;
@@ -172,8 +182,9 @@ a {
     text-decoration: underline;
 }
 .custom-card {
-    max-width: 400px; /* Define a largura máxima das cartas */
-    margin: auto;     /* Centraliza as cartas quando estão em uma linha de tamanho menor */
+    max-width: 400px;
+    height: 430px;
+    margin: auto;
 }
 
 

@@ -28,8 +28,8 @@ class CheckIfAdmin
     private function checkIfUserIsAdmin($user)
     {
         // return ($user->is_admin == 1);
-        // return ($user->email === 'lorraineolegario16@gmail.com');
-        return true;
+         //return ($user->email === 'lorraineolegario16@gmail.com');
+//        return true;
     }
 
     /**

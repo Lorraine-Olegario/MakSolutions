@@ -4,8 +4,7 @@
 @endphp
 
 @extends('/layouts/main')
-@section('title', 'Mak Solutions - Outsourcing de impressão, locação de impressoras| Outsourcing de notebooks e desktops
-    | BPO, ECM, MPS')
+@section('title', 'Mak Solutions - Outsourcing de impressão, locação de impressoras| Outsourcing de notebooks e desktops | BPO, ECM, MPS')
 @section('css')
     <link rel="stylesheet" href="<?= env('APP_URL') ?>/css/index.css">
 @stop
@@ -16,9 +15,32 @@
     <div class="flex-fill">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <div class="carousel-indicators">
+                @php
+                    $item = 0;
+                @endphp
+                @foreach ($banners as $banner)
+                    <button type="button" data-target="#carouselExampleIndicators" data-slide-to="{{ $item }}" class="btn-slide-carrousel active" aria-labelledby="Slides Serviços" aria-current="Slide {{ $item }}"></button>
+                    @php $item++; @endphp
+                @endforeach
             </div>
 
             <div class="carousel-inner">
+                @php
+                    $first = true;
+                @endphp
+
+                @foreach ($banners as $banner)
+                    @php
+                        $imagePath = public_path('/storage/' . $banner->image); // Ajuste o caminho conforme a localização das imagens
+                    @endphp
+                    @if (file_exists($imagePath))
+                        <div class="carousel-item {{ $first ? 'active' : '' }}">
+                            <img src="<?=env('APP_URL')?>/storage/{{ $banner->image }}" class="d-block w-100" alt="{{ $banner->description }}">
+                        </div>
+
+                        @php $first = false; @endphp
+                    @endif
+                @endforeach
             </div>
 
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -293,30 +315,34 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="row">
-                        <div class="col-md-6">
-                            <div class="card mb-4 custom-card">
-                                <img src="<?= env('APP_URL') ?>/storage/" class="card-img-top" alt="News Image">
-                                <div class="card-body">
-                                    <h5 class="card-title">displayNews->title</h5>
-                                    <p class="card-text"><small class="text-muted">Publicação: 17/02/2001</small></p>
-                                    {{-- <p class="card-text">{{ $displayNews->sub_title }}</p> --}}
-                                    <a href="" class="btn btn-primary">Continuar Lendo ...</a>
+                        @foreach($news as $displayNews)
+                            <div class="col-md-6">
+                                <div class="card mb-4 custom-card">
+                                    <img src="<?=env('APP_URL')?>/storage/{{ $displayNews->cover_image }}" class="card-img-top" alt="News Image">
+                                    <div class="card-body">
+                                        <h5 class="card-title" title="{{ $displayNews->title }}">{{ $displayNews->title }} </h5>
+                                        <p class="card-text"><small class="text-muted">Publicação: {{ Carbon::parse($displayNews->publication_data)->translatedFormat('d F Y') }}</small></p>
+                                        <a href="{{ url('noticias/' . $displayNews->slug) }}" class="btn btn-primary">Continuar Lendo ...</a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        @endforeach
                     </div>
                 </div>
-                <div class="col-lg-4 more-news">
-                    <h3>Todas Notícias</h3>
-                    <ul class="list-group">
-
-                        <li class="list-group-item">
-                            <a href=""_news->title</a>
-                            <br>
-                            <span class="text-muted"> Data Publicação: 17/02/2001</span>
-                        </li>
-                    </ul>
-                </div>
+                @if($otherNews->isNotEmpty())
+                    <div class="col-lg-4 more-news">
+                        <h3>Todas Notícias</h3>
+                        <ul class="list-group">
+                            @foreach($otherNews as $_news)
+                                <li class="list-group-item">
+                                    <a href="{{ url('noticias/' . $_news->slug) }}">{{ $_news->title }}</a>
+                                    <br>
+                                    <span class="text-muted"> Data Publicação: {{ Carbon::parse($_news->publication_data)->translatedFormat('d F Y') }}</span>
+                                </li>
+                            @endforeach
+                        </ul>
+                    </div>
+                @endif
             </div>
         </div>
     </section>

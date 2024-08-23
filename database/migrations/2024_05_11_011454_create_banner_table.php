@@ -16,7 +16,6 @@ return new class extends Migration
             $table->timestamps();
             $table->text('image');
             $table->text('description');
-            $table->text('type')->nullable(); //1=banner principal index
         });
     }
 
