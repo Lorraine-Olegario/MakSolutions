@@ -5,7 +5,7 @@ Bem-vindo ao Mak Solutions! Este é o site institucional da Mak Solutions. Siga 
 ## Pré-requisitos
 
 Certifique-se de ter os seguintes softwares instalados:
-- PHP (versão 8.1 ou superior)
+- PHP (versão 8.3 ou superior)
 - Composer
 - Node.js (versão 18 ou superior)
 - npm

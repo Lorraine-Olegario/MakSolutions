@@ -8,7 +8,6 @@
         <meta name="description" content="Locação de impressoras, Aluguel de impressoras, Locação Computadores">
         <meta property="og:title" content="Mak Solutions - Outsourcing de impressão, locação de impressoras| Outsourcing de notebooks e desktops">
         <meta property="og:description" content="Locação de impressoras, Aluguel de impressoras, Locação Computadores">
-{{--        <meta property="og:image" content="https://maksolutions.com.br/img/{{ $company->logo }}">--}}
         <meta property="og:url" content="https://maksolutions.com.br/">
         <meta property="og:type" content="website">
         <meta name="robots" content="index, follow">
@@ -18,13 +17,9 @@
         <link href="{{ asset('build/assets/bootstrap.css') }}" rel="stylesheet" >
 
         <!-- Bootstrap Icons -->
-{{--         <link rel="stylesheet" href="{{ asset('build/assets/font-awesome.css') }}">--}}
-{{--         <link rel="stylesheet" href="{{ asset('build/assets/font-awesome.min.css') }}">--}}
         <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-
-
         <link rel="stylesheet" href="{{ asset('build/assets/style.css') }}">
-        <link rel="stylesheet" href="{{ asset('build/assets/menu.css') }}}">
+        <link rel="stylesheet" href="{{ asset('build/assets/menu.css') }}">
         <link rel="stylesheet" href="{{ asset('build/assets/footer.css') }}">
         @yield('css')
 
@@ -56,7 +51,7 @@
                         <ul class="navbar-nav">
 
                             <li class="nav-item active">
-                                <a class="nav-link" href="<?=env('APP_URL')?>">HOME</a>
+                                <a class="nav-link" href="/">HOME</a>
                             </li>
 
                             <li class="nav-item dropdown">
@@ -168,14 +163,13 @@
                 </div>
             </footer>
         </div>
+        <script src="js/jquery-3.3.1.slim.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
 
-{{--        <script src="{{ asset('build/assets/jquery-3.3.1.slim.min.js') }}"></script>--}}
-{{--        <script src="{{ asset('build/assets/popper.min.js') }}"></script>--}}
-{{--        <script src="{{ asset('build/assets/bootstrap.min.js') }}"></script>--}}
-
-         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+{{--         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>--}}
+{{--        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>--}}
+{{--        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>--}}
 
         @yield('js')
     </body>

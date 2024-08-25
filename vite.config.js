@@ -26,16 +26,12 @@ export default defineConfig({
                 'resources/css/news.css',
                 'resources/css/errors/404.css',
                 'resources/css/animate.min.css',
-                'resources/css/font-awesome.min.css',
 
                 // Arquivos JS
-                'resources/js/aos.js',
-                'resources/js/bootstrap.min.js',
-                'resources/js/jquery-3.3.1.slim.min.js',
-                'resources/js/popper.min.js',
+                'resources/js/app.js',
             ],
             output: {
-                assetFileNames: 'assets/[name][extname]', // Isso remove o hash dos nomes dos arquivos
+                assetFileNames: 'assets/[name][extname]',
             },
         },
     },
@@ -55,11 +51,7 @@ export default defineConfig({
                 'resources/css/news.css',
                 'resources/css/errors/404.css',
                 'resources/css/animate.min.css',
-                'resources/css/font-awesome.min.css',
-                'resources/js/aos.js',
-                'resources/js/bootstrap.min.js',
-                'resources/js/jquery-3.3.1.slim.min.js',
-                'resources/js/popper.min.js',
+                'resources/js/app.js',
             ],
             refresh: true,
         }),

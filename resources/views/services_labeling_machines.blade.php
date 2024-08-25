@@ -17,14 +17,16 @@
                             <h2 class="font-weight-bold labeling_machines-description-title">LOCAÇÃO DE IMPRESSORAS DE <strong class="labeling_machines-container-description-text-highlight">ETIQUETAS</strong></h2>
                             <p>Escolher a solução certa para suas necessidades de impressão e etiquetagem pode ser um desafio, mas nós estamos aqui para facilitar essa decisão. Oferecemos um serviço de locação que não só atende às suas demandas operacionais, como também proporciona benefícios financeiros e técnicos inigualáveis.</p>
                             <p>A locação elimina a necessidade de um grande investimento inicial, permitindo que sua empresa aloque recursos financeiros de forma mais eficiente. Além disso, todos os custos com manutenção e atualizações tecnológicas ficam por conta da locadora, proporcionando mais tranquilidade e foco no que realmente importa: o seu negócio.</p>
-                            <button class="btn labeling_machines-container-btn-quote">SOLICITAR COTAÇÃO</button>
+                            <a href="https://api.whatsapp.com/send?phone=553138249060&text=Olá, preciso falar com o comercial.">
+                                <button class="btn labeling_machines-container-btn-quote">SOLICITAR COTAÇÃO</button>
+                            </a>
                         </div>
                     </div>
                 </div>
 
                 <div class="labeling_machines-image col-xl-6 col-lg-12 text-center">
                     <div class="labeling_machines-container-image-1 rounded mx-auto d-block">
-                        <img src="<?=env('APP_URL')?>/img/impressoras/etiquetadora_zebra.png" class="img-fluid mt-4 mb-3" title="Imagem Impressora Etiquetadora - https://www.zebra.com/br/pt/products/printers.html" alt="Imagem Impressora Etiquetadora - https://www.zebra.com/br/pt/products/printers.html">
+                        <img src="<?=env('APP_URL')?>/img/impressoras/etiquetadora_zebra.jpg" class="img-fluid mt-4 mb-3" title="Imagem Impressora Etiquetadora - https://www.zebra.com/br/pt/products/printers.html" alt="Imagem Impressora Etiquetadora - https://www.zebra.com/br/pt/products/printers.html">
                     </div>
                 </div>
             </div>
@@ -79,7 +81,7 @@
         <div class="row">
             <div class="col-md-12 block-info-1-content-1">
                 <h4>Impressão e etiquetagem simplificadas: eficiência e economia na medida certa!
-                    <a href="<?=env('APP_URL')?>">
+                    <a href="https://api.whatsapp.com/send?phone=553138249060&text=Olá, preciso falar com o comercial.">
                         <button type="button" class="block-info-1-content-1-btn btn text-left">Solicitar Proposta</button>
                     </a>
                 </h4>

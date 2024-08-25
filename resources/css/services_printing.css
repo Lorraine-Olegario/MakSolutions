@@ -121,7 +121,7 @@ button {
 }
 
 button:hover {
-    background-color: #3e7e7c;
+    text-decoration: none;
 }
 
 .small-image {
@@ -133,4 +133,14 @@ button:hover {
     background-image: url('/img/impressoras/impressora-multifuncional-hp.webp');
     background-size: cover;
     background-position: center;
+}
+
+@media screen and (max-width: 720px) {
+    .small-image {
+        display: none;
+    }
+
+    .elementor-images-printing-info p {
+        width: 100%;
+    }
 }
