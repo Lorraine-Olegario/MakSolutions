@@ -30,6 +30,7 @@ export default defineConfig({
                 // Arquivos JS
                 'resources/js/app.js',
                 'resources/js/components/modals/suprimentosModal.js',
+                'resources/js/components/modals/chamadoModal.js',
             ],
             output: {
                 entryFileNames: 'assets/[name].js',
@@ -58,6 +59,7 @@ export default defineConfig({
                 // Arquivos JS
                 'resources/js/app.js',
                 'resources/js/components/modals/suprimentosModal.js',
+                'resources/js/components/modals/chamadoModal.js',
             ],
             refresh: true,
         }),

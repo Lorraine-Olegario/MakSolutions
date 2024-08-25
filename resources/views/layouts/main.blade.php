@@ -81,7 +81,7 @@
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="#">ABERTURA DE CHAMADOS</a>
+                                <a class="nav-link" id="chamadoLink" href="#">ABERTURA DE CHAMADOS</a>
                             </li>
 
                             <li>
@@ -108,6 +108,7 @@
             </a>
 
             @include('components.modals.suprimentosModal')
+            @include('components.modals.chamadoModal')
 
             <footer class="bg-dark text-center p-3 mt-4">
                 <div class="container">
@@ -173,6 +174,7 @@
             const whatsapp = "{{ $company->whatsapp }}";
         </script>
         <script src="{{ asset('build/assets/suprimentosModal.js') }}"></script>
+        <script src="{{ asset('build/assets/chamadoModal.js') }}"></script>
 
         @yield('js')
     </body>
