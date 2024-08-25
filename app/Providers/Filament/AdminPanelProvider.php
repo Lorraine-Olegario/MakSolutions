@@ -27,8 +27,12 @@ class AdminPanelProvider extends PanelProvider
             ->id('admin')
             ->path('admin')
             ->login()
+            ->brandName("Mak Solutions")
+            ->brandLogo(asset('img/company/logo/logo.png'))
+            ->brandLogoHeight('4rem')
             ->colors([
-                'primary' => Color::Amber,
+                'primary' => '#e30613',
+//                'primary' => Color::Amber,
             ])
             ->discoverResources(in: app_path('Filament/Resources'), for: 'App\\Filament\\Resources')
             ->discoverPages(in: app_path('Filament/Pages'), for: 'App\\Filament\\Pages')

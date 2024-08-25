@@ -25,7 +25,7 @@ class UserResource extends Resource
             ->schema([
                 Forms\Components\TextInput::make('name')
                     ->required()
-                    ->label('Name'),
+                    ->label('Nome'),
 
                 Forms\Components\TextInput::make('email')
                     ->email()
@@ -51,7 +51,7 @@ class UserResource extends Resource
         return $table
             ->columns([
                 Tables\Columns\TextColumn::make('name')
-                    ->label('Name'),
+                    ->label('Nome'),
 
                 Tables\Columns\TextColumn::make('email')
                     ->label('Email'),
