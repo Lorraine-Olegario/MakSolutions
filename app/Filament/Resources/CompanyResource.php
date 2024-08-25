@@ -99,6 +99,11 @@ class CompanyResource extends Resource
                     ->required()
                     ->email(),
 
+                Forms\Components\TextInput::make('whatsapp')
+                    ->label('Whatsapp - Sem formatação')
+                    ->required()
+                    ->email(),
+
                 Forms\Components\TextInput::make('telephone_1')
                     ->label('Telefone 1')
                     ->required(),

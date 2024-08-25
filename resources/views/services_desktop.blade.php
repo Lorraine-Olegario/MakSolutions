@@ -59,7 +59,7 @@
                         </li>
                     </ul>
                     <p>Garantimos uma experiência personalizada e eficiente, assegurando que você tenha exatamente o que precisa para alcançar seus objetivos empresariais.</p>
-                    <a href="https://api.whatsapp.com/send?phone=553138249060&text=Olá, preciso falar com o comercial, para obter mais informações sobre os serviços de locação de notebooks e desktops.">
+                    <a href="https://api.whatsapp.com/send?phone={{ $company->whatsapp }}&text=Olá, preciso falar com o comercial, para obter mais informações sobre os serviços de locação de notebooks e desktops.">
                         <button class="btn desktop-container-btn-quote" aria-labelledby="Solicitar Cotação para Nossos Atendentes">SOLICITAR COTAÇÃO</button>
                     </a>
                 </div>
@@ -134,7 +134,7 @@
         <div class="row">
             <div class="col-md-12 block-info-1-content-1">
                 <h4>Solicite já seu orçamento personalizado!
-                    <a href="https://api.whatsapp.com/send?phone=553138249060&text=Olá, preciso falar com o comercial, para obter mais informações sobre os serviços de locação de notebooks e desktops.">
+                    <a href="https://api.whatsapp.com/send?phone={{ $company->whatsapp }}&text=Olá, preciso falar com o comercial, para obter mais informações sobre os serviços de locação de notebooks e desktops.">
                         <button type="button" class="block-info-1-content-1-btn btn text-left">Solicitar Cotação</button>
                     </a>
                 </h4>

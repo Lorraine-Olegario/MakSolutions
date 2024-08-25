@@ -77,7 +77,7 @@
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="#">COMERCIAL</a>
+                                <a class="nav-link" href="https://api.whatsapp.com/send?phone={{ $company->whatsapp }}&text=Olá, preciso falar com o comercial">COMERCIAL</a>
                             </li>
 
                             <li class="nav-item">
@@ -85,7 +85,7 @@
                             </li>
 
                             <li>
-                                <button type="button" class="btn" id="btn-phone-header" aria-labelledby="Contate-nos">
+                                <button id="suprimentosLink" type="button" class="btn btn-phone-header" aria-labelledby="Contate-nos">
                                    SUPRIMENTOS
                                 </button>
                             </li>
@@ -98,7 +98,7 @@
                 @yield('content')
             </main>
 
-            <a href="https://api.whatsapp.com/send?phone=553138249060&text=Olá, preciso falar com o comercial"
+            <a href="https://api.whatsapp.com/send?phone={{ $company->whatsapp }}&text=Olá, preciso falar com o comercial"
                target="_blank"
                style="position:fixed;bottom:20px;right:30px;z-index:1;">
                 <svg enable-background="new 0 0 512 512" width="50" height="50" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
@@ -106,6 +106,8 @@
                     <path d="m405.02 361.5c-6.176 17.44-30.688 31.904-50.24 36.128-13.376 2.848-30.848 5.12-89.664-19.264-75.232-31.168-123.68-107.62-127.46-112.58-3.616-4.96-30.4-40.48-30.4-77.216s18.656-54.624 26.176-62.304c6.176-6.304 16.384-9.184 26.176-9.184 3.168 0 6.016 0.16 8.576 0.288 7.52 0.32 11.296 0.768 16.256 12.64 6.176 14.88 21.216 51.616 23.008 55.392 1.824 3.776 3.648 8.896 1.088 13.856-2.4 5.12-4.512 7.392-8.288 11.744s-7.36 7.68-11.136 12.352c-3.456 4.064-7.36 8.416-3.008 15.936 4.352 7.36 19.392 31.904 41.536 51.616 28.576 25.44 51.744 33.568 60.032 37.024 6.176 2.56 13.536 1.952 18.048-2.848 5.728-6.176 12.8-16.416 20-26.496 5.12-7.232 11.584-8.128 18.368-5.568 6.912 2.4 43.488 20.48 51.008 24.224 7.52 3.776 12.48 5.568 14.304 8.736 1.792 3.168 1.792 18.048-4.384 35.52z" fill="#FAFAFA" />
                 </svg>
             </a>
+
+            @include('components.modals.suprimentosModal')
 
             <footer class="bg-dark text-center p-3 mt-4">
                 <div class="container">
@@ -167,9 +169,10 @@
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
 
-{{--         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>--}}
-{{--        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>--}}
-{{--        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>--}}
+        <script>
+            const whatsapp = "{{ $company->whatsapp }}";
+        </script>
+        <script src="{{ asset('build/assets/suprimentosModal.js') }}"></script>
 
         @yield('js')
     </body>

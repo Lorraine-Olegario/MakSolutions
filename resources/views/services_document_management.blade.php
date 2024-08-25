@@ -84,7 +84,7 @@
         <div class="row">
             <div class="col-md-12 block-info-1-content-1">
                 <h4>Contate-nos para impulsionar sua empresa com organização e segurança!
-                    <a href="https://api.whatsapp.com/send?phone=553138249060&text=Olá, gostaria de agendar uma apresentção do sistema de Gerenciamento Eletrônico Documentos (GED).">
+                    <a href="https://api.whatsapp.com/send?phone={{ $company->whatsapp }}&text=Olá, gostaria de agendar uma apresentção do sistema de Gerenciamento Eletrônico Documentos (GED).">
                         <button type="button" class="block-info-1-content-1-btn btn text-left">Agendar Apresentação</button>
                     </a>
                 </h4>

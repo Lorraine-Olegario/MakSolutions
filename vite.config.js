@@ -29,8 +29,11 @@ export default defineConfig({
 
                 // Arquivos JS
                 'resources/js/app.js',
+                'resources/js/components/modals/suprimentosModal.js',
             ],
             output: {
+                entryFileNames: 'assets/[name].js',
+                chunkFileNames: 'assets/[name].js',
                 assetFileNames: 'assets/[name][extname]',
             },
         },
@@ -51,7 +54,10 @@ export default defineConfig({
                 'resources/css/news.css',
                 'resources/css/errors/404.css',
                 'resources/css/animate.min.css',
+
+                // Arquivos JS
                 'resources/js/app.js',
+                'resources/js/components/modals/suprimentosModal.js',
             ],
             refresh: true,
         }),
