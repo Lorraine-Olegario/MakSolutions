@@ -1,8 +1,8 @@
 @extends('/layouts/main')
 @section('title', 'Mak Solutions - Outsourcing de Notebooks e Desktops')
 @section('css')
-    <link rel="stylesheet" href="<?=env('APP_URL')?>/css/services_desktop.css">
-    <link rel="stylesheet" href="<?=env('APP_URL')?>/css/animate.min.css">
+    <link rel="stylesheet" href="{{ asset('build/assets/services_desktop.css') }}">
+    <link rel="stylesheet" href="{{ asset('build/assets/animate.min.css') }}">
 @stop
 
 @section('content')

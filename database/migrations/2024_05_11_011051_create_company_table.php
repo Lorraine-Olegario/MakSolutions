@@ -24,8 +24,8 @@ return new class extends Migration
             $table->text('neighborhood');//bairro
             $table->text('municipality');
             $table->text('uf');
-            $table->text('email_1');
-            $table->text('email_2')->nullable();
+            $table->text('email');
+            $table->text('whatsapp')->nullable();
             $table->text('telephone_1');
             $table->text('telephone_2')->nullable();
             $table->text('instagram')->nullable();

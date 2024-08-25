@@ -1,7 +1,7 @@
 @extends('/layouts/main')
 @section('title', 'Mak Solutions - Outsourcing de Impressoras e Multifuncionais')
 @section('css')
-    <link rel="stylesheet" href="<?=env('APP_URL')?>/css/services_printing.css">
+    <link rel="stylesheet" href="{{ asset('build/assets/services_printing.css') }}">
 @stop
 
 @section('content')
@@ -78,7 +78,7 @@
 @endsection
 
 @section('js')
-    <script src="<?=env('APP_URL')?>/js/aos.js"></script>
+    <script src="{{ asset('build/assets/aos.js') }}"></script>
     <script>
         AOS.init({
             duration: 1000,

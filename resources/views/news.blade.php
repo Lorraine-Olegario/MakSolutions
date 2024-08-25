@@ -6,7 +6,7 @@
 @extends('/layouts/main')
 @section('title', 'Mak Solutions - Outsourcing de impressão, locação de impressoras| Outsourcing de notebooks e desktops | BPO, ECM, MPS')
 @section('css')
-    <link rel="stylesheet" href="<?=env('APP_URL')?>/css/news.css">
+    <link rel="stylesheet" href="{{ asset('build/assets/news.css') }}">
 @stop
 
 

@@ -8,23 +8,24 @@
         <meta name="description" content="Locação de impressoras, Aluguel de impressoras, Locação Computadores">
         <meta property="og:title" content="Mak Solutions - Outsourcing de impressão, locação de impressoras| Outsourcing de notebooks e desktops">
         <meta property="og:description" content="Locação de impressoras, Aluguel de impressoras, Locação Computadores">
-        <meta property="og:image" content="https://maksolutions.com.br/img/company/logo/logo.png">
+{{--        <meta property="og:image" content="https://maksolutions.com.br/img/{{ $company->logo }}">--}}
         <meta property="og:url" content="https://maksolutions.com.br/">
         <meta property="og:type" content="website">
         <meta name="robots" content="index, follow">
         <link rel="icon" href="<?=env('APP_URL')?>/favicon.ico" type="image/x-icon">
 
         <!-- Bootstrap CSS -->
-        <link href="<?=env('APP_URL')?>/css/bootstrap.min.css" rel="stylesheet" >
+        <link href="{{ asset('build/assets/bootstrap.css') }}" rel="stylesheet" >
 
         <!-- Bootstrap Icons -->
-        {{-- <link rel="stylesheet" href="<?=env('APP_URL')?>/css/font-awesome.min.css"> --}}
+{{--         <link rel="stylesheet" href="{{ asset('build/assets/font-awesome.css') }}">--}}
+{{--         <link rel="stylesheet" href="{{ asset('build/assets/font-awesome.min.css') }}">--}}
         <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 
 
-        <link rel="stylesheet" href="<?=env('APP_URL')?>/css/style.css">
-        <link rel="stylesheet" href="<?=env('APP_URL')?>/css/menu.css">
-        <link rel="stylesheet" href="<?=env('APP_URL')?>/css/footer.css">
+        <link rel="stylesheet" href="{{ asset('build/assets/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('build/assets/menu.css') }}}">
+        <link rel="stylesheet" href="{{ asset('build/assets/footer.css') }}">
         @yield('css')
 
         <title>@yield('title')</title>
@@ -35,7 +36,7 @@
             <header>
                 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
                     <a class="navbar-brand ms-lg-5" href="/">
-                        <img src="<?=env('APP_URL')?>/img/company/logo/logo.png" width="130" height="60" alt="Logo Mak Solutions">
+                        <img src="<?=env('APP_URL')?>/img/{{ $company->logo }}" width="130" height="60" alt="Logo Mak Solutions">
                     </a>
 
                     <button
@@ -117,7 +118,7 @@
 
                         <div class="col-lg-4 col-md-12 mt-5">
                             <img
-                                src="<?=env('APP_URL')?>/img/company/logo/logo.png"
+                                src="<?=env('APP_URL')?>/img/{{ $company->logo }}"
                                 class="pt-3"
                                 width="280"
                                 height="140"
@@ -127,9 +128,11 @@
 
                         <div class="col-lg-4 col-md-12 mt-5">
                             <h5>Entre em contato</h5>
-                            <p class="text-justify">Av. José Júlio da Costa 2080 (Ideal)</br>Ipatinga, MG, 35160-294</p>
-                            <p class="text-justify">(31) 3824-9060 | (31) 3824-9060</p>
-                            <p class="text-justify">contato@maksolutions.com.br</p>
+                            <p class="text-justify">{{ $company->street }} {{ $company->number }} ({{ $company->neighborhood }})
+                                </br>{{ $company->municipality }}, {{ $company->uf }}, {{ $company->cep }}
+                            </p>
+                            <p class="text-justify">{{ $company->telephone_1 }} | {{ $company->telephone_2 }}</p>
+                            <p class="text-justify">{{ $company->email }}</p>
                         </div>
 
 
@@ -166,9 +169,9 @@
             </footer>
         </div>
 
-{{--        <script src="<?=env('APP_URL')?>/js/jquery-3.3.1.slim.min.js"></script>--}}
-{{--        <script src="<?=env('APP_URL')?>/js/popper.min.js"></script>--}}
-{{--        <script src="<?=env('APP_URL')?>/js/bootstrap.min.js"></script>--}}
+{{--        <script src="{{ asset('build/assets/jquery-3.3.1.slim.min.js') }}"></script>--}}
+{{--        <script src="{{ asset('build/assets/popper.min.js') }}"></script>--}}
+{{--        <script src="{{ asset('build/assets/bootstrap.min.js') }}"></script>--}}
 
          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

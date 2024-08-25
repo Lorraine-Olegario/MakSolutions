@@ -170,3 +170,27 @@
     font-size: 15px;
     font-weight: lighter;
 }
+
+
+
+div.block-info-1-content-1 {
+    background: #044060;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+div.block-info-1-content-1 h4 {
+    font-weight: 600;
+    color: #ffffff;
+}
+.block-info-1-content-1-btn {
+    border-radius: 30px;
+    padding: 5px 35px;
+    background: var(--cor-primaria);
+    color: #FFF;
+}
+.block-info-1-content-1-btn:hover {
+    color: var(--cor-primaria);
+    background: #FFF;
+    text-decoration: underline;
+}

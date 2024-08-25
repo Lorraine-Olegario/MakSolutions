@@ -28,11 +28,14 @@ class SystemInstall extends Command
         try {
             $this->call('key:generate');
             $this->call('migrate');
-            $this->call('db:seed');
             $this->call('config:cache');
             $this->call('event:cache');
             $this->call('route:cache');
             $this->call('view:cache');
+            $this->call('filament:optimize-clear');
+            $this->call('storage:link');
+            $this->call('db:seed');
+            $this->call('sitemap:generate');
 
             $this->info('System installed successfully.');
         } catch (\Exception $e) {

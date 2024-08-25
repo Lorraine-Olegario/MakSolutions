@@ -1,7 +1,7 @@
 @extends('/layouts/main')
 @section('title', 'Mak Solutions - Gestão de Documentos')
 @section('css')
-    <link rel="stylesheet" href="<?=env('APP_URL')?>/css/services_document_management.css">
+    <link rel="stylesheet" href="{{ asset('build/assets/services_document_management.css') }}">
 @stop
 
 @section('content')

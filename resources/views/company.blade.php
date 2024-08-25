@@ -1,7 +1,7 @@
 @extends('/layouts/main')
 @section('title', 'Mak Solutions - Quem Somos? | Nossa História')
 @section('css')
-    <link rel="stylesheet" href="<?=env('APP_URL')?>/css/company.css">
+    <link rel="stylesheet" href="{{ asset('build/assets/company.css') }}">
 @stop
 
 @section('content')

@@ -1,12 +1,12 @@
 @extends('/layouts/main')
 @section('title', 'Mak Solutions - Outsourcing de Etiquetadoras')
 @section('css')
-    <link rel="stylesheet" href="<?=env('APP_URL')?>/css/services_labeling_machines.css">
+    <link rel="stylesheet" href="{{ asset('build/assets/services_labeling_machines.css') }}">
 @stop
 
 @section('content')
 
-    <div class="jumbotron jumbotron-fluid banner-labeling_machines"></div>
+    <div class="jumbotron jumbotron-fluid banner-labeling_machines" title="Imagem Impressora Etiquetadora - https://www.zebra.com/br/pt/products/printers.html"></div>
 
     <section class="labeling_machines">
         <div class="container mt-5">
@@ -24,7 +24,7 @@
 
                 <div class="labeling_machines-image col-xl-6 col-lg-12 text-center">
                     <div class="labeling_machines-container-image-1 rounded mx-auto d-block">
-                        <img src="<?=env('APP_URL')?>/img/impressoras/etiquetadora.png" class="img-fluid mb-3" alt="Imagem Impressora Etiquetadora">
+                        <img src="<?=env('APP_URL')?>/img/impressoras/etiquetadora_zebra.png" class="img-fluid mt-4 mb-3" title="Imagem Impressora Etiquetadora - https://www.zebra.com/br/pt/products/printers.html" alt="Imagem Impressora Etiquetadora - https://www.zebra.com/br/pt/products/printers.html">
                     </div>
                 </div>
             </div>
@@ -75,65 +75,77 @@
         </div>
     </section>
 
-    <section class="gallery">
-        <div class="wrapper-grey padded">
-            <div class="container">
-                <h4 class="mt-5 mb-4 text-center">GALERIA</h4>
-                <div class="row">
-                    <div class="col-xs-12 col-sm-4">
-                        <div class="card">
-                            <div class="card-category">Etiqetadora</div>
-                            <img class="card-user avatar avatar-large" src="<?=env('APP_URL')?>/img/impressoras/etiquetadora.png" alt="Imagem Etiquetadora">
-                            <a class="card-link" href="#" ></a>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-4">
-                        <div class="card">
-                            <div class="card-category">Etiqetadora</div>
-                            <img class="card-user avatar avatar-large" src="<?=env('APP_URL')?>/img/impressoras/etiquetadora.png" alt="Imagem Etiquetadora">
-                            <a class="card-link" href="#" ></a>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-4">
-                        <div class="card">
-                            <div class="card-category">Etiqetadora</div>
-                            <img class="card-user avatar avatar-large" src="<?=env('APP_URL')?>/img/impressoras/etiquetadora-open.jfif" alt="Imagem Etiquetadora Aberta">
-                            <a class="card-link" href="#" ></a>
-                        </div>
-                    </div>
-
-                    <div class="col-xs-12 col-sm-4 gallery-image-none">
-                        <div class="card">
-                            <div class="card-category">Etiqetadora</div>
-                            <img class="card-user avatar avatar-large" src="<?=env('APP_URL')?>/img/impressoras/etiquetadora.png" alt="Imagem Etiquetadora">
-                            <a class="card-link" href="#" ></a>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-4 gallery-image-none">
-                        <div class="card">
-                            <div class="card-category">Etiqetadora</div>
-                            <img class="card-user avatar avatar-large" src="<?=env('APP_URL')?>/img/impressoras/etiquetadora_2.png" alt="Imagem Etiquetadora">
-                            <a class="card-link" href="#" ></a>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-4 gallery-image-none">
-                        <div class="card">
-                            <div class="card-category">Etiqetadora</div>
-                            <img class="card-user avatar avatar-large" src="<?=env('APP_URL')?>/img/impressoras/etiquetadora-open.jfif" alt="Imagem Etiquetadora">
-                            <a class="card-link" href="#" ></a>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-12 text-center">
-                            <button id="show-more" class="btn btn-primary">Exibir Mais</button>
-                            <button id="show-less" class="btn btn-secondary d-none">Exibir Menos</button>
-                        </div>
-                    </div>
-                </div>
+    <div class="container mt-5 mb-5">
+        <div class="row">
+            <div class="col-md-12 block-info-1-content-1">
+                <h4>Impressão e etiquetagem simplificadas: eficiência e economia na medida certa!
+                    <a href="<?=env('APP_URL')?>">
+                        <button type="button" class="block-info-1-content-1-btn btn text-left">Solicitar Proposta</button>
+                    </a>
+                </h4>
             </div>
         </div>
-    </section>
+    </div>
+
+{{--    <section class="gallery">--}}
+{{--        <div class="wrapper-grey padded">--}}
+{{--            <div class="container">--}}
+{{--                <h4 class="mt-5 mb-4 text-center">GALERIA</h4>--}}
+{{--                <div class="row">--}}
+{{--                    <div class="col-xs-12 col-sm-4">--}}
+{{--                        <div class="card">--}}
+{{--                            <div class="card-category">Etiqetadora</div>--}}
+{{--                            <img class="card-user avatar avatar-large" src="<?=env('APP_URL')?>/img/impressoras/etiquetadora.png" alt="Imagem Etiquetadora">--}}
+{{--                            <a class="card-link" href="#" ></a>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="col-xs-12 col-sm-4">--}}
+{{--                        <div class="card">--}}
+{{--                            <div class="card-category">Etiqetadora</div>--}}
+{{--                            <img class="card-user avatar avatar-large" src="<?=env('APP_URL')?>/img/impressoras/etiquetadora.png" alt="Imagem Etiquetadora">--}}
+{{--                            <a class="card-link" href="#" ></a>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="col-xs-12 col-sm-4">--}}
+{{--                        <div class="card">--}}
+{{--                            <div class="card-category">Etiqetadora</div>--}}
+{{--                            <img class="card-user avatar avatar-large" src="<?=env('APP_URL')?>/img/impressoras/etiquetadora-open.jfif" alt="Imagem Etiquetadora Aberta">--}}
+{{--                            <a class="card-link" href="#" ></a>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+
+{{--                    <div class="col-xs-12 col-sm-4 gallery-image-none">--}}
+{{--                        <div class="card">--}}
+{{--                            <div class="card-category">Etiqetadora</div>--}}
+{{--                            <img class="card-user avatar avatar-large" src="<?=env('APP_URL')?>/img/impressoras/etiquetadora.png" alt="Imagem Etiquetadora">--}}
+{{--                            <a class="card-link" href="#" ></a>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="col-xs-12 col-sm-4 gallery-image-none">--}}
+{{--                        <div class="card">--}}
+{{--                            <div class="card-category">Etiqetadora</div>--}}
+{{--                            <img class="card-user avatar avatar-large" src="<?=env('APP_URL')?>/img/impressoras/etiquetadora_2.png" alt="Imagem Etiquetadora">--}}
+{{--                            <a class="card-link" href="#" ></a>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="col-xs-12 col-sm-4 gallery-image-none">--}}
+{{--                        <div class="card">--}}
+{{--                            <div class="card-category">Etiqetadora</div>--}}
+{{--                            <img class="card-user avatar avatar-large" src="<?=env('APP_URL')?>/img/impressoras/etiquetadora-open.jfif" alt="Imagem Etiquetadora">--}}
+{{--                            <a class="card-link" href="#" ></a>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+
+{{--                    <div class="row">--}}
+{{--                        <div class="col-12 text-center">--}}
+{{--                            <button id="show-more" class="btn btn-primary">Exibir Mais</button>--}}
+{{--                            <button id="show-less" class="btn btn-secondary d-none">Exibir Menos</button>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </section>--}}
 
 
 @endsection

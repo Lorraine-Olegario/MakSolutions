@@ -25,6 +25,7 @@ class CompanyResource extends Resource
             ->schema([
                 Forms\Components\TextInput::make('cnpj')
                     ->label('CNPJ')
+                    ->maxLength(18)
                     ->required(),
 
                 Forms\Components\TextInput::make('social_reason')
@@ -93,8 +94,8 @@ class CompanyResource extends Resource
                     ->default('buyer')
                     ->required(),
 
-                Forms\Components\TextInput::make('email_1')
-                    ->label('E-mail 1')
+                Forms\Components\TextInput::make('email')
+                    ->label('E-mail')
                     ->required()
                     ->email(),
 
@@ -117,7 +118,7 @@ class CompanyResource extends Resource
                     ->label('Imagem Logo')
                     ->image() // Define que o arquivo deve ser uma imagem
                     ->required()
-                    ->directory('company/logo') // Define o diretório onde o arquivo será salvo
+                    ->directory('/storage/company/logo') // Define o diretório onde o arquivo será salvo
                     ->maxSize(2048) // Define o tamanho máximo do arquivo em KB
             ]);
     }
