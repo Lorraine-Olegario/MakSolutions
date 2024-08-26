@@ -32,7 +32,7 @@ class SystemInstall extends Command
             $this->call('event:cache');
             $this->call('route:cache');
             $this->call('view:cache');
-            $this->call('filament:optimize-clear');
+            $this->call('filament:optimize');
             $this->call('storage:link');
             $this->call('db:seed');
             $this->call('sitemap:generate');
