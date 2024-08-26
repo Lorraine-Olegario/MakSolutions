@@ -18,18 +18,18 @@ Certifique-se de ter os seguintes softwares instalados:
    git clone <URL_DO_REPOSITORIO>
    cd <NOME_DIRETORIO>
     ```
-2. Instale as dependências do PHP:
-    ```bash
-    composer install
-    ```
-
-3. Copie o arquivo `.env.example` para um novo arquivo `.env`:
+2. Copie o arquivo `.env.example` para um novo arquivo `.env`:
     ```bash
     cp .env.example .env
     ```
 
-4. Edite o arquivo `.env` para definir as configurações do banco de dados e outras variáveis de ambiente conforme necessário.
+3. Edite o arquivo `.env` para definir as configurações do banco de dados e outras variáveis de ambiente conforme necessário.
+- Configure a conexão com o banco de dados antes de rodar os proximos comandos.
 
+4. Instale as dependências do PHP:
+    ```bash
+    composer install
+    ```
 
 5. Configure a variável `APP_URL` no arquivo `.env`, pois os próximos comandos precisam dessa configuração.
 
