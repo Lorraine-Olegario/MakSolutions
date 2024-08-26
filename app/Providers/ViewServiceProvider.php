@@ -2,10 +2,11 @@
 
 namespace App\Providers;
 
-use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\View;
-use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Facades\Schema;
 use App\Models\Company;
+use Illuminate\Support\Facades\View;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\ServiceProvider;
 
 class ViewServiceProvider extends ServiceProvider
 {
@@ -22,6 +23,8 @@ class ViewServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        View::share('company', DB::table('company')->first());
+        if (Schema::hasTable('company') && Company::count() > 0) {
+            View::share('company', DB::table('company')->first());
+        }
     }
 }
