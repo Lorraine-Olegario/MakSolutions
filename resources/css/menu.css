@@ -1,13 +1,18 @@
-.btn-phone-header {
+.btn-suprimentos-header {
     background: var(--cor-primaria);
     color: #FFF;
     margin-left: 30px;
 }
 
-.btn-phone-header i {
-    padding-right: 7px;
-    display: inline-block;
-    animation: balancar 1s infinite;
+.btn-chamado-header {
+    background: var(--cor-primaria);
+    color: #FFF;
+    margin-left: 30px;
+}
+
+
+.btn-chamado-header:hover {
+    text-decoration: underline;
 }
 
 @keyframes balancar {

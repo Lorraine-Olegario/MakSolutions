@@ -81,11 +81,15 @@
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" id="chamadoLink" href="#">ABERTURA DE CHAMADOS</a>
+                                <button id="chamadoLink" type="button" class="btn btn-chamado-header" aria-labelledby="Contate-nos">
+{{--                                    <a class="nav-link" id="chamadoLink" href="#">--}}
+                                        ABERTURA DE CHAMADOS
+{{--                                    </a>--}}{{--695d5e--}}
+                                </button>
                             </li>
 
                             <li>
-                                <button id="suprimentosLink" type="button" class="btn btn-phone-header" aria-labelledby="Contate-nos">
+                                <button id="suprimentosLink" type="button" class="btn btn-suprimentos-header" aria-labelledby="Contate-nos">
                                    SUPRIMENTOS
                                 </button>
                             </li>
