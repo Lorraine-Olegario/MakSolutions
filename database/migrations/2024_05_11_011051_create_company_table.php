@@ -25,7 +25,8 @@ return new class extends Migration
             $table->text('municipality');
             $table->text('uf');
             $table->text('email');
-            $table->text('whatsapp')->nullable();
+            $table->text('whatsapp_suporte')->nullable();
+            $table->text('whatsapp_comercial')->nullable();
             $table->text('telephone_1');
             $table->text('telephone_2')->nullable();
             $table->text('instagram')->nullable();

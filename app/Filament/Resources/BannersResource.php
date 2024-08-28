@@ -31,7 +31,11 @@ class BannersResource extends Resource
                     ->required()
                     ->image()
                     ->directory('banners')
-                    ->columnSpanFull(),
+                    ->columnSpanFull()
+                    ->imageCropAspectRatio('3:1')
+                    ->imageResizeTargetWidth(1920)
+                    ->imageResizeTargetHeight(640)
+                ,
             ]);
     }
 

@@ -47,7 +47,7 @@ class Banners extends Model
         parent::boot();
 
         static::deleting(static function($obj) {
-            Storage::disk('delete')->delete($obj->banners);
+            Storage::disk('delete')->delete($obj->image);
         });
 
         static::updating(static function ($news) {

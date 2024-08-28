@@ -2,6 +2,33 @@ a {
     text-decoration: none;
 }
 
+/* Estilo básico para o botão */
+.btn-slide-carrousel {
+    background-color: #f0f0f0; /* Cor de fundo do botão (branco claro) */
+    border: none; /* Remover bordas */
+    border-radius: 50%; /* Tornar o botão circular */
+    width: 12px; /* Largura do botão */
+    height: 12px; /* Altura do botão */
+    margin: 5px; /* Espaçamento entre os botões */
+    cursor: pointer; /* Mostrar cursor de ponteiro ao passar sobre o botão */
+    transition: background-color 0.3s; /* Adicionar transição suave */
+}
+
+/* Estilo para o botão ativo */
+.btn-slide-carrousel.active {
+    background-color: #dcdcdc; /* Cor de fundo do botão ativo (branco escuro) */
+}
+
+/* Alteração ao passar o mouse */
+.btn-slide-carrousel:hover {
+    background-color: #e6e6e6; /* Cor de fundo ao passar o mouse (intermediário) */
+}
+
+
+
+
+
+
 
 /*##########*/
 /*SERVIÇOS*/

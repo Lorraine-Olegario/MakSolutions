@@ -29,7 +29,7 @@
                     <div class="form-group">
                         <label for="suprimento">Suprimento <span class="mandatory">*</span></label>
                         <select class="form-control" id="suprimento" required>
-                            <option value="tonner">Tonner</option>
+                            <option value="tonner">Toner</option>
                             <option value="outros">Outros</option>
                         </select>
                     </div>

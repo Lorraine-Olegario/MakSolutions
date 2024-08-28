@@ -6,15 +6,21 @@ document.getElementById('suprimentosLink').addEventListener('click', function(ev
 document.getElementById('sendWhatsApp').addEventListener('click', function() {
 
     event.preventDefault();
-    const razaoSocial = encodeURIComponent(document.getElementById('razaoSocial').value);
-    const numeroSerie = encodeURIComponent(document.getElementById('numeroSerie').value);
-    const contatoNome = encodeURIComponent(document.getElementById('contatoNome').value);
-    const contatoSetor = encodeURIComponent(document.getElementById('contatoSetor').value);
-    const suprimento = encodeURIComponent(document.getElementById('suprimento').value);
-    const descricao = encodeURIComponent(document.getElementById('descricao').value);
+    const razaoSocial = encodeURIComponent(document.getElementById('razaoSocial').value).trim();
+    const numeroSerie = encodeURIComponent(document.getElementById('numeroSerie').value).trim();
+    const contatoNome = encodeURIComponent(document.getElementById('contatoNome').value).trim();
+    const contatoSetor = encodeURIComponent(document.getElementById('contatoSetor').value).trim();
+    const suprimento = encodeURIComponent(document.getElementById('suprimento').value).trim();
+    const descricao = encodeURIComponent(document.getElementById('descricao').value).trim();
 
     if (!razaoSocial || !numeroSerie || !contatoNome || !contatoSetor || !suprimento) {
         alert('Por favor, preencha todos os campos obrigatórios.');
+        return false;
+    }
+
+    const maxDescricaoLength = 300;
+    if (descricao.length > maxDescricaoLength) {
+        alert(`A descrição foi truncada para ${maxDescricaoLength} caracteres.`);
         return false;
     }
 

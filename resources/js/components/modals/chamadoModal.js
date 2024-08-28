@@ -5,15 +5,21 @@ document.getElementById('chamadoLink').addEventListener('click', function(event)
 
 document.getElementById('sendChamadoWhatsApp').addEventListener('click', function(event) {
     event.preventDefault();
-    const razaoSocial = encodeURIComponent(document.getElementById('razaoSocialChamado').value);
-    const numeroSerie = encodeURIComponent(document.getElementById('numeroSerieChamado').value);
-    const contatoNome = encodeURIComponent(document.getElementById('contatoNomeChamado').value);
-    const contatoSetor = encodeURIComponent(document.getElementById('contatoSetorChamado').value);
-    const tipoChamado = encodeURIComponent(document.getElementById('tipoChamado').value);
-    const descricao = encodeURIComponent(document.getElementById('descricaoChamado').value);
+    const razaoSocial = encodeURIComponent(document.getElementById('razaoSocialChamado').value).trim();
+    const numeroSerie = encodeURIComponent(document.getElementById('numeroSerieChamado').value).trim();
+    const contatoNome = encodeURIComponent(document.getElementById('contatoNomeChamado').value).trim();
+    const contatoSetor = encodeURIComponent(document.getElementById('contatoSetorChamado').value).trim();
+    const tipoChamado = encodeURIComponent(document.getElementById('tipoChamado').value).trim();
+    const descricao = encodeURIComponent(document.getElementById('descricaoChamado').value).trim();
 
     if (!razaoSocial || !numeroSerie || !contatoNome || !contatoSetor || !tipoChamado) {
         alert('Por favor, preencha todos os campos obrigatórios.');
+        return false;
+    }
+
+    const maxDescricaoLength = 300;
+    if (descricao.length > maxDescricaoLength) {
+        alert(`A descrição foi truncada para ${maxDescricaoLength} caracteres.`);
         return false;
     }
 
