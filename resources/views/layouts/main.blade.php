@@ -77,14 +77,12 @@
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="https://api.whatsapp.com/send?phone={{ $company->whatsapp }}&text=Olá, preciso falar com o comercial">COMERCIAL</a>
+                                <a class="nav-link" href="https://api.whatsapp.com/send?phone={{ $company->whatsapp }}&text=Olá, preciso falar com o comercial" target="_blank">COMERCIAL</a>
                             </li>
 
                             <li class="nav-item">
                                 <button id="chamadoLink" type="button" class="btn btn-chamado-header" aria-labelledby="Contate-nos">
-{{--                                    <a class="nav-link" id="chamadoLink" href="#">--}}
-                                        ABERTURA DE CHAMADOS
-{{--                                    </a>--}}{{--695d5e--}}
+                                    ABERTURA DE CHAMADOS
                                 </button>
                             </li>
 
