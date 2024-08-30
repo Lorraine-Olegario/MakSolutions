@@ -23,6 +23,10 @@ class ViewServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
+         if ($this->app->runningInConsole() && Artisan::isDownForMaintenance()) {
+            return; // Não faz nada durante a instalação via Composer
+         }
+        
         if (Schema::hasTable('company') && Company::count() > 0) {
             View::share('company', DB::table('company')->first());
         }
