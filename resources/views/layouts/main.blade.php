@@ -77,7 +77,7 @@
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="https://api.whatsapp.com/send?phone={{ $company->whatsapp }}&text=Olá, preciso falar com o comercial" target="_blank">COMERCIAL</a>
+                                <a class="nav-link" href="https://api.whatsapp.com/send?phone={{ $company->whatsapp_suporte }}&text=Olá, preciso falar com o comercial" target="_blank">COMERCIAL</a>
                             </li>
 
                             <li class="nav-item">
@@ -100,7 +100,7 @@
                 @yield('content')
             </main>
 
-            <a href="https://api.whatsapp.com/send?phone={{ $company->whatsapp }}&text=Olá, preciso falar com o comercial"
+            <a href="https://api.whatsapp.com/send?phone={{ $company->whatsapp_suporte }}&text=Olá, preciso falar com o comercial"
                target="_blank"
                style="position:fixed;bottom:20px;right:30px;z-index:1;">
                 <svg enable-background="new 0 0 512 512" width="50" height="50" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
@@ -173,7 +173,7 @@
         <script src="js/bootstrap.min.js"></script>
 
         <script>
-            const whatsapp = "{{ $company->whatsapp }}";
+            const whatsapp = "{{ $company->whatsapp_suporte }}";
         </script>
         <script src="{{ asset('build/assets/suprimentosModal.js') }}"></script>
         <script src="{{ asset('build/assets/chamadoModal.js') }}"></script>

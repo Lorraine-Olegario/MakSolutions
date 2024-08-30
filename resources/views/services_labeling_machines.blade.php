@@ -17,7 +17,7 @@
                             <h2 class="font-weight-bold labeling_machines-description-title">LOCAÇÃO DE IMPRESSORAS DE <strong class="labeling_machines-container-description-text-highlight">ETIQUETAS</strong></h2>
                             <p>Escolher a solução certa para suas necessidades de impressão e etiquetagem pode ser um desafio, mas nós estamos aqui para facilitar essa decisão. Oferecemos um serviço de locação que não só atende às suas demandas operacionais, como também proporciona benefícios financeiros e técnicos inigualáveis.</p>
                             <p>A locação elimina a necessidade de um grande investimento inicial, permitindo que sua empresa aloque recursos financeiros de forma mais eficiente. Além disso, todos os custos com manutenção e atualizações tecnológicas ficam por conta da locadora, proporcionando mais tranquilidade e foco no que realmente importa: o seu negócio.</p>
-                            <a href="https://api.whatsapp.com/send?phone={{ $company->whatsapp }}&text=Olá, preciso falar com o comercial.">
+                            <a href="https://api.whatsapp.com/send?phone={{ $company->whatsapp_suporte }}&text=Olá, preciso falar com o comercial.">
                                 <button class="btn labeling_machines-container-btn-quote">SOLICITAR COTAÇÃO</button>
                             </a>
                         </div>
@@ -81,7 +81,7 @@
         <div class="row">
             <div class="col-md-12 block-info-1-content-1">
                 <h4>Impressão e etiquetagem simplificadas: eficiência e economia na medida certa!
-                    <a href="https://api.whatsapp.com/send?phone={{ $company->whatsapp }}&text=Olá, preciso falar com o comercial.">
+                    <a href="https://api.whatsapp.com/send?phone={{ $company->whatsapp_suporte }}&text=Olá, preciso falar com o comercial.">
                         <button type="button" class="block-info-1-content-1-btn btn text-left">Solicitar Proposta</button>
                     </a>
                 </h4>

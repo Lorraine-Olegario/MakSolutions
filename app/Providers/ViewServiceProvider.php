@@ -7,6 +7,7 @@ use App\Models\Company;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Facades\Artisan; // Importar Artisan
 
 class ViewServiceProvider extends ServiceProvider
 {
@@ -23,10 +24,10 @@ class ViewServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-         if ($this->app->runningInConsole() && Artisan::isDownForMaintenance()) {
+         if ($this->app->runningInConsole()) {
             return; // Não faz nada durante a instalação via Composer
          }
-        
+
         if (Schema::hasTable('company') && Company::count() > 0) {
             View::share('company', DB::table('company')->first());
         }
