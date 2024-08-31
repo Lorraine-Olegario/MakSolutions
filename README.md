@@ -50,3 +50,16 @@ Certifique-se de ter os seguintes softwares instalados:
     ```bash
     npm run build
     ```
+
+9. Inicie o servidor local
+
+    Execute o comando abaixo para iniciar o servidor de desenvolvimento:
+
+    ```bash
+    php artisan serve
+    ```
+
+    O painel admin estará acessível em http://127.0.0.1:8000/admin com as credenciais:
+
+   - Email: admin@example.com
+   - Senha: password123
