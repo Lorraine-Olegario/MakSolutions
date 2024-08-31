@@ -17,9 +17,9 @@
                     <div class="documental-container-text mx-auto">
 
                         <p class="mt-4">Na era digital, a eficiência na gestão de documentos tornou-se essencial para o sucesso e competitividade
-                            das empresas. A Gestão Eletrônica de Documentos (GED) é uma solução moderna que transforma a maneira
-                            como sua organização lida com informações, proporcionando inúmeros benefícios que vão além do simples
-                            armazenamento digital.</p>
+                            das empresas. O <strong class="documental-container-text-highlight">Dok Viewer</strong>, uma solução avançada de Gestão Eletrônica de Documentos (GED), transforma a maneira como
+                            sua organização lida com informações, proporcionando inúmeros benefícios que vão além do simples armazenamento
+                            digital.</p>
 
 
                         <h3 class="mt-5"> O que é  <strong class="documental-container-text-highlight">GED?</strong> </h3>
@@ -62,14 +62,14 @@
                             </li>
                         </ul>
 
-                        <h3 class="mt-5">Implantando GED na <strong class="documental-container-text-highlight">Sua Empresa</strong> </h3>
+                        <h3 class="mt-5">Implantando <strong class="documental-container-text-highlight">DOK VIEWER</strong> na Sua Empresa </h3>
                         <p class="mt-4"> Implementar um sistema de GED pode parecer uma tarefa complexa, mas com a parceria
                             certa, o processo é simplificado. Nossa equipe está pronta para auxiliar sua empresa em todas as
                             etapas, desde a escolha da solução adequada até a customização e treinamento dos usuários.
                         </p>
 
-                        <p>Transforme a maneira como sua empresa lida com documentos e informações. Adote a Gestão Eletrônica
-                            de Documentos e veja a diferença na produtividade, segurança e eficiência do seu negócio.
+                        <p>Transforme a maneira como sua empresa lida com documentos e informações. Adote o Dok Viewer
+                            e veja a diferença na produtividade, segurança e eficiência do seu negócio.
                         </p>
 
                     </div>
