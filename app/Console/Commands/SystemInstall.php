@@ -37,7 +37,24 @@ class SystemInstall extends Command
             $this->call('db:seed');
             $this->call('sitemap:generate');
 
+            // Instalação das dependências do Node.js
+            $this->info('Instalando dependências do Node.js...');
+            exec('npm install', $output, $returnVar);
+            if ($returnVar !== 0) {
+                $this->error('Erro ao instalar as dependências do Node.js.');
+                return;
+            }
+
+            // Gerando os arquivos de build
+            $this->info('Gerando arquivos de build...');
+            exec('npm run build', $output, $returnVar);
+            if ($returnVar !== 0) {
+                $this->error('Erro ao gerar os arquivos de build.');
+                return;
+            }
+    
             $this->info('System installed successfully.');
+
         } catch (\Exception $e) {
             $this->error($e->getMessage());
         }
