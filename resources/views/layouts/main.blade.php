@@ -77,7 +77,7 @@
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="https://api.whatsapp.com/send?phone={{ $company->whatsapp_suporte }}&text=Olá, preciso falar com o comercial" target="_blank">COMERCIAL</a>
+                                <a class="nav-link" href="https://api.whatsapp.com/send?phone={{ $company->whatsapp_comercial }}&text=Olá, preciso falar com o comercial" target="_blank">COMERCIAL</a>
                             </li>
 
                             <li class="nav-item">
