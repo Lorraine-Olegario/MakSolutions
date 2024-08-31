@@ -3,16 +3,22 @@
     color: #FFF;
     margin-left: 30px;
 }
+.btn-suprimentos-header:hover {
+    border: 2px solid var(--cor-primaria);
+    text-decoration: underline;
+    color: var(--cor-primaria);
+}
+
 
 .btn-chamado-header {
     background: var(--cor-primaria);
     color: #FFF;
     margin-left: 30px;
 }
-
-
 .btn-chamado-header:hover {
+    border: 2px solid var(--cor-primaria);
     text-decoration: underline;
+    color: var(--cor-primaria);
 }
 
 @keyframes balancar {
@@ -37,16 +43,6 @@
 }
 
 @media screen and (max-width: 991px) {
-    .btn-phone-header {
-        background: transparent;
-        color: #333;
-    }
-
-    .btn-phone-header i{
-        padding: 0;
-        margin: 0;
-    }
-
     .navbar {
         padding: 5px 30px;
     }
