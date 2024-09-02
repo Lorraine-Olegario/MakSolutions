@@ -1,0 +1,85 @@
+{
+  "resources/css/animate.min.css": {
+    "file": "assets/animate.css",
+    "src": "resources/css/animate.min.css",
+    "isEntry": true
+  },
+  "resources/css/bootstrap.min.css": {
+    "file": "assets/bootstrap.css",
+    "src": "resources/css/bootstrap.min.css",
+    "isEntry": true
+  },
+  "resources/css/company.css": {
+    "file": "assets/company.css",
+    "src": "resources/css/company.css",
+    "isEntry": true
+  },
+  "resources/css/errors/404.css": {
+    "file": "assets/404.css",
+    "src": "resources/css/errors/404.css",
+    "isEntry": true
+  },
+  "resources/css/footer.css": {
+    "file": "assets/footer.css",
+    "src": "resources/css/footer.css",
+    "isEntry": true
+  },
+  "resources/css/index.css": {
+    "file": "assets/index.css",
+    "src": "resources/css/index.css",
+    "isEntry": true
+  },
+  "resources/css/menu.css": {
+    "file": "assets/menu.css",
+    "src": "resources/css/menu.css",
+    "isEntry": true
+  },
+  "resources/css/news.css": {
+    "file": "assets/news.css",
+    "src": "resources/css/news.css",
+    "isEntry": true
+  },
+  "resources/css/services_desktop.css": {
+    "file": "assets/services_desktop.css",
+    "src": "resources/css/services_desktop.css",
+    "isEntry": true
+  },
+  "resources/css/services_document_management.css": {
+    "file": "assets/services_document_management.css",
+    "src": "resources/css/services_document_management.css",
+    "isEntry": true
+  },
+  "resources/css/services_labeling_machines.css": {
+    "file": "assets/services_labeling_machines.css",
+    "src": "resources/css/services_labeling_machines.css",
+    "isEntry": true
+  },
+  "resources/css/services_printing.css": {
+    "file": "assets/services_printing.css",
+    "src": "resources/css/services_printing.css",
+    "isEntry": true
+  },
+  "resources/css/style.css": {
+    "file": "assets/style.css",
+    "src": "resources/css/style.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  },
+  "resources/js/components/modals/chamadoModal.js": {
+    "file": "assets/chamadoModal.js",
+    "name": "chamadoModal",
+    "src": "resources/js/components/modals/chamadoModal.js",
+    "isEntry": true
+  },
+  "resources/js/components/modals/suprimentosModal.js": {
+    "file": "assets/suprimentosModal.js",
+    "name": "suprimentosModal",
+    "src": "resources/js/components/modals/suprimentosModal.js",
+    "isEntry": true
+  }
+}

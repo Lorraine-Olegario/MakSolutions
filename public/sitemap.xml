@@ -1,74 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
     <url>
-        <loc>http://localhost/filament/exports/{export}/download</loc>
-        <lastmod>2024-08-26T00:30:41+00:00</lastmod>
+        <loc>http://localhost:8000/filament/exports/{export}/download</loc>
+        <lastmod>2024-09-02T00:12:40+00:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
             </url>
     <url>
-        <loc>http://localhost/filament/imports/{import}/failed-rows/download</loc>
-        <lastmod>2024-08-26T00:30:41+00:00</lastmod>
+        <loc>http://localhost:8000/filament/imports/{import}/failed-rows/download</loc>
+        <lastmod>2024-09-02T00:12:40+00:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
             </url>
     <url>
-        <loc>http://localhost/livewire/livewire.min.js</loc>
-        <lastmod>2024-08-26T00:30:41+00:00</lastmod>
+        <loc>http://localhost:8000/livewire/livewire.min.js</loc>
+        <lastmod>2024-09-02T00:12:40+00:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
             </url>
     <url>
-        <loc>http://localhost/livewire/livewire.min.js.map</loc>
-        <lastmod>2024-08-26T00:30:41+00:00</lastmod>
+        <loc>http://localhost:8000/livewire/livewire.min.js.map</loc>
+        <lastmod>2024-09-02T00:12:40+00:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
             </url>
     <url>
-        <loc>http://localhost/livewire/preview-file/{filename}</loc>
-        <lastmod>2024-08-26T00:30:41+00:00</lastmod>
+        <loc>http://localhost:8000/livewire/preview-file/{filename}</loc>
+        <lastmod>2024-09-02T00:12:40+00:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
             </url>
     <url>
-        <loc>http://localhost</loc>
-        <lastmod>2024-08-26T00:30:41+00:00</lastmod>
+        <loc>http://localhost:8000</loc>
+        <lastmod>2024-09-02T00:12:40+00:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
             </url>
     <url>
-        <loc>http://localhost/empresa</loc>
-        <lastmod>2024-08-26T00:30:41+00:00</lastmod>
+        <loc>http://localhost:8000/empresa</loc>
+        <lastmod>2024-09-02T00:12:40+00:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
             </url>
     <url>
-        <loc>http://localhost/locacao-impressoras-multifuncionais</loc>
-        <lastmod>2024-08-26T00:30:41+00:00</lastmod>
+        <loc>http://localhost:8000/locacao-impressoras-multifuncionais</loc>
+        <lastmod>2024-09-02T00:12:40+00:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
             </url>
     <url>
-        <loc>http://localhost/locacao-notebooks-e-desktops</loc>
-        <lastmod>2024-08-26T00:30:41+00:00</lastmod>
+        <loc>http://localhost:8000/locacao-notebooks-e-desktops</loc>
+        <lastmod>2024-09-02T00:12:40+00:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
             </url>
     <url>
-        <loc>http://localhost/locacao-etiquetadoras</loc>
-        <lastmod>2024-08-26T00:30:41+00:00</lastmod>
+        <loc>http://localhost:8000/locacao-etiquetadoras</loc>
+        <lastmod>2024-09-02T00:12:40+00:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
             </url>
     <url>
-        <loc>http://localhost/gestao-documental</loc>
-        <lastmod>2024-08-26T00:30:41+00:00</lastmod>
+        <loc>http://localhost:8000/gestao-documental</loc>
+        <lastmod>2024-09-02T00:12:40+00:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
             </url>
     <url>
-        <loc>http://localhost/noticias/{slug}</loc>
-        <lastmod>2024-08-26T00:30:41+00:00</lastmod>
+        <loc>http://localhost:8000/noticias/{slug}</loc>
+        <lastmod>2024-09-02T00:12:40+00:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
             </url>
