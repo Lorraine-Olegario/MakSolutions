@@ -39,19 +39,7 @@ Certifique-se de ter os seguintes softwares instalados:
     php artisan app:install
     ```
 
-## Instalação das Dependências Node.js
-
-7. Instale as dependências do Node.js:
-    ```bash
-    npm install
-    ```
-
-8. Gere os arquivos de build:
-    ```bash
-    npm run build
-    ```
-
-9. Inicie o servidor local
+7. Inicie o servidor local
 
     Execute o comando abaixo para iniciar o servidor de desenvolvimento:
 
@@ -63,3 +51,15 @@ Certifique-se de ter os seguintes softwares instalados:
 
    - Email: admin@example.com
    - Senha: password123
+
+## Atualização no CSS ou JS execute as dependências Node.js
+
+8. Instale as dependências do Node.js:
+    ```bash
+    npm install
+    ```
+
+9. Gere os arquivos de build:
+    ```bash
+    npm run build
+    ```
