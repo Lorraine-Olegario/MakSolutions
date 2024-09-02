@@ -31,7 +31,7 @@
             <header>
                 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
                     <a class="navbar-brand ms-lg-5" href="/">
-                        <img src="<?=env('APP_URL')?>/{{ $company->logo }}" width="130" height="60" alt="Logo Mak Solutions">
+                        <img src="<?=env('APP_URL')?>/storage/{{ $company->logo }}" width="130" height="60" alt="Logo Mak Solutions">
                     </a>
 
                     <button
@@ -118,7 +118,7 @@
 
                         <div class="col-lg-4 col-md-12 mt-5">
                             <img
-                                src="<?=env('APP_URL')?>/img/{{ $company->logo }}"
+                                src="<?=env('APP_URL')?>/storage/{{ $company->logo }}"
                                 class="pt-3"
                                 width="280"
                                 height="140"

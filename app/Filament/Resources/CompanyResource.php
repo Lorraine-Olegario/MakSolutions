@@ -126,7 +126,7 @@ class CompanyResource extends Resource
                     ->label('Imagem Logo')
                     ->image() // Define que o arquivo deve ser uma imagem
                     ->required()
-                    ->directory('/storage/company/logo') // Define o diretório onde o arquivo será salvo
+                    ->directory('/company/logo') // Define o diretório onde o arquivo será salvo
                     ->maxSize(2048) // Define o tamanho máximo do arquivo em KB
             ]);
     }
