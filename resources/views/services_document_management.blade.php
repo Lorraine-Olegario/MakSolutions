@@ -11,7 +11,7 @@
     <section class="documental">
         <div class="container mt-5">
             <div class="row">
-                <h1 class="text-center">Gerenciamento Eletrônico Documentos (GED)</h1>
+                <h1 class="text-center">Gerenciamento Eletrônico de Documentos (GED)</h1>
 
                 <div class="col-12">
                     <div class="documental-container-text mx-auto">
@@ -32,7 +32,7 @@
                             <li>
                                 <img
                                     src="<?=env('APP_URL')?>/img/icon-checkmark-right.jpg"
-                                    alt="Imagem certo - Nosso serviço contem Configurações Personalizadas">
+                                    alt="Imagem certa - Nosso serviço contem Configurações Personalizadas">
                                 <p><strong>Acesso Rápido e Facilitado:</strong> Com o GED, localizar um documento específico
                                     torna-se uma tarefa rápida e simples. Em vez de vasculhar pilhas de papéis, seus funcionários
                                     podem encontrar o que precisam em segundos, utilizando palavras-chave ou filtros de pesquisa.
@@ -41,7 +41,7 @@
                             <li>
                                 <img
                                     src="<?=env('APP_URL')?>/img/icon-checkmark-right.jpg"
-                                    alt="Imagem certo - Atendimento Sob Demanda"
+                                    alt="Imagem certa - Atendimento Sob Demanda"
                                 >
                                 <p><strong>Segurança e Conformidade: </strong>A segurança das informações é uma prioridade. O
                                     GED oferece diversas camadas de proteção, como criptografia de dados e controles de acesso,
@@ -52,7 +52,7 @@
                             <li>
                                 <img
                                     src="<?=env('APP_URL')?>/img/icon-checkmark-right.jpg"
-                                    alt="Imagem certo - Instalação Completa"
+                                    alt="Imagem certa - Instalação Completa"
                                 >
                                 <p><strong>Redução de Custos: </strong> Eliminando a necessidade de armazenamento físico e
                                     reduzindo o tempo gasto em buscas manuais, o GED contribui para uma significativa redução

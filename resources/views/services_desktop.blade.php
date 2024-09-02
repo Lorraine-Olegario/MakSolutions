@@ -13,47 +13,47 @@
         <div class="container">
             <div class="row mt-5 col">
                 <div class="desktop-container-description">
-                    <h1>CONTRATE NOSSO SERVIÇOS DE ALUGUEL DE <strong class="desktop-container-description-text-highlight">NOTEBOOKS</strong> E <strong class="desktop-container-description-text-highlight">COMPUTADORES</strong> </h1>
+                    <h1>CONTRATE NOSSOS SERVIÇOS DE ALUGUEL DE <strong class="desktop-container-description-text-highlight">NOTEBOOKS</strong> E <strong class="desktop-container-description-text-highlight">COMPUTADORES</strong> </h1>
                     <p class="text-justify mt-4">Atendemos nossos clientes de acordo com suas necessidades específicas, oferecendo a possibilidade de escolher as configurações ideais para seus notebooks e computadores. Você decide quais componentes e acessórios melhor atendem suas demandas, e nossa equipe se encarrega de realizar todas as instalações necessárias.</p>
                     <ul>
                         <li>
                             <img
                                 src="<?=env('APP_URL')?>/img/icon-checkmark-right.jpg"
-                                alt="Imagem certo - Nosso serviço contem Configurações Personalizadas">
+                                alt="Imagem certa - Nosso serviço contém Configurações Personalizadas">
                             <p>Configurações Personalizadas</p>
                         </li>
                         <li>
                             <img
                                 src="<?=env('APP_URL')?>/img/icon-checkmark-right.jpg"
-                                alt="Imagem certo - Atendimento Sob Demanda"
+                                alt="Imagem certa - Atendimento Sob Demanda"
                             >
                             <p>Atendimento Sob Demanda</p>
                         </li>
                         <li>
                             <img
                                 src="<?=env('APP_URL')?>/img/icon-checkmark-right.jpg"
-                                alt="Imagem certo - Instalação Completa"
+                                alt="Imagem certa - Instalação Completa"
                             >
                             <p>Instalação Completa</p>
                         </li>
                         <li>
                             <img
                                 src="<?=env('APP_URL')?>/img/icon-checkmark-right.jpg"
-                                alt="Imagem certo - Equipamentos Atualizados"
+                                alt="Imagem certa - Equipamentos Atualizados"
                             >
                             <p>Equipamentos Atualizados</p>
                         </li>
                         <li>
                             <img
                                 src="<?=env('APP_URL')?>/img/icon-checkmark-right.jpg"
-                                alt="Imagem certo - Redução de Custo"
+                                alt="Imagem certa - Redução de Custo"
                             >
                             <p>Redução de Custo</p>
                         </li>
                         <li>
                             <img
                                 src="<?=env('APP_URL')?>/img/icon-checkmark-right.jpg"
-                                alt="Imagem certo - Suporte Técnico"
+                                alt="Imagem certa - Suporte Técnico"
                             >
                             <p>Suporte Técnico</p>
                         </li>
@@ -68,7 +68,7 @@
                     <img
                         class="desktop-img-primary rounded mx-auto d-block"
                         src="<?=env('APP_URL')?>/img/man.png"
-                        alt="Imagem representativa de compuatores"
+                        alt="Imagem representativa de computadores"
                     >
                 </div>
             </div>
