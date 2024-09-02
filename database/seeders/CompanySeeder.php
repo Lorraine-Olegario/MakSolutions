@@ -33,7 +33,7 @@ class CompanySeeder extends Seeder
             'telephone_2' => null,
             'instagram' => null,
             'facebook' => null,
-            'logo' => 'company/logo/logo.png',
+            'logo' => '/img/company/logo/logo.png',
         ]);
     }
 }
