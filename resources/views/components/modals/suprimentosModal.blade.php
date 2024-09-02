@@ -29,8 +29,8 @@
                     <div class="form-group">
                         <label for="suprimento">Suprimento <span class="mandatory">*</span></label>
                         <select class="form-control" id="suprimento" required>
-                            <option value="tonner">Toner</option>
-                            <option value="outros">Outros</option>
+                            <option value="Toner">Toner</option>
+                            <option value="Outros">Outros</option>
                         </select>
                     </div>
                     <div class="form-group">

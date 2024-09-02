@@ -29,7 +29,7 @@
                     <div class="form-group">
                         <label for="tipoChamado">Tipo de Chamado <span class="mandatory">*</span></label>
                         <select class="form-control" id="tipoChamado" required>
-                            <option value="suporte">Abertura OS</option>
+                            <option value="Abertura OS">Abertura OS</option>
                         </select>
                     </div>
                     <div class="form-group">
