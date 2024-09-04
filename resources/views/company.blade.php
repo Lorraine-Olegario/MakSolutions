@@ -11,11 +11,6 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12 mt-5">
-{{--                    <div class="broken-name">--}}
-{{--                        <p>MAK</p>--}}
-{{--                        <p>SOLU - </p>--}}
-{{--                        <p>TIONS</p>--}}
-{{--                    </div>--}}
                     <h3>NOSSA HISTÓRIA</h3>
                     <p class="mt-4">A Mak Solutions atua a mais de 30 anos em todo Brazil no segmento de
                         produção e gerenciamento de documentos, tendo como foco de negócio oferecer as mais

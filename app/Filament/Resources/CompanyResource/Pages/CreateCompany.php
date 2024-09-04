@@ -12,7 +12,6 @@ class CreateCompany extends CreateRecord
 {
     protected static string $resource = CompanyResource::class;
 
-
     protected function mutateFormDataBeforeCreate(array $data): array
     {
         if (\App\Models\Company::query()->count() > 0) {

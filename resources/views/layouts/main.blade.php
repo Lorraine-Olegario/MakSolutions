@@ -168,9 +168,10 @@
                 </div>
             </footer>
         </div>
-        <script src="js/jquery-3.3.1.slim.min.js"></script>
-        <script src="js/popper.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+
+        <script src="<?=getenv('APP_URL')?>/js/jquery-3.3.1.slim.min.js"></script>
+        <script src="<?=getenv('APP_URL')?>/js/popper.min.js"></script>
+        <script src="<?=getenv('APP_URL')?>/js/bootstrap.min.js"></script>
 
         <script>
             const whatsapp = "{{ $company->whatsapp_suporte }}";
