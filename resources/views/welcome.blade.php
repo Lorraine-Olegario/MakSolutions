@@ -313,36 +313,18 @@
             <h4 class="title-blog text-center">BLOG</h4>
             <h2 class="mb-5 text-center">Últimas Notícias</h2>
             <div class="row">
-                <div class="col-lg-8">
-                    <div class="row">
-                        @foreach($news as $displayNews)
-                            <div class="col-md-6">
-                                <div class="card mb-4 custom-card">
-                                    <img src="<?=env('APP_URL')?>/storage/{{ $displayNews->cover_image }}" class="card-img-top" alt="News Image">
-                                    <div class="card-body">
-                                        <h5 class="card-title" title="{{ $displayNews->title }}">{{ $displayNews->title }} </h5>
-                                        <p class="card-text"><small class="text-muted">Publicação: {{ Carbon::parse($displayNews->publication_data)->translatedFormat('d F Y') }}</small></p>
-                                        <a href="{{ url('noticias/' . $displayNews->slug) }}" class="btn btn-primary">Continuar Lendo ...</a>
-                                    </div>
-                                </div>
+                @foreach($news as $displayNews)
+                    <div class="col-md-4">
+                        <div class="card mb-4 custom-card">
+                            <img src="<?=env('APP_URL')?>/storage/{{ $displayNews->cover_image }}" class="card-img-top" alt="News Image">
+                            <div class="card-body">
+                                <h5 class="card-title" title="{{ $displayNews->title }}">{{ $displayNews->title }} </h5>
+                                <p class="card-text"><small class="text-muted">Publicação: {{ Carbon::parse($displayNews->publication_data)->translatedFormat('d F Y') }}</small></p>
+                                <a href="{{ url('noticias/' . $displayNews->slug) }}" class="btn btn-primary">Continuar Lendo ...</a>
                             </div>
-                        @endforeach
+                        </div>
                     </div>
-                </div>
-                @if($otherNews->isNotEmpty())
-                    <div class="col-lg-4 more-news">
-                        <h3>Todas Notícias</h3>
-                        <ul class="list-group">
-                            @foreach($otherNews as $_news)
-                                <li class="list-group-item">
-                                    <a href="{{ url('noticias/' . $_news->slug) }}">{{ $_news->title }}</a>
-                                    <br>
-                                    <span class="text-muted"> Data Publicação: {{ Carbon::parse($_news->publication_data)->translatedFormat('d F Y') }}</span>
-                                </li>
-                            @endforeach
-                        </ul>
-                    </div>
-                @endif
+                @endforeach
             </div>
         </div>
     </section>
