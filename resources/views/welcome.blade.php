@@ -145,10 +145,10 @@
                 <h2 class="col-12 text-center">EQUIPAMENTOS PARA <strong class="locacao-text-highlight">LOCAÇÃO</strong>
                 </h2>
 
-                <div class="row align-items-center mt-5">
+                <div class="row align-items-center mt-3">
                     <!-- Imagem -->
                     <div class="col-md-6 text-center">
-                        <img src="<?= env('APP_URL') ?>/img/impressoras/impressora-hp.png" alt="Equipamentos para Locação"
+                        <img src="<?= env('APP_URL') ?>/img/impressoras/impressora-hp-1.png.jpg" alt="Equipamentos para Locação"
                             class="img-fluid img-fluid-locacao">
                     </div>
                     <!-- Texto e botão -->
