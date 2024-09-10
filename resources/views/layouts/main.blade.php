@@ -143,19 +143,19 @@
                             <div class="d-flex gap-2">
                                 <ul class="list-unstyled d-flex">
                                     <li class="ps-4">
-                                        <a href=">{{ $company->facebook }}" target="_blank">
+                                        <a href="{{ $company->facebook }}" target="_blank">
                                             <i class="fa fa-facebook fa-2x facebook-icon"></i>
                                         </a>
                                     </li>
 
                                     <li class="ps-4">
-                                        <a href=">{{ $company->instagram }}" target="_blank">
+                                        <a href="{{ $company->instagram }}" target="_blank">
                                             <i class="fa fa-instagram fa-2x instagram-icon"></i>
                                         </a>
                                     </li>
 
                                     <li class="ps-4">
-                                        <a href=">{{ $company->whatsapp_comercial }}" target="_blank">
+                                        <a href="{{ $company->whatsapp_comercial }}" target="_blank">
                                             <i class="fa fa-whatsapp fa-2x whatsapp-icon"></i>
                                         </a>
                                     </li>
