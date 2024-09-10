@@ -166,7 +166,7 @@
                         <div class="row mt-4">
                             <div class="col text-center">
                                 <a href="https://api.whatsapp.com/send?phone={{ $company->whatsapp_suporte }}&text=Olá, preciso falar com o comercial."
-                                    class="btn btn-outline-light btn-lg rounded-pill px-5">
+                                    class="btn btn-outline-light btn-lg rounded-pill px-5" target="_blank">
                                     Solicitar Orçamento!
                                 </a>
                             </div>
