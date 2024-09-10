@@ -129,7 +129,7 @@
                         <div class="col-lg-4 col-md-12 mt-5">
                             <h5>Entre em contato</h5>
                             <p class="text-justify">{{ $company->street }} {{ $company->number }} ({{ $company->neighborhood }})
-                                </br>{{ $company->municipality }}, {{ $company->uf }}, {{ $company->cep }}
+                                </br>{{ $company->municipality }} - {{ $company->uf }}, {{ $company->cep }}
                             </p>
                             <p class="text-justify">{{ $company->telephone_1 }} | {{ $company->telephone_2 }}</p>
                             <p class="text-justify">{{ $company->email }}</p>

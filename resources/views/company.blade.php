@@ -87,20 +87,21 @@
                         <i class="fa fa-phone contact-icon" aria-hidden="true"></i>
                         <h5 class="text-left contact-telephone-title">Telefone</h5>
                         <p class="text-left contact-telephone-subtitle">
-                            +55 (31) 3824-9060
+                            {{ $company->telephone_1 }}
                         </p>
                     </div>
 
                     <div class="col-lg-4 col-md-4 col-sm-12 contact-block-1">
                         <i class="fa fa-envelope contact-icon" aria-hidden="true"></i>
                         <h5 class="text-left contact-email-title">Email</h5>
-                        <p class="text-left contact-email-subtitle">contato@maksolutions.com.br</p>
+                        <p class="text-left contact-email-subtitle">{{ $company->email }}</p>
                     </div>
 
                     <div class="col-lg-4 col-md-4 col-sm-12 contact-block-1">
                         <i class="fa fa-map-marker contact-icon" aria-hidden="true"></i>
                         <h5 class="text-left contact-address-title">Endereço</h5>
-                        <p class="text-left contact-address-subtitle">Avenida Jose Julio da Costa - 2080<br /> Ideal 35162189 - Ipatinga MG</p>
+                        <p class="text-left contact-address-subtitle">{{ $company->street }} {{ $company->number }} ({{ $company->neighborhood }})
+                        </br>{{ $company->municipality }} - {{ $company->uf }}, {{ $company->cep }}</p>
                     </div>
                 </div>
             </div>
