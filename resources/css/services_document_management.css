@@ -1,10 +1,19 @@
 .banner-documental {
-    background-image: url('/img/banners/banner_ged.jpeg');
+    background-image: url('/img/banners/banner_ged.png');
+    /* background-image: url('/img/banners/banner_ged.jpeg'); */
     background-size: cover;
     background-position: center;
     color: white;
     height: 250px;
     width: 100%;
+}
+.banner-documental .container {
+    color: #333; /* Cor escura para contraste */
+    /* position: absolute; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .list-item-header {

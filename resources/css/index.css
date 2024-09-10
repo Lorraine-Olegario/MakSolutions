@@ -288,6 +288,7 @@ a {
 
 .locacao {
     margin-top: 90px;
+    padding-bottom: 30px;
 }
 
 .locacao-text-highlight {
@@ -333,6 +334,15 @@ a {
     display: none;
 }
 
+.container-locacao-section-text {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+    width: 450px;
+    text-align: justify;
+    padding-left: 15px;
+}
+
 @media (max-width: 950px) {
     .collapse-content {
         margin: 20px;
@@ -341,12 +351,28 @@ a {
     .collapse-content p {
         padding-left: 50px;
     }
+
+    .container-locacao-section-text {
+        width: 100%;
+    }
 }
 
 @media (max-width: 768px) {
     .collapse-content p {
         margin-top: 50px;
         padding-left: 0;
+    }
+
+    .container-locacao-section-text {
+        margin-top: 40px;
+    }
+
+    .img-fluid-locacao {
+        margin-top: 40px;
+    }
+
+    .locacao {
+        padding-bottom: 20px;
     }
 }
 
@@ -428,5 +454,99 @@ section {
     .information {
         margin-top: 10px;
         margin-bottom: 40px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.curso-section {
+    background-color: #ffffff;
+    background-size: cover;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.curso-section-title{
+    width: 450px;
+}
+
+h2, p.lead {
+    margin-bottom: 0;
+    font-size: 1.8rem; /* Tamanho da fonte do título diminuído */
+}
+
+.curso-card {
+    background-color: #ffffff; /* Fundo dos cards branco */
+    color: #6c757d; /* Texto cinza */
+    border-radius: 8px; /* Leve ajuste no border-radius */
+    border: none;
+
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+    padding: 30px;
+    max-height: 300px;
+}
+
+.curso-card i {
+    color: var(--cor-primaria); /* Cor do ícone */
+    font-size: 1.2rem; /* Tamanho do ícone reduzido */
+}
+
+.gestao-titulo {
+    color: #6c757d; /* Cor do título */
+    font-size: 1rem; /* Reduzindo o tamanho da fonte do título */
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+.card-strip {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 6px; /* Tirinha mais fina */
+    height: 100%;
+    background-color: var(--cor-primaria); /* Cor da tirinha em laranja */
+    border-radius: 10px 0 0 10px;
+}
+
+p {
+    font-size: 0.9rem; /* Texto menor */
+}
+
+.btn-outline-light {
+    border-color: var(--cor-primaria);
+    color: var(--cor-primaria);
+}
+
+.btn-outline-light:hover {
+    background-color: var(--cor-primaria);
+    color: #ffffff;
+}
+
+.text-gray {
+    color: #6c757d; /* Cinza para os textos */
+}
+
+
+@media screen and (max-width: 1112px) {
+    .gestao-titulo {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .curso-section-title{
+        width: 100%;
     }
 }

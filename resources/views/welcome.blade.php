@@ -4,7 +4,8 @@
 @endphp
 
 @extends('/layouts/main')
-@section('title', 'Mak Solutions - Outsourcing de impressão, locação de impressoras| Outsourcing de notebooks e desktops | BPO, ECM, MPS')
+@section('title', 'Mak Solutions - Outsourcing de impressão, locação de impressoras| Outsourcing de notebooks e desktops
+    | BPO, ECM, MPS')
 @section('css')
     <link rel="stylesheet" href="{{ asset('build/assets/index.css') }}">
 @stop
@@ -19,7 +20,9 @@
                     $item = 0;
                 @endphp
                 @foreach ($banners as $banner)
-                    <button type="button" data-target="#carouselExampleIndicators" data-slide-to="{{ $item }}" class="btn-slide-carrousel active" aria-labelledby="Slides Serviços" aria-current="Slide {{ $item }}"></button>
+                    <button type="button" data-target="#carouselExampleIndicators" data-slide-to="{{ $item }}"
+                        class="btn-slide-carrousel active" aria-labelledby="Slides Serviços"
+                        aria-current="Slide {{ $item }}"></button>
                     @php $item++; @endphp
                 @endforeach
             </div>
@@ -35,7 +38,8 @@
                     @endphp
                     @if (file_exists($imagePath))
                         <div class="carousel-item {{ $first ? 'active' : '' }}">
-                            <img src="<?=env('APP_URL')?>/storage/{{ $banner->image }}" class="d-block w-100" alt="{{ $banner->description }}">
+                            <img src="<?= env('APP_URL') ?>/storage/{{ $banner->image }}" class="d-block w-100"
+                                alt="{{ $banner->description }}">
                         </div>
 
                         @php $first = false; @endphp
@@ -140,7 +144,39 @@
             <div class="row">
                 <h2 class="col-12 text-center">EQUIPAMENTOS PARA <strong class="locacao-text-highlight">LOCAÇÃO</strong>
                 </h2>
-                <div class="col-12 d-flex justify-content-center mt-5">
+
+                <div class="row align-items-center mt-5">
+                    <!-- Imagem -->
+                    <div class="col-md-6 text-center">
+                        <img src="<?= env('APP_URL') ?>/img/impressoras/impressora-hp.png" alt="Equipamentos para Locação"
+                            class="img-fluid img-fluid-locacao">
+                    </div>
+                    <!-- Texto e botão -->
+                    <div class="col-md-6 justify-content-center align-items-center">
+                        <p class="container-locacao-section-text mb-4">
+                            A locação de equipamentos é uma solução prática e econômica para empresas,
+                            órgãos públicos e pessoas físicas. Com acesso a <strong>impressoras, copiadoras e
+                                multifuncionais</strong> de alta qualidade, você evita grandes investimentos iniciais.
+                            O serviço inclui <strong>suporte técnico e manutenção</strong>, permitindo que você se concentre
+                            no que faz de melhor enquanto especialistas cuidam da gestão dos equipamentos,
+                            aumentando sua eficiência operacional.
+                        </p>
+
+                        <!-- Botão de chamada para ação -->
+                        <div class="row mt-4">
+                            <div class="col text-center">
+                                <a href="https://api.whatsapp.com/send?phone={{ $company->whatsapp_suporte }}&text=Olá, preciso falar com o comercial."
+                                    class="btn btn-outline-light btn-lg rounded-pill px-5">
+                                    Solicitar Orçamento!
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                {{-- <div class="col-12 d-flex justify-content-center mt-5">
                     <ul class="nav nav-pills align-items-center nav-pills-locacao">
                         <li class="nav-item">
                             <h5>
@@ -173,7 +209,7 @@
                         <div id="div1" class="collapse show mt-3" data-parent="#accordion">
                             <div class="collapse-content row">
                                 <div class="col-md-4 d-flex justify-content-center">
-                                    <img class="rounded" src="<?= env('APP_URL') ?>/img/impressoras/img01.png"
+                                    <img class="rounded" src="<?= env('APP_URL') ?>/img/impressoras/impressora.webp"
                                         alt="Equipamento Impressoras para Locação" width="280">
                                 </div>
                                 <div class="col-md-8 d-flex align-items-center">
@@ -197,7 +233,7 @@
                         <div id="div2" class="collapse mt-3" data-parent="#accordion">
                             <div class="collapse-content row">
                                 <div class="col-md-4 d-flex justify-content-center">
-                                    <img class="rounded" src="<?= env('APP_URL') ?>/img/impressoras/img02.png"
+                                    <img class="rounded" src="<?= env('APP_URL') ?>/img/impressoras/multifuncional.jpg"
                                         alt="Locação de Multifuncionais" width="280">
                                 </div>
                                 <div class="col-md-8 d-flex align-items-center">
@@ -237,7 +273,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </section>
@@ -264,63 +300,67 @@
         </div>
     </section>
 
-    <section class="print_control">
-        <div class="wpb_row vc_row-fluid full-row">
-            <div class="container">
-                <div class="row">
-                    <div class="max-title max-title4">
-                        <h2>Tenha o controle total de tudo que a <strong>sua empresa imprime </strong></h2>
+    <section class="curso-section py-5">
+        <div class="container">
+            <h4 class="curso-section-title">Tenha o controle total de tudo que a sua empresa imprime</h4>
+            <div class="row">
+                <div class="row g-3"> <!-- g-3 para ajustar o espaçamento entre os cards -->
+                    <div class="col-md-4">
+                        <div class="card curso-card text-gray">
+                            <div class="card-strip"></div>
+                            <img src="<?= env('APP_URL') ?>/img/service-image-ty-1.png" alt="" class="mb-3"
+                                height="60" width="60" />
+                            <h4 class="gestao-titulo">GESTÃO DE PROCESSOS E DOCUMENTOS</h4>
+                            <i class="bi bi-arrow-right-circle-fill fs-5"></i> <!-- Ícone menor -->
+                            <p class="mt-1">Soluções <strong>criativas e personalizadas</strong> para gestão de processos
+                                e documentos.</p>
+                        </div>
                     </div>
-
-                    <div class="container mt-4">
-                        <div class="row">
-                            <div class="col-md-4 mb-4">
-                                <article class="icon-box20">
-                                    <img src="<?= env('APP_URL') ?>/img/service-image-ty-1.png" alt=""
-                                        class="mb-3" height="90" width="90" />
-                                    <h4>GESTÃO DE PROCESSOS E DOCUMENTOS</h4>
-                                    <p>Soluções criativas e personalizadas para gestão de processos e documentos.</p>
-                                </article>
-                            </div>
-                            <div class="col-md-4 mb-4">
-                                <article class="icon-box20">
-                                    <img src="<?= env('APP_URL') ?>/img/service-image-ty-2.png" alt=""
-                                        class="mb-3" height="90" width="90" />
-                                    <h4>GESTÃO DE IMPRESSÃO</h4>
-                                    <p>Venda, locação, assistência técnica e outsourcing de equipamentos
-                                        multimarcas.</p>
-                                </article>
-                            </div>
-                            <div class="col-md-4 mb-4">
-                                <article class="icon-box20">
-                                    <img src="<?= env('APP_URL') ?>/img/service-image-ty-3.png" alt=""
-                                        class="mb-3" height="90" width="90" />
-                                    <i class="icon-focus" style=" color:#e30613;"></i>
-                                    <h4>CAPTURA INTELIGENTE</h4>
-                                    <p>Digitalização de documentos aliada ao Sistema ECM.</p>
-                                </article>
-                            </div>
+                    <div class="col-md-4">
+                        <div class="card curso-card text-gray">
+                            <div class="card-strip"></div>
+                            <img src="<?= env('APP_URL') ?>/img/service-image-ty-3.png" alt="" class="mb-3"
+                                height="60" width="60" />
+                            <h4 class="gestao-titulo">CAPTURA INTELIGENTE</h4>
+                            <i class="bi bi-arrow-right-circle-fill fs-5"></i>
+                            <p class="mt-1"><strong>Digitalização de documentos</strong> aliada ao Sistema ECM.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card curso-card text-gray">
+                            <div class="card-strip"></div>
+                            <img src="<?= env('APP_URL') ?>/img/service-image-ty-2.png" alt="" class="mb-3"
+                                height="60" width="60" />
+                            <h4 class="gestao-titulo">ASSISTÊNCIA TÉCNICA AUTORIZADA</h4>
+                            <i class="bi bi-arrow-right-circle-fill fs-5"></i>
+                            <p class="mt-1">Atendimento nacional para <strong>equipamentos de pequeno, médio e
+                                    grande</strong> porte.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        </div>
     </section>
 
 
     <section class="news">
-        <div class="container my-5">
+        <div class="container mt-2 mb-5">
             <h4 class="title-blog text-center">BLOG</h4>
             <h2 class="mb-5 text-center">Últimas Notícias</h2>
             <div class="row">
-                @foreach($news as $displayNews)
+                @foreach ($news as $displayNews)
                     <div class="col-md-4">
                         <div class="card mb-4 custom-card">
-                            <img src="<?=env('APP_URL')?>/storage/{{ $displayNews->cover_image }}" class="card-img-top" alt="News Image">
+                            <img src="<?= env('APP_URL') ?>/storage/{{ $displayNews->cover_image }}" class="card-img-top"
+                                alt="News Image">
                             <div class="card-body">
                                 <h5 class="card-title" title="{{ $displayNews->title }}">{{ $displayNews->title }} </h5>
-                                <p class="card-text"><small class="text-muted">Publicação: {{ Carbon::parse($displayNews->publication_data)->translatedFormat('d F Y') }}</small></p>
-                                <a href="{{ url('noticias/' . $displayNews->slug) }}" class="btn btn-primary">Continuar Lendo ...</a>
+                                <p class="card-text"><small class="text-muted">Publicação:
+                                        {{ Carbon::parse($displayNews->publication_data)->translatedFormat('d F Y') }}</small>
+                                </p>
+                                <a href="{{ url('noticias/' . $displayNews->slug) }}" class="btn btn-primary">Continuar
+                                    Lendo ...</a>
                             </div>
                         </div>
                     </div>
