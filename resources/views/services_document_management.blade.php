@@ -6,13 +6,7 @@
 
 @section('content')
 
-    <div class="jumbotron jumbotron-fluid banner-documental">
-        <div class="container text-center">
-            <h1 class="display-4">DokViewer - Gestor Documental</h1>
-            <p class="lead">Organize, gerencie e proteja seus documentos em um único lugar.</p>
-            <p>Eficiência, segurança e acessibilidade para sua empresa.</p>
-        </div>
-    </div>
+    <div class="jumbotron jumbotron-fluid banner-documental"></div>
 
     <section class="documental">
         <div class="container mt-5">
