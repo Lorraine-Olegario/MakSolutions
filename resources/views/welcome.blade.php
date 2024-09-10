@@ -156,7 +156,7 @@
                         <p class="container-locacao-section-text mb-4">
                             A locação de equipamentos é uma solução prática e econômica para empresas,
                             órgãos públicos e pessoas físicas. Com acesso a <strong>impressoras, copiadoras e
-                                multifuncionais</strong> de alta qualidade, você evita grandes investimentos iniciais.
+                            multifuncionais</strong> de alta qualidade, você evita grandes investimentos iniciais.
                             O serviço inclui <strong>suporte técnico e manutenção</strong>, permitindo que você se concentre
                             no que faz de melhor enquanto especialistas cuidam da gestão dos equipamentos,
                             aumentando sua eficiência operacional.
@@ -173,107 +173,6 @@
                         </div>
                     </div>
                 </div>
-
-
-
-                {{-- <div class="col-12 d-flex justify-content-center mt-5">
-                    <ul class="nav nav-pills align-items-center nav-pills-locacao">
-                        <li class="nav-item">
-                            <h5>
-                                <a class="nav-link" href="#div1" data-toggle="collapse" role="button"
-                                    aria-labelledby="Locação de Impressoras" aria-expanded="true"
-                                    aria-controls="div1">Locação de Impressoras</a>
-                                <div class="active-indicator" id="indicator1"></div>
-                            </h5>
-                        </li>
-                        <li class="nav-item">
-                            <h5>
-                                <a class="nav-link" href="#div2" data-toggle="collapse" role="button"
-                                    aria-labelledby="Locação de Multifuncionais" aria-expanded="false"
-                                    aria-controls="div2">Locação de Multifuncionais</a>
-                                <div class="active-indicator" id="indicator2"></div>
-                            </h5>
-                        </li>
-                        <li class="nav-item">
-                            <h5>
-                                <a class="nav-link" href="#div3" data-toggle="collapse" role="button"
-                                    aria-labelledby="Locação de Copiadoras" aria-expanded="false"
-                                    aria-controls="div3">Locação de Copiadoras</a>
-                                <div class="active-indicator" id="indicator3"></div>
-                            </h5>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-12 mt-4 mb-5">
-                    <div id="accordion">
-                        <div id="div1" class="collapse show mt-3" data-parent="#accordion">
-                            <div class="collapse-content row">
-                                <div class="col-md-4 d-flex justify-content-center">
-                                    <img class="rounded" src="<?= env('APP_URL') ?>/img/impressoras/impressora.webp"
-                                        alt="Equipamento Impressoras para Locação" width="280">
-                                </div>
-                                <div class="col-md-8 d-flex align-items-center">
-                                    <p>A locação de impressoras é uma solução prática e econômica para empresas de todos
-                                        os portes,
-                                        órgãos públicos e até mesmo para pessoas físicas. Com essa opção, é possível ter
-                                        acesso
-                                        a equipamentos de qualidade, sem a necessidade de um grande investimento
-                                        inicial.
-                                        Além disso, a locação geralmente inclui serviços de suporte técnico e
-                                        manutenção, garantindo
-                                        o bom funcionamento dos equipamentos. Essa alternativa permite que as
-                                        organizações foquem em
-                                        suas atividades principais, enquanto deixam a gestão de impressão nas mãos de
-                                        especialistas,
-                                        otimizando recursos e aumentando a eficiência operacional.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="div2" class="collapse mt-3" data-parent="#accordion">
-                            <div class="collapse-content row">
-                                <div class="col-md-4 d-flex justify-content-center">
-                                    <img class="rounded" src="<?= env('APP_URL') ?>/img/impressoras/multifuncional.jpg"
-                                        alt="Locação de Multifuncionais" width="280">
-                                </div>
-                                <div class="col-md-8 d-flex align-items-center">
-                                    <p>A locação de copiadoras oferece uma solução conveniente e econômica para empresas
-                                        de todos os tamanhos,
-                                        órgãos governamentais e indivíduos. Com essa opção, é possível ter acesso a
-                                        equipamentos de alta
-                                        qualidade sem um grande investimento inicial. Além disso, a locação geralmente
-                                        inclui suporte técnico
-                                        e manutenção, permitindo que as organizações e indivíduos foquem em suas
-                                        atividades principais,
-                                        enquanto deixam a gestão de cópias nas mãos de especialistas, aumentando a
-                                        eficiência operacional.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="div3" class="collapse mt-3" data-parent="#accordion">
-                            <div class="collapse-content row">
-                                <div class="col-md-4 d-flex justify-content-center">
-                                    <img class="rounded" src="<?= env('APP_URL') ?>/img/impressoras/img03.jpg"
-                                        alt="Locação de Copiadoras" width="220">
-                                </div>
-                                <div class="col-md-8 d-flex align-items-center">
-                                    <p>A locação de multifuncionais é uma solução versátil e econômica para empresas de
-                                        todos os portes,
-                                        órgãos governamentais e indivíduos. Com essa opção, é possível ter acesso a
-                                        equipamentos multifuncionais
-                                        de alta qualidade sem um grande investimento inicial. Além disso, a locação
-                                        inclui suporte
-                                        técnico e manutenção, permitindo que as organizações e indivíduos foquem em suas
-                                        atividades principais,
-                                        enquanto deixam a gestão dos equipamentos nas mãos de especialistas, aumentando
-                                        a eficiência operacional.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> --}}
             </div>
         </div>
     </section>
@@ -287,9 +186,9 @@
                         assume uma posição crucial no estabelecimento do processo de comunicação como um todo.
                     </p>
 
-                    <p>Tel: (31) 3824-9060</p>
+                    <p>Tel: {{ $company->telephone_1 }}</p>
 
-                    <a href="<?= env('APP_URL') ?>" class="btn information-banner-btn mb-3"
+                    <a href="https://api.whatsapp.com/send?phone={{ $company->whatsapp_suporte }}&text=Olá, preciso falar com o comercial." class="btn information-banner-btn mb-3"
                         aria-labelledby="Conversar Time Vendas">Conversar Time Vendas</a>
                 </div>
                 <div class="col-md-6 information-banner-img">
