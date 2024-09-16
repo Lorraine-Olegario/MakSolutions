@@ -9,3 +9,7 @@
 .whatsapp-icon {
     color: #198754;
 }
+
+footer p {
+    word-wrap: break-word;
+}
