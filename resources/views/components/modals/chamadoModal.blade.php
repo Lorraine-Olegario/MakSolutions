@@ -10,6 +10,7 @@
             </div>
             <div class="modal-body">
                 <form id="formChamado">
+                    @csrf
                     <div class="form-group">
                         <label for="razaoSocialChamado">Razão Social <span class="mandatory">*</span></label>
                         <input type="text" class="form-control" id="razaoSocialChamado" placeholder="Razão Social" required>
