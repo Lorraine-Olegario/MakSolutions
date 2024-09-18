@@ -134,7 +134,7 @@
         <div class="row">
             <div class="col-md-12 block-info-1-content-1">
                 <h4>Solicite já seu orçamento personalizado!
-                    <a href="https://api.whatsapp.com/send?phone={{ $company->whatsapp_suporte }}&text=Olá, preciso falar com o comercial, para obter mais informações sobre os serviços de locação de notebooks e desktops.">
+                    <a href="https://api.whatsapp.com/send?phone={{ $company->whatsapp_comercial }}&text=Olá, preciso falar com o comercial, para obter mais informações sobre os serviços de locação de notebooks e desktops.">
                         <button type="button" class="block-info-1-content-1-btn btn text-left">Solicitar Cotação</button>
                     </a>
                 </h4>

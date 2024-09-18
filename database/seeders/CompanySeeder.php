@@ -28,7 +28,7 @@ class CompanySeeder extends Seeder
             'uf' => 'MG',
             'email' => 'contato@maksolutions.com.br',
             'whatsapp_suporte' => '553138249060',
-            'whatsapp_comercial' => '553138249060',
+            'whatsapp_comercial' => '5531986111858',
             'telephone_1' => '+55 (31) 3824-9060',
             'telephone_2' => null,
             'instagram' => null,

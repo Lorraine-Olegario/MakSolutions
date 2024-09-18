@@ -12,7 +12,7 @@
             <div class="row">
                 <div class="col-lg-6 col-md-12 mt-5">
                     <h3>NOSSA HISTÓRIA</h3>
-                    <p class="mt-4">A Mak Solutions atua a mais de 30 anos em todo Brazil no segmento de
+                    <p class="mt-4">A Mak Solutions atua a mais de 30 anos em todo território nacional no segmento de
                         produção e gerenciamento de documentos, tendo como foco de negócio oferecer as mais
                         modernas soluções em impressão e gestão de documentos para empresas, governos e
                         instituições de ensino.
@@ -28,7 +28,7 @@
                         para Outsourcing de impressão, ativos de TI e equipamentos de atomação. A empresa conta
                         com uma equipe de profissionais devidamente treinados para oferecer agilidade e qualidade
                         a clientes, dando todo o suporte técnico necessário ao pós venda e aos clientes
-                        que contratam nossos serviços. A empresa atua em todo Brazil, tendo como principal
+                        que contratam nossos serviços. A empresa atua em todo território nacional, tendo como principal
                         objetivo o respeito ao cliente e a busca de melhorias constantes visando sempre a
                         excelência em vendas e prestação de serviços.
                     </p>

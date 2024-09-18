@@ -15,8 +15,7 @@
     <section class="printing">
         <div class="container mt-5">
             <div class="row">
-                <h1 class="mb-5">Transformando o <strong class="printing-container-description-text-highlight">Outsourcing de Impressão</strong>
-                    da sua Empresa com Eficiência, Sustentabilidade e Segurança</h1>
+                <h1 class="mb-5"><strong class="printing-container-description-text-highlight">Vantagens</strong> para sua Empresa ao Implantar o <strong>Outsourcing de Impressão.</strong></h1>
 
                 <div class="col-xs-12 col-sm-6 col-md-6 mb-6">
                     <ul class="list-unstyled">
@@ -67,7 +66,7 @@
                     <div class="col-12 elementor-images-printing-info">
                         <h1>Impressão Inteligente</h1>
                         <p>A gestão inteligente de recursos é essencial nos negócios modernos. O outsourcing de impressão oferece uma solução eficaz, proporcionando benefícios que vão desde a atualização tecnológica sem investimentos iniciais pesados até práticas sustentáveis e controle total sobre os documentos produzidos. Essa abordagem não apenas otimiza processos, mas também impulsiona a inovação e a responsabilidade corporativa.</p>
-                        <a href="https://api.whatsapp.com/send?phone={{ $company->whatsapp_suporte }}&text=Olá, preciso falar com o comercial">
+                        <a href="https://api.whatsapp.com/send?phone={{ $company->whatsapp_comercial }}&text=Olá, preciso falar com o comercial">
                             <button class="elementor-images-printing-button">SOLICITAR COTAÇÃO</button>
                         </a>
                     </div>

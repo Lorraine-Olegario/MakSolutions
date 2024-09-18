@@ -2,7 +2,6 @@
 
 namespace Database\Seeders;
 
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\DB;
@@ -17,7 +16,7 @@ class UsersTableSeeder extends Seeder
         // Adicionando um usuário padrão
         DB::table('users')->insert([
             'name' => 'Admin',
-            'email' => 'admin@example.com',
+            'email' => 'wallace@maksolutions.com.br',
             'password' => Hash::make('password123'), // Lembre-se de usar uma senha segura
             'created_at' => now(),
             'updated_at' => now(),

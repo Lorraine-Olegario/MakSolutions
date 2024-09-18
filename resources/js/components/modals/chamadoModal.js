@@ -23,7 +23,7 @@ document.getElementById('sendChamadoWhatsApp').addEventListener('click', functio
         return false;
     }
 
-    const whatsappURL = `https://api.whatsapp.com/send?phone=${whatsapp}&text=Olá%2C%20gostaria%20de%20abrir%20um%20chamado%20para%20a%20empresa.%20Por%20favor%2C%20encontre%20abaixo%20as%20informações%20detalhadas%20para%20processamento%20do%20pedido.%0A%0A*Razão%20Social*%3A%20${razaoSocial}%0A*Nº%20Série*%3A%20${numeroSerie}%0A*Contato*%0A%2D%20*Nome*%3A%20${contatoNome}%0A%2D%20*Setor*%3A%20${contatoSetor}%0A%0A*Tipo%20de%20Chamado*%3A%20${tipoChamado}%0A*Descrição*%3A%20${descricao}`;
+    const whatsappURL = `https://api.whatsapp.com/send?phone=${whatsapp}&text=Olá%2C%20gostaria%20de%20abrir%20uma%20ordem%20de%20serviço%20para%20um%20equipamento%2C%20seguem%20os%20dados%3A%0A%0A*Razão%20Social*%3A%20${razaoSocial}%0A*Nº%20Série*%3A%20${numeroSerie}%0A*Contato*%0A%2D%20*Nome*%3A%20${contatoNome}%0A%2D%20*Setor*%3A%20${contatoSetor}%0A%0A*Tipo%20de%20Chamado*%3A%20${tipoChamado}%0A*Descrição*%3A%20${descricao}`;
     window.open(whatsappURL, '_blank');
 });
 
