@@ -16,12 +16,6 @@ use App\Http\Controllers\HomeController;
 |
 */
 
-Route::get('/', [HomeController::class, 'show']);
-
-//Route::get('/', function () {
-//    return view('welcome');
-//});
-
 Route::get('/empresa', function () {
     return view('company');
 });
@@ -42,5 +36,14 @@ Route::get('/gestao-documental', function () {
     return view('services_document_management');
 });
 
- Route::get('noticias/{slug}', [NewsController::class, 'index']);
+Route::get('noticias/{slug}', [NewsController::class, 'index']);
 
+Route::middleware([
+    'auth:sanctum',
+    config('jetstream.auth_session'),
+    'verified',
+])->group(function () {
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
+});

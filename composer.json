@@ -10,8 +10,10 @@
         "filament/notifications": "^3.2",
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^11.21",
+        "laravel/jetstream": "^5.2",
         "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.8",
+        "livewire/livewire": "^3.0",
         "lucascudo/laravel-pt-br-localization": "^2.2",
         "spatie/laravel-sitemap": "^7.0"
     },

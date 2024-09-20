@@ -4,6 +4,11 @@
     "src": "resources/css/animate.min.css",
     "isEntry": true
   },
+  "resources/css/app.css": {
+    "file": "assets/app.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
   "resources/css/bootstrap.min.css": {
     "file": "assets/bootstrap.css",
     "src": "resources/css/bootstrap.min.css",
@@ -65,7 +70,7 @@
     "isEntry": true
   },
   "resources/js/app.js": {
-    "file": "assets/app.js",
+    "file": "assets/app2.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true
