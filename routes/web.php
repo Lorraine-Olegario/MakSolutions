@@ -49,3 +49,12 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+
+Route::get('/admin/login', function () {
+    return redirect('login');
+});
+
+Route::get('/home', function () {
+    return redirect('/');
+});
+
