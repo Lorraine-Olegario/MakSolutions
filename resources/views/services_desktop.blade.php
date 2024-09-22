@@ -19,13 +19,16 @@
                         <li>
                             <img
                                 src="<?=env('APP_URL')?>/img/icon-checkmark-right.jpg"
-                                alt="Imagem certa - Nosso serviço contém Configurações Personalizadas">
+                                alt="Imagem certa - Nosso serviço contém Configurações Personalizadas"
+                                title="Imagem certa - Nosso serviço contém Configurações Personalizadas"
+                            >
                             <p>Configurações Personalizadas</p>
                         </li>
                         <li>
                             <img
                                 src="<?=env('APP_URL')?>/img/icon-checkmark-right.jpg"
                                 alt="Imagem certa - Atendimento Sob Demanda"
+                                title="Imagem certa - Atendimento Sob Demanda"
                             >
                             <p>Atendimento Sob Demanda</p>
                         </li>
@@ -33,6 +36,7 @@
                             <img
                                 src="<?=env('APP_URL')?>/img/icon-checkmark-right.jpg"
                                 alt="Imagem certa - Instalação Completa"
+                                title="Imagem certa - Instalação Completa"
                             >
                             <p>Instalação Completa</p>
                         </li>
@@ -40,6 +44,7 @@
                             <img
                                 src="<?=env('APP_URL')?>/img/icon-checkmark-right.jpg"
                                 alt="Imagem certa - Equipamentos Atualizados"
+                                title="Imagem certa - Equipamentos Atualizados"
                             >
                             <p>Equipamentos Atualizados</p>
                         </li>
@@ -47,6 +52,7 @@
                             <img
                                 src="<?=env('APP_URL')?>/img/icon-checkmark-right.jpg"
                                 alt="Imagem certa - Redução de Custo"
+                                title="Imagem certa - Redução de Custo"
                             >
                             <p>Redução de Custo</p>
                         </li>
@@ -54,12 +60,13 @@
                             <img
                                 src="<?=env('APP_URL')?>/img/icon-checkmark-right.jpg"
                                 alt="Imagem certa - Suporte Técnico"
+                                title="Imagem certa - Suporte Técnico"
                             >
                             <p>Suporte Técnico</p>
                         </li>
                     </ul>
                     <p>Garantimos uma experiência personalizada e eficiente, assegurando que você tenha exatamente o que precisa para alcançar seus objetivos empresariais.</p>
-                    <a href="https://api.whatsapp.com/send?phone={{ $company->whatsapp_suporte }}&text=Olá, preciso falar com o comercial, para obter mais informações sobre os serviços de locação de notebooks e desktops.">
+                    <a href="https://api.whatsapp.com/send?phone={{ $company->whatsapp_comercial }}&text=Olá, preciso falar com o comercial, para obter mais informações sobre os serviços de locação de notebooks e desktops." target="_blank">
                         <button class="btn desktop-container-btn-quote" aria-labelledby="Solicitar Cotação para Nossos Atendentes">SOLICITAR COTAÇÃO</button>
                     </a>
                 </div>
@@ -69,6 +76,7 @@
                         class="desktop-img-primary rounded mx-auto d-block"
                         src="<?=env('APP_URL')?>/img/man.png"
                         alt="Imagem representativa de computadores"
+                        title="Imagem representativa de computadores"
                     >
                 </div>
             </div>
@@ -83,46 +91,46 @@
                 <div class="slider">
                     <div class="slide-track">
                         <div class="slide">
-                            <img src="<?=env('APP_URL')?>/img/icon-computer.jpg" class="component-elements-img-carousel" alt="Imagem de um ilustrativa  computador" />
+                            <img src="<?=env('APP_URL')?>/img/icon-computer.jpg" class="component-elements-img-carousel" alt="Imagem de um ilustrativa  computador" title="Imagem de um ilustrativa  computador" />
                         </div>
                         <div class="slide">
-                            <img src="<?=env('APP_URL')?>/img/icone-laptop.webp" class="component-elements-img-carousel" alt="Imagem ilustrativa de um Notebook" />
+                            <img src="<?=env('APP_URL')?>/img/icone-laptop.webp" class="component-elements-img-carousel" alt="Imagem ilustrativa de um Notebook" title="Imagem ilustrativa de um Notebook" />
                         </div>
                         <div class="slide">
-                            <img src="<?=env('APP_URL')?>/img/icon-mouse.jpg" class="component-elements-img-carousel" alt="Imagem ilustrativa de um Mouse" />
+                            <img src="<?=env('APP_URL')?>/img/icon-mouse.jpg" class="component-elements-img-carousel" alt="Imagem ilustrativa de um Mouse" title="Imagem ilustrativa de um Mouse" />
                         </div>
                         <div class="slide">
-                            <img src="<?=env('APP_URL')?>/img/icon-monitor.jpg" class="component-elements-img-carousel" alt="Imagem Monitor de Computador" />
+                            <img src="<?=env('APP_URL')?>/img/icon-monitor.jpg" class="component-elements-img-carousel" alt="Imagem Monitor de Computador" title="Imagem Monitor de Computador" />
                         </div>
                         <div class="slide">
-                            <img src="<?=env('APP_URL')?>/img/icon-teclado.png" class="component-elements-img-carousel" alt="Imagem ilustrativa  de um Tecaldo" />
+                            <img src="<?=env('APP_URL')?>/img/icon-teclado.png" class="component-elements-img-carousel" alt="Imagem ilustrativa  de um Tecaldo"  title="Imagem ilustrativa  de um Tecaldo" />
                         </div>
                         <div class="slide">
-                            <img src="<?=env('APP_URL')?>/img/icon-ssd.jpg" class="component-elements-img-carousel" alt="Imagem ilustrativa de um SSD" />
+                            <img src="<?=env('APP_URL')?>/img/icon-ssd.jpg" class="component-elements-img-carousel" alt="Imagem ilustrativa de um SSD" title="Imagem ilustrativa de um SSD" />
                         </div>
                         <div class="slide">
-                            <img src="<?=env('APP_URL')?>/img/icon-webcam.jpg" class="component-elements-img-carousel" alt="Imagem ilustrativa  de uma Webcam" />
+                            <img src="<?=env('APP_URL')?>/img/icon-webcam.jpg" class="component-elements-img-carousel" alt="Imagem ilustrativa  de uma Webcam" title="Imagem ilustrativa  de uma Webcam" />
                         </div>
                         <div class="slide">
-                            <img src="<?=env('APP_URL')?>/img/icon-computer.jpg" class="component-elements-img-carousel" alt="Imagem de um ilustrativa  computador" />
+                            <img src="<?=env('APP_URL')?>/img/icon-computer.jpg" class="component-elements-img-carousel" alt="Imagem de um ilustrativa  computador" title="Imagem de um ilustrativa  computador" />
                         </div>
                         <div class="slide">
-                            <img src="<?=env('APP_URL')?>/img/icone-laptop.webp" class="component-elements-img-carousel" alt="Imagem ilustrativa de um Notebook" />
+                            <img src="<?=env('APP_URL')?>/img/icone-laptop.webp" class="component-elements-img-carousel" alt="Imagem ilustrativa de um Notebook" title="Imagem ilustrativa de um Notebook" />
                         </div>
                         <div class="slide">
-                            <img src="<?=env('APP_URL')?>/img/icon-mouse.jpg" class="component-elements-img-carousel" alt="Imagem ilustrativa de um Mouse" />
+                            <img src="<?=env('APP_URL')?>/img/icon-mouse.jpg" class="component-elements-img-carousel" alt="Imagem ilustrativa de um Mouse" title="Imagem ilustrativa de um Mouse" />
                         </div>
                         <div class="slide">
-                            <img src="<?=env('APP_URL')?>/img/icon-monitor.jpg" class="component-elements-img-carousel" alt="Imagem Monitor de Computador" />
+                            <img src="<?=env('APP_URL')?>/img/icon-monitor.jpg" class="component-elements-img-carousel" alt="Imagem Monitor de Computador" title="Imagem Monitor de Computador" />
                         </div>
                         <div class="slide">
-                            <img src="<?=env('APP_URL')?>/img/icon-teclado.png" class="component-elements-img-carousel" alt="Imagem ilustrativa  de um Tecaldo" />
+                            <img src="<?=env('APP_URL')?>/img/icon-teclado.png" class="component-elements-img-carousel" alt="Imagem ilustrativa  de um Tecaldo" title="Imagem ilustrativa  de um Tecaldo" />
                         </div>
                         <div class="slide">
-                            <img src="<?=env('APP_URL')?>/img/icon-ssd.jpg" class="component-elements-img-carousel" alt="Imagem ilustrativa de um SSD" />
+                            <img src="<?=env('APP_URL')?>/img/icon-ssd.jpg" class="component-elements-img-carousel" alt="Imagem ilustrativa de um SSD" title="Imagem ilustrativa de um SSD" />
                         </div>
                         <div class="slide">
-                            <img src="<?=env('APP_URL')?>/img/icon-webcam.jpg" class="component-elements-img-carousel" alt="Imagem ilustrativa  de uma Webcam" />
+                            <img src="<?=env('APP_URL')?>/img/icon-webcam.jpg" class="component-elements-img-carousel" alt="Imagem ilustrativa  de uma Webcam" title="Imagem ilustrativa  de uma Webcam" />
                         </div>
                     </div>
                 </div>
@@ -134,7 +142,7 @@
         <div class="row">
             <div class="col-md-12 block-info-1-content-1">
                 <h4>Solicite já seu orçamento personalizado!
-                    <a href="https://api.whatsapp.com/send?phone={{ $company->whatsapp_comercial }}&text=Olá, preciso falar com o comercial, para obter mais informações sobre os serviços de locação de notebooks e desktops.">
+                    <a href="https://api.whatsapp.com/send?phone={{ $company->whatsapp_comercial }}&text=Olá, preciso falar com o comercial, para obter mais informações sobre os serviços de locação de notebooks e desktops." target="_blank">
                         <button type="button" class="block-info-1-content-1-btn btn text-left">Solicitar Cotação</button>
                     </a>
                 </h4>

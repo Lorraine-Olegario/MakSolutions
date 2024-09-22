@@ -32,7 +32,9 @@
                             <li>
                                 <img
                                     src="<?=env('APP_URL')?>/img/icon-checkmark-right.jpg"
-                                    alt="Imagem certa - Nosso serviço contem Configurações Personalizadas">
+                                    alt="Imagem certa - Nosso serviço contem Configurações Personalizadas"
+                                    title="Imagem certa - Nosso serviço contem Configurações Personalizadas"
+                                >
                                 <p><strong>Acesso Rápido e Facilitado:</strong> Com o GED, localizar um documento específico
                                     torna-se uma tarefa rápida e simples. Em vez de vasculhar pilhas de papéis, seus funcionários
                                     podem encontrar o que precisam em segundos, utilizando palavras-chave ou filtros de pesquisa.
@@ -42,6 +44,7 @@
                                 <img
                                     src="<?=env('APP_URL')?>/img/icon-checkmark-right.jpg"
                                     alt="Imagem certa - Atendimento Sob Demanda"
+                                    title="Imagem certa - Atendimento Sob Demanda"
                                 >
                                 <p><strong>Segurança e Conformidade: </strong>A segurança das informações é uma prioridade. O
                                     GED oferece diversas camadas de proteção, como criptografia de dados e controles de acesso,
@@ -53,6 +56,7 @@
                                 <img
                                     src="<?=env('APP_URL')?>/img/icon-checkmark-right.jpg"
                                     alt="Imagem certa - Instalação Completa"
+                                    title="Imagem certa - Instalação Completa"
                                 >
                                 <p><strong>Redução de Custos: </strong> Eliminando a necessidade de armazenamento físico e
                                     reduzindo o tempo gasto em buscas manuais, o GED contribui para uma significativa redução
@@ -75,7 +79,11 @@
                     </div>
                 </div>
 
-               <img class="mt-5 mb-5 w-100" src="<?=env('APP_URL')?>/img/banners/processo-gestao-documental.png" alt="Imagem processo de gestão de documentos">
+               <img src="<?=env('APP_URL')?>/img/banners/processo-gestao-documental.png"
+                    class="mt-5 mb-5 w-100"
+                    alt="Imagem processo de gestão de documentos"
+                    title="Imagem processo de gestão de documentos"
+                >
             </div>
         </div>
     </section>
@@ -84,7 +92,7 @@
         <div class="row">
             <div class="col-md-12 block-info-1-content-1">
                 <h4>Contate-nos para impulsionar sua empresa com organização e segurança!
-                    <a href="https://api.whatsapp.com/send?phone={{ $company->whatsapp_comercial }}&text=Olá, gostaria de agendar uma apresentção do sistema de Gerenciamento Eletrônico Documentos (GED).">
+                    <a href="https://api.whatsapp.com/send?phone={{ $company->whatsapp_comercial }}&text=Olá, gostaria de agendar uma apresentção do sistema de Gerenciamento Eletrônico Documentos (GED)."  target="_blank">
                         <button type="button" class="block-info-1-content-1-btn btn text-left">Agendar Apresentação</button>
                     </a>
                 </h4>

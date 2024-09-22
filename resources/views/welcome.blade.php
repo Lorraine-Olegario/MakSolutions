@@ -70,7 +70,8 @@
                         <div class="service-box extra">
                             <figure class="icon">
                                 <img src="<?= env('APP_URL') ?>/img/service-image-3.png"
-                                    alt="Outsourcing de impressoras e multifuncionais" height="90" width="90" />
+                                    alt="Outsourcing de impressoras e multifuncionais" title="Outsourcing de impressoras e multifuncionais"
+                                    height="90" width="90" />
                             </figure>
                             <div class="service-box_body">
                                 <h2 class="title text-muted"><strong>Outsourcing de impressoras e
@@ -88,7 +89,7 @@
                         <div class="service-box extra">
                             <figure class="icon">
                                 <img src="<?= env('APP_URL') ?>/img/service-image-1.png"
-                                    alt="Outsourcing de notebooks e desktops" height="90" width="90" />
+                                    alt="Outsourcing de notebooks e desktops" title="Outsourcing de notebooks e desktops" height="90" width="90" />
                             </figure>
                             <div class="service-box_body">
                                 <h2 class="title text-muted"><strong>Outsourcing de notebooks e desktops</strong></h2>
@@ -105,7 +106,7 @@
                         <div class="service-box extra">
                             <figure class="icon">
                                 <img src="<?= env('APP_URL') ?>/img/service-image-2.png" alt="Locação de Etiquetadoras"
-                                    height="90" width="90" />
+                                    title="Locação de Etiquetadoras" height="90" width="90" />
                             </figure>
                             <div class="service-box_body">
                                 <h2 class="title text-muted"><strong>Locação de Etiquetadoras</strong></h2>
@@ -123,7 +124,7 @@
                         <div class="service-box extra">
                             <figure class="icon">
                                 <img src="<?= env('APP_URL') ?>/img/service-image-4.png"
-                                    alt="Gerenciamento Eletrônico Documentos" height="90" width="90" />
+                                    alt="Gerenciamento Eletrônico Documentos" title="Gerenciamento Eletrônico Documentos" height="90" width="90" />
                             </figure>
                             <div class="service-box_body">
                                 <h2 class="title text-muted"><strong>Gerenciamento Eletrônico Documentos</strong></h2>
@@ -149,7 +150,7 @@
                     <!-- Imagem -->
                     <div class="col-md-6 text-center">
                         <img src="<?= env('APP_URL') ?>/img/impressoras/impressora-hp-1.png.jpg" alt="Equipamentos para Locação"
-                            class="img-fluid img-fluid-locacao">
+                            title="Equipamentos para Locação" class="img-fluid img-fluid-locacao">
                     </div>
                     <!-- Texto e botão -->
                     <div class="col-md-6 justify-content-center align-items-center">
@@ -166,7 +167,9 @@
                         <div class="row mt-4">
                             <div class="col text-center">
                                 <a href="https://api.whatsapp.com/send?phone={{ $company->whatsapp_comercial }}&text=Olá, preciso falar com o comercial."
-                                    class="btn btn-outline-light btn-lg rounded-pill px-5" target="_blank">
+                                    class="btn btn-outline-light btn-lg rounded-pill px-5"
+                                    target="_blank"
+                                >
                                     Solicitar Orçamento!
                                 </a>
                             </div>
@@ -188,12 +191,21 @@
 
                     <p>Tel: {{ $company->telephone_1 }}</p>
 
-                    <a href="https://api.whatsapp.com/send?phone={{ $company->whatsapp_comercial }}&text=Olá, preciso falar com o comercial." class="btn information-banner-btn mb-3"
-                        aria-labelledby="Conversar Time Vendas">Conversar Time Vendas</a>
+                    <a href="https://api.whatsapp.com/send?phone={{ $company->whatsapp_comercial }}&text=Olá, preciso falar com o comercial."
+                        class="btn information-banner-btn mb-3"
+                        aria-labelledby="Conversar Time Vendas"
+                        target="_blank"
+                    >
+                        Conversar Time Vendas
+                    </a>
                 </div>
                 <div class="col-md-6 information-banner-img">
-                    <img class="information-banner-contact-img" src="<?= env('APP_URL') ?>/img/woman-transperent.png"
-                        alt="Contate nossas atendentes">
+                    <img
+                        src="<?= env('APP_URL') ?>/img/woman-transperent.png"
+                        class="information-banner-contact-img"
+                        alt="Contate nossas atendentes"
+                        title="Contate nossas atendentes"
+                    >
                 </div>
             </div>
         </div>
@@ -207,8 +219,12 @@
                     <div class="col-md-4">
                         <div class="card curso-card text-gray">
                             <div class="card-strip"></div>
-                            <img src="<?= env('APP_URL') ?>/img/service-image-ty-1.png" alt="" class="mb-3"
-                                height="60" width="60" />
+                            <img src="<?= env('APP_URL') ?>/img/service-image-ty-1.png" ~
+                                class="mb-3"
+                                alt="Gestão de Processos e Documentos"
+                                title="Gestão de Processos e Documentos"
+                                height="60" width="60"
+                            />
                             <h4 class="gestao-titulo">GESTÃO DE PROCESSOS E DOCUMENTOS</h4>
                             <i class="bi bi-arrow-right-circle-fill fs-5"></i> <!-- Ícone menor -->
                             <p class="mt-1">Soluções <strong>criativas e personalizadas</strong> para gestão de processos
@@ -218,8 +234,11 @@
                     <div class="col-md-4">
                         <div class="card curso-card text-gray">
                             <div class="card-strip"></div>
-                            <img src="<?= env('APP_URL') ?>/img/service-image-ty-3.png" alt="" class="mb-3"
-                                height="60" width="60" />
+                            <img src="<?= env('APP_URL') ?>/img/service-image-ty-3.png"
+                                alt="Captura Inteligente" title="Captura Inteligente"
+                                class="mb-3"
+                                height="60" width="60"
+                            />
                             <h4 class="gestao-titulo">CAPTURA INTELIGENTE</h4>
                             <i class="bi bi-arrow-right-circle-fill fs-5"></i>
                             <p class="mt-1"><strong>Digitalização de documentos</strong> aliada ao Sistema ECM.</p>
@@ -228,20 +247,21 @@
                     <div class="col-md-4">
                         <div class="card curso-card text-gray">
                             <div class="card-strip"></div>
-                            <img src="<?= env('APP_URL') ?>/img/service-image-ty-2.png" alt="" class="mb-3"
-                                height="60" width="60" />
+                            <img src="<?= env('APP_URL') ?>/img/service-image-ty-2.png"
+                                alt="Assistência Técnica Autorizada" title="Assistência Técnica Autorizada"
+                                class="mb-3"
+                                height="60" width="60"
+                            />
                             <h4 class="gestao-titulo">ASSISTÊNCIA TÉCNICA AUTORIZADA</h4>
                             <i class="bi bi-arrow-right-circle-fill fs-5"></i>
                             <p class="mt-1">Atendimento nacional para <strong>equipamentos de pequeno, médio e
-                                    grande</strong> porte.</p>
+                                grande</strong> porte.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        </div>
     </section>
-
 
     <section class="news">
         <div class="container mt-2 mb-5">
@@ -251,12 +271,14 @@
                 @foreach ($news as $displayNews)
                     <div class="col-md-4">
                         <div class="card mb-4 custom-card">
-                            <img src="<?= env('APP_URL') ?>/storage/{{ $displayNews->cover_image }}" class="card-img-top"
-                                alt="News Image">
+                            <img src="<?= env('APP_URL') ?>/storage/{{ $displayNews->cover_image }}"
+                                class="card-img-top"
+                                alt="Notícias {{ $displayNews->title }}" title="Notícias {{ $displayNews->title }}"
+                            >
                             <div class="card-body">
                                 <h5 class="card-title" title="{{ $displayNews->title }}">{{ $displayNews->title }} </h5>
                                 <p class="card-text"><small class="text-muted">Publicação:
-                                        {{ Carbon::parse($displayNews->publication_data)->translatedFormat('d F Y') }}</small>
+                                    {{ Carbon::parse($displayNews->publication_data)->translatedFormat('d F Y') }}</small>
                                 </p>
                                 <a href="{{ url('noticias/' . $displayNews->slug) }}" class="btn btn-primary">Continuar
                                     Lendo ...</a>

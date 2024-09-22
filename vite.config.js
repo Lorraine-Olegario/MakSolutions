@@ -13,6 +13,7 @@ export default defineConfig({
         rollupOptions: {
             input: [
                 // Arquivos CSS
+                'resources/css/app.css',
                 'resources/css/bootstrap.min.css',
                 'resources/css/style.css',
                 'resources/css/index.css',
@@ -41,7 +42,8 @@ export default defineConfig({
     },
     plugins: [
         laravel({
-            input: [
+            input: [                
+                'resources/css/app.css',
                 'resources/css/bootstrap.min.css',
                 'resources/css/style.css',
                 'resources/css/index.css',
