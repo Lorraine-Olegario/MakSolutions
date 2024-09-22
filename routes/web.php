@@ -4,7 +4,6 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\NewsController;
 use App\Http\Controllers\HomeController;
 
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -55,6 +54,10 @@ Route::get('/admin/login', function () {
 });
 
 Route::get('/home', function () {
+    return redirect('/');
+});
+
+Route::get('/admin/logout', function () {
     return redirect('/');
 });
 
