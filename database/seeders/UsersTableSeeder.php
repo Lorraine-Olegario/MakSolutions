@@ -16,8 +16,7 @@ class UsersTableSeeder extends Seeder
         // Adicionando um usuário padrão
         DB::table('users')->insert([
             'name' => 'Admin',
-            'email' => 'lorraineolegario16@gmail.com',
-            // 'email' => 'wallace@maksolutions.com.br',
+            'email' => 'admin@example.com',
             'password' => Hash::make('password123'), // Lembre-se de usar uma senha segura
             'created_at' => now(),
             'updated_at' => now(),
