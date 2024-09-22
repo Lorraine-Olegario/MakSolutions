@@ -166,7 +166,9 @@
                         <div class="row mt-4">
                             <div class="col text-center">
                                 <a href="https://api.whatsapp.com/send?phone={{ $company->whatsapp_comercial }}&text=Olá, preciso falar com o comercial."
-                                    class="btn btn-outline-light btn-lg rounded-pill px-5" target="_blank">
+                                    class="btn btn-outline-light btn-lg rounded-pill px-5"
+                                    target="_blank"
+                                >
                                     Solicitar Orçamento!
                                 </a>
                             </div>
@@ -188,12 +190,20 @@
 
                     <p>Tel: {{ $company->telephone_1 }}</p>
 
-                    <a href="https://api.whatsapp.com/send?phone={{ $company->whatsapp_comercial }}&text=Olá, preciso falar com o comercial." class="btn information-banner-btn mb-3"
-                        aria-labelledby="Conversar Time Vendas">Conversar Time Vendas</a>
+                    <a href="https://api.whatsapp.com/send?phone={{ $company->whatsapp_comercial }}&text=Olá, preciso falar com o comercial."
+                        class="btn information-banner-btn mb-3"
+                        aria-labelledby="Conversar Time Vendas"
+                        target="_blank"
+                    >
+                        Conversar Time Vendas
+                    </a>
                 </div>
                 <div class="col-md-6 information-banner-img">
-                    <img class="information-banner-contact-img" src="<?= env('APP_URL') ?>/img/woman-transperent.png"
-                        alt="Contate nossas atendentes">
+                    <img
+                        class="information-banner-contact-img"
+                        src="<?= env('APP_URL') ?>/img/woman-transperent.png"
+                        alt="Contate nossas atendentes"
+                    >
                 </div>
             </div>
         </div>
@@ -239,9 +249,7 @@
                 </div>
             </div>
         </div>
-        </div>
     </section>
-
 
     <section class="news">
         <div class="container mt-2 mb-5">

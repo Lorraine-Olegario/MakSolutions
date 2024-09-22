@@ -66,7 +66,7 @@
                     <div class="col-12 elementor-images-printing-info">
                         <h1>Impressão Inteligente</h1>
                         <p>A gestão inteligente de recursos é essencial nos negócios modernos. O outsourcing de impressão oferece uma solução eficaz, proporcionando benefícios que vão desde a atualização tecnológica sem investimentos iniciais pesados até práticas sustentáveis e controle total sobre os documentos produzidos. Essa abordagem não apenas otimiza processos, mas também impulsiona a inovação e a responsabilidade corporativa.</p>
-                        <a href="https://api.whatsapp.com/send?phone={{ $company->whatsapp_comercial }}&text=Olá, preciso falar com o comercial">
+                        <a href="https://api.whatsapp.com/send?phone={{ $company->whatsapp_comercial }}&text=Olá, preciso falar com o comercial" target="_blank">
                             <button class="elementor-images-printing-button">SOLICITAR COTAÇÃO</button>
                         </a>
                     </div>
