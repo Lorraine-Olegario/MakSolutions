@@ -109,9 +109,9 @@
 
         <div class="company-map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3761.535190399288!2d-42.566770024025224!3d-19.475597081813007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa55540156aca41%3A0x4beb30471f5ada6b!2sMak%20Solutions%20Sistemas%20de%20impress%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1717371418350!5m2!1spt-BR!2sbr"
-                    allowfullscreen=""
-                    loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade">
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
             </iframe>
         </div>
     </section>

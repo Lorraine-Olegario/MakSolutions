@@ -39,13 +39,16 @@
                             <li>
                                 <img
                                     src="<?=env('APP_URL')?>/img/icon-checkmark-right.jpg"
-                                    alt="Imagem certa - Nosso serviço contém Configurações Personalizadas">
+                                    alt="Imagem certa - Nosso serviço contém Configurações Personalizadas"
+                                    title="Imagem certa - Nosso serviço contém Configurações Personalizadas"
+                                >
                                 <p><strong>Capacidade de Cortar Etiquetas em Tamanhos Personalizados:</strong> Atendemos às suas necessidades específicas com etiquetas sob medida.</p>
                             </li>
                             <li>
                                 <img
                                     src="<?=env('APP_URL')?>/img/icon-checkmark-right.jpg"
                                     alt="Imagem certa - Atendimento Sob Demanda"
+                                    title="Imagem certa - Atendimento Sob Demanda"
                                 >
                                 <p><strong>Etiquetas Personalizáveis:</strong> Dê um toque único ao seu produto com etiquetas feitas especialmente para você.</p>
                             </li>
@@ -53,6 +56,7 @@
                                 <img
                                     src="<?=env('APP_URL')?>/img/icon-checkmark-right.jpg"
                                     alt="Imagem certa - Instalação Completa"
+                                    title="Imagem certa - Instalação Completa"
                                 >
                                 <p><strong>Fornecimento de Suprimentos:</strong> Garantimos que você nunca fique sem o que precisa para manter suas operações em pleno funcionamento.</p>
                             </li>
@@ -60,6 +64,7 @@
                                 <img
                                     src="<?=env('APP_URL')?>/img/icon-checkmark-right.jpg"
                                     alt="Imagem certa - Equipamentos Atualizados"
+                                    title="Imagem certa - Equipamentos Atualizados"
                                 >
                                 <p><strong>Suporte Técnico Especializado:</strong> Conte com nossa equipe de especialistas sempre pronta para ajudar.</p>
                             </li>
@@ -67,6 +72,7 @@
                                 <img
                                     src="<?=env('APP_URL')?>/img/icon-checkmark-right.jpg"
                                     alt="Imagem certa - Redução de Custo"
+                                    title="Imagem certa - Redução de Custo"
                                 >
                                 <p><strong>Treinamentos:</strong> Oferecemos treinamentos completos para que você e sua equipe aproveitem ao máximo nossas soluções.</p>
                             </li>
