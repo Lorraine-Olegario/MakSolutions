@@ -47,10 +47,12 @@ Certifique-se de ter os seguintes softwares instalados:
     php artisan serve
     ```
 
-    O painel admin estará acessível em http://127.0.0.1:8000/admin com as credenciais:
+    O painel admin estará acessível em http://127.0.0.1:8000/login com as credenciais:
 
    - Email: admin@example.com
    - Senha: password123
+  
+   - Considere alterar a senha e ativar 2FA para mais segurança
 
 ## Atualização no CSS ou JS execute as dependências Node.js
 
