@@ -103,7 +103,7 @@
             @yield('content')
         </main>
 
-        <a href="https://api.whatsapp.com/send?phone={{ $company->whatsapp_suporte }}&text=Olá, preciso falar com o comercial"
+        <a href="https://api.whatsapp.com/send?phone={{ $company->whatsapp_comercial }}&text=Olá, gostaria de falar com o Comercial."
             target="_blank" style="position:fixed;bottom:20px;right:30px;z-index:1;">
             <svg enable-background="new 0 0 512 512" width="50" height="50" version="1.1"
                 viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
@@ -158,7 +158,7 @@
                                 </li>
 
                                 <li class="ps-4">
-                                    <a href="{{ $company->whatsapp_comercial }}" target="_blank">
+                                    <a href="https://api.whatsapp.com/send?phone={{ $company->whatsapp_comercial }}&text=Olá, gostaria de falar com o Comercial." target="_blank">
                                         <i class="fa fa-whatsapp fa-2x whatsapp-icon"></i>
                                     </a>
                                 </li>
